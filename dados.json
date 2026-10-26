@@ -1,0 +1,254 @@
+{
+ "v": 1,
+ "updatedAt": "2026-10-26T15:30:00-03:00",
+ "config": {
+  "pix": {
+   "chave": "4c1b82cc-c5ea-4e9a-ab03-493e97aa34ef",
+   "nome": "HUB SERTAO CONECTA",
+   "cidade": "CANINDE"
+  },
+  "whats": "",
+  "site": "https://hubsertaoconecta.com.br",
+  "hubLogo": "hub-logo.png",
+  "logo": "logo-campeonato.png",
+  "crests": {
+   "alto-bonito": "escudos/alto-bonito.png",
+   "america": "escudos/america.png",
+   "canada": "escudos/canada.png",
+   "capim-grosso": "escudos/capim-grosso.png",
+   "csf": "escudos/csf.png",
+   "futfisio": "escudos/futfisio.png",
+   "gremio-capim-grosso": "escudos/gremio-capim-grosso.png",
+   "lagoa-do-frio": "escudos/lagoa-do-frio.png",
+   "mandacaru": "escudos/mandacaru.png",
+   "real-torre": "escudos/real-torre.png",
+   "red-bull": "escudos/red-bull.png",
+   "uniao-caninde": "escudos/uniao-caninde.png"
+  },
+  "docs": {
+   "reg1": {
+    "pdf": "docs/regulamento-1-quadro.pdf",
+    "pages": [
+     "docs/reg1-01.jpg",
+     "docs/reg1-02.jpg",
+     "docs/reg1-03.jpg",
+     "docs/reg1-04.jpg",
+     "docs/reg1-05.jpg",
+     "docs/reg1-06.jpg",
+     "docs/reg1-07.jpg",
+     "docs/reg1-08.jpg",
+     "docs/reg1-09.jpg",
+     "docs/reg1-10.jpg",
+     "docs/reg1-11.jpg",
+     "docs/reg1-12.jpg",
+     "docs/reg1-13.jpg",
+     "docs/reg1-14.jpg"
+    ]
+   },
+   "reg2": {
+    "pdf": "docs/regulamento-2-quadro.pdf",
+    "pages": [
+     "docs/reg2-01.jpg",
+     "docs/reg2-02.jpg",
+     "docs/reg2-03.jpg",
+     "docs/reg2-04.jpg",
+     "docs/reg2-05.jpg",
+     "docs/reg2-06.jpg",
+     "docs/reg2-07.jpg",
+     "docs/reg2-08.jpg",
+     "docs/reg2-09.jpg",
+     "docs/reg2-10.jpg",
+     "docs/reg2-11.jpg",
+     "docs/reg2-12.jpg",
+     "docs/reg2-13.jpg",
+     "docs/reg2-14.jpg"
+    ]
+   },
+   "tabela": {
+    "pdf": "docs/tabela-municipal-2026.pdf",
+    "pages": [
+     "docs/tabela-1.jpg",
+     "docs/tabela-2.jpg",
+     "docs/tabela-3.jpg",
+     "docs/tabela-4.jpg",
+     "docs/tabela-5.jpg"
+    ]
+   },
+   "aut": {
+    "pdf": "docs/autorizacao-menores.pdf",
+    "pages": [
+     "docs/autorizacao-1.jpg"
+    ]
+   }
+  }
+ },
+ "results": {
+  "q1-1": {
+   "h": 3,
+   "a": 2,
+   "goals": [
+    {
+     "t": "h",
+     "p": "#09 Paulo Henrique",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#11 Carlos Daniel",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#03 Sidney",
+     "tp": 2
+    },
+    {
+     "t": "h",
+     "p": "#20 João Paulo",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#20 Rafael Alves",
+     "tp": 2
+    }
+   ],
+   "cards": [
+    {
+     "t": "h",
+     "p": "#09 Paulo Henrique",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#09 Paulo Henrique",
+     "c": "r",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#13 Bruno Lima",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#03 Marcelo",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#05 Sérgio",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "h",
+     "p": "#02 Francisco",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "h",
+     "p": "#18 Robson Assis",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "h",
+     "p": "#10 Wesley Assis",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "h",
+     "p": "#07 Wosley Assis",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#11 Carlos Daniel",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#20 Rafael Alves",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#01 Saulo",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#10 Claudemir",
+     "c": "r",
+     "tp": 2
+    }
+   ],
+   "sumula": [
+    "sumulas/q1-1-1.jpg"
+   ],
+   "obs": "Início da partida às 19h16. Gols e cartões lançados pelo número da camisa anotado na súmula."
+  },
+  "q2-1": {
+   "h": 0,
+   "a": 2,
+   "goals": [
+    {
+     "t": "a",
+     "p": "#09 Robério Santos",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#09 Robério Santos",
+     "tp": 1
+    }
+   ],
+   "cards": [
+    {
+     "t": "h",
+     "p": "#03 Alef Santos",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#02 Rafael Carvalho",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#07 Wilton Santos",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#14 Carlos André",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#08 Rael Gomes",
+     "c": "y",
+     "tp": 2
+    }
+   ],
+   "sumula": [
+    "sumulas/q2-1-1.jpg"
+   ],
+   "obs": "Início da partida às 15h17. Gols e cartões lançados pelo número da camisa anotado na súmula."
+  }
+ }
+}
