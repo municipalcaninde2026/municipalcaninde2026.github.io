@@ -1,6 +1,6 @@
 {
  "v": 1,
- "updatedAt": "2026-10-26T15:30:00-03:00",
+ "updatedAt": "2026-10-29T11:20:00-03:00",
  "config": {
   "pix": {
    "chave": "4c1b82cc-c5ea-4e9a-ab03-493e97aa34ef",
@@ -251,6 +251,405 @@
     "sumulas/q2-1-1.jpg"
    ],
    "obs": "Início da partida às 15h17. Gols e cartões lançados pelo número da camisa anotado na súmula."
+  },
+  "q2-2": {
+   "h": 1,
+   "a": 0,
+   "goals": [
+    {
+     "t": "h",
+     "p": "#79 Wilton Vitor",
+     "tp": 2
+    }
+   ],
+   "cards": [
+    {
+     "t": "h",
+     "p": "#80 Jorliton",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#92 Pedro Henrique",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#10 Tomás",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#20 Pedro",
+     "c": "r",
+     "tp": 2
+    }
+   ],
+   "sumula": [
+    "sumulas/q2-2-1.jpg"
+   ],
+   "info": {
+    "inicio": "19h27",
+    "mesario": "Alexandre"
+   },
+   "atletas": {
+    "h": [
+     [
+      "93",
+      "Kainan"
+     ],
+     [
+      "85",
+      "Alisson da Silva"
+     ],
+     [
+      "95",
+      "José Ronaldo"
+     ],
+     [
+      "91/82",
+      "Altair"
+     ],
+     [
+      "94",
+      "Luiz Fernando"
+     ],
+     [
+      "01",
+      "William Pereira"
+     ],
+     [
+      "84",
+      "Alex Teixeira"
+     ],
+     [
+      "92",
+      "Pedro Henrique"
+     ],
+     [
+      "88",
+      "Clederton"
+     ],
+     [
+      "78",
+      "Denilton"
+     ],
+     [
+      "82",
+      "Edson"
+     ],
+     [
+      "79",
+      "Wilton Vitor"
+     ],
+     [
+      "96/99",
+      "Vasguiton"
+     ],
+     [
+      "80/86",
+      "Jorliton"
+     ],
+     [
+      "81",
+      "Windemson"
+     ],
+     [
+      "86",
+      "Adriano Silva"
+     ],
+     [
+      "99",
+      "Kauê Santos"
+     ],
+     [
+      "98",
+      "Carlos César"
+     ],
+     [
+      "83",
+      "Daniel Gomes"
+     ]
+    ],
+    "a": [
+     [
+      "19",
+      "Davi Silva"
+     ],
+     [
+      "01",
+      "José David"
+     ],
+     [
+      "08",
+      "Levine"
+     ],
+     [
+      "09",
+      "Luan"
+     ],
+     [
+      "18",
+      "Jonatas"
+     ],
+     [
+      "20",
+      "Pedro"
+     ],
+     [
+      "14",
+      "Bruno"
+     ],
+     [
+      "10",
+      "Tomás"
+     ],
+     [
+      "17",
+      "Igor"
+     ],
+     [
+      "06/16",
+      "Cailson"
+     ],
+     [
+      "15",
+      "Renan"
+     ],
+     [
+      "03/14",
+      "Alexandre"
+     ],
+     [
+      "16",
+      "Adrielson"
+     ],
+     [
+      "11/17",
+      "Finlan"
+     ],
+     [
+      "05",
+      "Rosinaldo"
+     ],
+     [
+      "07/20",
+      "Lucas Santos"
+     ],
+     [
+      "02/13",
+      "Fagner"
+     ],
+     [
+      "04",
+      "Mércio"
+     ],
+     [
+      "13",
+      "Edivelton"
+     ],
+     [
+      "12",
+      "Acácio"
+     ]
+    ]
+   },
+   "obs": "Capitães: Alex Teixeira de Lima (Alto Bonito) e José Linina (Capim Grosso). Técnicos: José Adelmo (Alto Bonito) e Rosivaldo (Capim Grosso). Nomes transcritos da súmula manuscrita.",
+   "at": "2026-10-29T11:20:00-03:00"
+  },
+  "q1-2": {
+   "h": 1,
+   "a": 1,
+   "goals": [
+    {
+     "t": "h",
+     "p": "#08 Jonas",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#04 Ryan",
+     "tp": 2
+    }
+   ],
+   "cards": [
+    {
+     "t": "h",
+     "p": "#02 Eduardo",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#02 Natanaelson",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#06 Sevivaldo",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "h",
+     "p": "#07 André",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "h",
+     "p": "#08 Jonas",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "h",
+     "p": "#09 Jamison Santos",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#06 Everson",
+     "c": "y",
+     "tp": 2
+    }
+   ],
+   "sumula": [
+    "sumulas/q1-2-1.jpg"
+   ],
+   "info": {
+    "inicio": "21h19",
+    "mesario": "Alexandre"
+   },
+   "atletas": {
+    "h": [
+     [
+      "06/12",
+      "Sevivaldo"
+     ],
+     [
+      "07",
+      "André"
+     ],
+     [
+      "08",
+      "Jonas"
+     ],
+     [
+      "10/20",
+      "José Daniel"
+     ],
+     [
+      "04",
+      "Anderson"
+     ],
+     [
+      "11/14",
+      "Jamison Alves"
+     ],
+     [
+      "12",
+      "Tiago"
+     ],
+     [
+      "17",
+      "Sidiley"
+     ],
+     [
+      "15",
+      "Jadson"
+     ],
+     [
+      "01",
+      "Ismar"
+     ],
+     [
+      "20",
+      "Edson"
+     ],
+     [
+      "02/15",
+      "Eduardo"
+     ],
+     [
+      "05/17",
+      "Eduardo Craveiro"
+     ],
+     [
+      "13",
+      "Acácio"
+     ],
+     [
+      "09",
+      "Jamison Santos"
+     ],
+     [
+      "34",
+      "Welton Vito Santo"
+     ]
+    ],
+    "a": [
+     [
+      "16",
+      "Manuel"
+     ],
+     [
+      "04",
+      "Ryan"
+     ],
+     [
+      "14",
+      "Paulo Leandro"
+     ],
+     [
+      "18",
+      "Sidney Martins"
+     ],
+     [
+      "09",
+      "Erasmo"
+     ],
+     [
+      "02",
+      "Natanaelson"
+     ],
+     [
+      "06/18",
+      "Everson"
+     ],
+     [
+      "15",
+      "Anderson"
+     ],
+     [
+      "10",
+      "Antônio Jevison"
+     ],
+     [
+      "23",
+      "Harrison Rodrigues"
+     ],
+     [
+      "07",
+      "Sidney"
+     ],
+     [
+      "11",
+      "Robert Alves"
+     ],
+     [
+      "08",
+      "Mércio"
+     ]
+    ]
+   },
+   "obs": "Capitães: Acássio (Alto Bonito) e Gilvan (Capim Grosso). Técnicos: Erivaldo (Alto Bonito) e Rosivaldo (Capim Grosso). Nomes transcritos da súmula manuscrita.",
+   "at": "2026-10-29T11:20:00-03:00"
   }
  }
 }
