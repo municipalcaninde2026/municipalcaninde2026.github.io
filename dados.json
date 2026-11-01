@@ -1,6 +1,6 @@
 {
  "v": 1,
- "updatedAt": "2026-10-31T21:30:00-03:00",
+ "updatedAt": "2026-10-31T21:35:00-03:00",
  "config": {
   "pix": {
    "chave": "4c1b82cc-c5ea-4e9a-ab03-493e97aa34ef",
@@ -1060,6 +1060,244 @@
    },
    "obs": "Capitão do Real Torre: Álvaro. Gols e cartões lançados pelo número da camisa anotado na súmula.",
    "at": "2026-10-31T21:30:00-03:00"
+  },
+  "vet-1": {
+   "h": 1,
+   "a": 5,
+   "goals": [
+    {
+     "t": "h",
+     "p": "#09 Flávio",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#07 Damião dos Santos",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#09 Fábio",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#07 Damião dos Santos",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#20 José Adair",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#19 Clebison",
+     "tp": 2
+    }
+   ],
+   "cards": [
+    {
+     "t": "h",
+     "p": "#19 Sóstenes",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#25 Eduilson dos Santos",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#03 Jucimar",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#08 Cleberton",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#19 Clebison",
+     "c": "y",
+     "tp": 2
+    }
+   ],
+   "sumula": [
+    "sumulas/vet-1-1.jpg"
+   ],
+   "info": {
+    "inicio": "17h11"
+   },
+   "atletas": {
+    "h": [
+     [
+      "25",
+      "Eduilson dos Santos"
+     ],
+     [
+      "18",
+      "Douglas Gerônimo dos Santos"
+     ],
+     [
+      "08/20",
+      "Evandro"
+     ],
+     [
+      "12",
+      "Saulo"
+     ],
+     [
+      "04",
+      "Romualdo"
+     ],
+     [
+      "16/19",
+      "Lealdo"
+     ],
+     [
+      "05/02",
+      "Joselan"
+     ],
+     [
+      "06/16",
+      "Stênio"
+     ],
+     [
+      "02/25",
+      "Gildemar"
+     ],
+     [
+      "07/18",
+      "Elenilton"
+     ],
+     [
+      "17",
+      "Josenilton"
+     ],
+     [
+      "20",
+      "Erivânio"
+     ],
+     [
+      "01",
+      "José Erinaldo"
+     ],
+     [
+      "23/25",
+      "José Graciel"
+     ],
+     [
+      "09",
+      "Flávio"
+     ],
+     [
+      "19",
+      "Sóstenes"
+     ],
+     [
+      "10",
+      "Juliano"
+     ],
+     [
+      "28",
+      "Ronildo"
+     ],
+     [
+      "15/28",
+      "Abdias"
+     ],
+     [
+      "11",
+      "Gilmário Moraes"
+     ]
+    ],
+    "a": [
+     [
+      "03",
+      "Jucimar"
+     ],
+     [
+      "14",
+      "Marcelo"
+     ],
+     [
+      "23",
+      "João Paulo"
+     ],
+     [
+      "06/21",
+      "Edgar Tobias Souza"
+     ],
+     [
+      "02",
+      "Deliano"
+     ],
+     [
+      "08",
+      "Cleberton"
+     ],
+     [
+      "19",
+      "Clebison"
+     ],
+     [
+      "07",
+      "Damião dos Santos"
+     ],
+     [
+      "09/17",
+      "Fábio"
+     ],
+     [
+      "01",
+      "Rivaldo"
+     ],
+     [
+      "20",
+      "José Adair"
+     ],
+     [
+      "11",
+      "Iranildo"
+     ],
+     [
+      "17/20",
+      "Adenildo"
+     ],
+     [
+      "21",
+      "Josenaldo"
+     ],
+     [
+      "18/09",
+      "Silvânio"
+     ],
+     [
+      "05",
+      "Adenilson"
+     ],
+     [
+      "10/19",
+      "Ivanildo"
+     ],
+     [
+      "13",
+      "Paulo Marcos"
+     ],
+     [
+      "15",
+      "José Batista"
+     ]
+    ]
+   },
+   "obs": "Gols e cartões lançados pelo número da camisa anotado na súmula.",
+   "at": "2026-10-31T21:35:00-03:00"
   }
  }
 }
