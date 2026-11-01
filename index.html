@@ -268,7 +268,7 @@ footer p{margin:0;font-size:12.5px;color:var(--faint);max-width:62ch}
 
 /* navegação inferior */
 .nav{position:fixed;left:0;right:0;bottom:0;z-index:45;background:color-mix(in srgb,var(--bg-2) 94%,transparent);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom,0px)}
-.nav .wrap{display:grid;grid-template-columns:repeat(5,1fr);gap:2px;padding-block:4px}
+.nav .wrap{display:grid;grid-template-columns:repeat(6,1fr);gap:2px;padding-block:4px}
 .nav button{background:none;border:0;display:grid;justify-items:center;gap:2px;padding:7px 0 6px;color:var(--faint);font-size:11px;font-weight:700;font-stretch:80%;letter-spacing:.06em;text-transform:uppercase;border-radius:10px;position:relative}
 .nav button svg{width:22px;height:22px;transition:transform .25s}
 .nav button[aria-current="page"]{color:var(--sol)}
@@ -313,6 +313,47 @@ footer p{margin:0;font-size:12.5px;color:var(--faint);max-width:62ch}
 details.rule .lu ol{list-style:none;margin:6px 0 0;padding:0;display:grid;gap:3px;font-size:13.5px;color:var(--fg)}
 .lu li{display:flex;gap:8px;min-width:0}.lu li span:last-child{overflow-wrap:anywhere;min-width:0}
 .lu .n{font-variant-numeric:tabular-nums;color:var(--muted);min-width:4.2ch;flex:none;font-size:12.5px;padding-top:1px}
+.crests{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
+@media (max-width:340px){.crests{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (min-width:760px){.crests{gap:12px}.cb img,.cb svg{width:76px!important;height:76px!important}}
+.cb{display:grid;justify-items:center;gap:6px;text-align:center;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:12px 6px 10px;position:relative;overflow:hidden;transition:transform .25s cubic-bezier(.2,.8,.2,1),border-color .25s;min-width:0}
+.cb::before{content:"";position:absolute;inset:auto -20% -40% -20%;height:70%;background:radial-gradient(closest-side,var(--tc),transparent);opacity:.28;transition:opacity .3s}
+.cb:hover{transform:translateY(-3px);border-color:color-mix(in srgb,var(--tc) 70%,var(--line))}
+.cb:hover::before{opacity:.5}
+.cb img,.cb svg{position:relative;width:54px;height:54px;object-fit:contain;transition:transform .35s cubic-bezier(.3,1.4,.5,1)}
+.cb:hover img,.cb:hover svg{transform:scale(1.08) rotate(-3deg)}
+.cb b{position:relative;font-weight:700;font-size:12.5px;line-height:1.15;font-stretch:88%;overflow-wrap:anywhere}
+.cb small{position:relative;font-size:11px;color:var(--muted);font-weight:700;letter-spacing:.08em;font-stretch:80%}
+.cb .pl{position:absolute;top:7px;left:7px;font-family:var(--f-display);font-size:13px;color:var(--faint);z-index:1}
+.strip{display:flex;gap:10px;overflow-x:auto;padding:4px 2px 8px;scrollbar-width:none;scroll-snap-type:x mandatory}
+.strip::-webkit-scrollbar{display:none}
+.strip button{flex:none;scroll-snap-align:start;background:var(--surface);border:1px solid var(--line);border-radius:50%;width:62px;height:62px;display:grid;place-items:center;padding:6px;transition:transform .2s,border-color .2s}
+.strip button:hover{transform:translateY(-2px);border-color:var(--sol)}
+.strip img,.strip svg{width:46px;height:46px;object-fit:contain}
+.th{position:relative;border-radius:16px;overflow:hidden;padding:18px 16px 16px;display:grid;grid-template-columns:auto 1fr;gap:14px;align-items:center;background:linear-gradient(135deg,color-mix(in srgb,var(--tc) 45%,var(--surface)),var(--surface) 75%);border:1px solid color-mix(in srgb,var(--tc) 55%,var(--line))}
+.th::after{content:"";position:absolute;right:-30px;top:-30px;width:160px;height:160px;border-radius:50%;border:22px solid color-mix(in srgb,var(--tc) 30%,transparent);pointer-events:none}
+.th img,.th svg{width:92px;height:92px;object-fit:contain;filter:drop-shadow(0 8px 16px rgba(0,0,0,.45));animation:pop .6s cubic-bezier(.2,.9,.3,1.4) both}
+.th h3{font-family:var(--f-display);font-weight:400;font-size:clamp(24px,6.5vw,34px);text-transform:uppercase;line-height:1}
+.th .fn{font-size:13px;color:var(--cal);margin-top:4px;opacity:.85}
+.th .row{margin-top:8px;position:relative;z-index:1}
+.tstats{display:grid;grid-template-columns:repeat(5,1fr);gap:6px;text-align:center}
+.tstats div{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:8px 2px}
+.tstats b{display:block;font-family:var(--f-display);font-weight:400;font-size:24px;line-height:1}
+.tstats span{font-size:10.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.1em;font-weight:700;font-stretch:80%}
+.cattabs{display:flex;gap:6px;flex-wrap:wrap}
+.story{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px;display:grid;gap:8px}
+.story p{margin:0;max-width:65ch;font-size:14.5px}
+.story ul{margin:0;padding-left:18px;display:grid;gap:4px;font-size:14px;color:var(--muted)}
+.ask{border:1px dashed color-mix(in srgb,var(--sol) 60%,var(--line));border-radius:14px;padding:14px;display:grid;gap:8px;background:color-mix(in srgb,var(--sol) 6%,transparent)}
+.ask b{font-weight:800;font-stretch:90%}
+.ask p{margin:0;font-size:13.5px;color:var(--muted)}
+.mini{display:grid;gap:6px}
+.mini .ml{display:grid;grid-template-columns:auto 1fr auto;gap:10px;align-items:center;width:100%;text-align:left;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:8px 10px}
+.mini .ml span{min-width:0;overflow-wrap:anywhere;font-size:14px}
+.mini .ml small{color:var(--muted);font-size:12px;display:block}
+.mini .ml b{font-family:var(--f-display);font-weight:400;font-size:18px;white-space:nowrap}
+.res{display:inline-grid;place-items:center;width:22px;height:22px;border-radius:6px;font-size:11px;font-weight:800;color:#fff}
+.res.V{background:var(--ok)}.res.E{background:#7D8576}.res.D{background:var(--bad)}.res.P{background:var(--surface-2);color:var(--muted);border:1px solid var(--line)}
 .qr{background:#fff;padding:12px;border-radius:12px;width:max-content;max-width:100%;margin-inline:auto}
 .qr img,.qr canvas{display:block;width:200px;height:200px}
 textarea.cc{width:100%;min-height:74px;font-family:ui-monospace,Menlo,monospace;font-size:12px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px;color:var(--fg);resize:vertical}
@@ -357,7 +398,1309 @@ html{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset
 </style></head><body><div id="root"></div>
 <script id="qrlib" src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
 
-<script id="state" type="application/json">{"v": 1, "updatedAt": "2026-10-26T15:30:00-03:00", "config": {"pix": {"chave": "4c1b82cc-c5ea-4e9a-ab03-493e97aa34ef", "nome": "HUB SERTAO CONECTA", "cidade": "CANINDE"}, "whats": "", "site": "https://hubsertaoconecta.com.br", "hubLogo": "hub-logo.png", "logo": "logo-campeonato.png", "crests": {"alto-bonito": "escudos/alto-bonito.png", "america": "escudos/america.png", "canada": "escudos/canada.png", "capim-grosso": "escudos/capim-grosso.png", "csf": "escudos/csf.png", "futfisio": "escudos/futfisio.png", "gremio-capim-grosso": "escudos/gremio-capim-grosso.png", "lagoa-do-frio": "escudos/lagoa-do-frio.png", "mandacaru": "escudos/mandacaru.png", "real-torre": "escudos/real-torre.png", "red-bull": "escudos/red-bull.png", "uniao-caninde": "escudos/uniao-caninde.png"}, "docs": {"reg1": {"pdf": "docs/regulamento-1-quadro.pdf", "pages": ["docs/reg1-01.jpg", "docs/reg1-02.jpg", "docs/reg1-03.jpg", "docs/reg1-04.jpg", "docs/reg1-05.jpg", "docs/reg1-06.jpg", "docs/reg1-07.jpg", "docs/reg1-08.jpg", "docs/reg1-09.jpg", "docs/reg1-10.jpg", "docs/reg1-11.jpg", "docs/reg1-12.jpg", "docs/reg1-13.jpg", "docs/reg1-14.jpg"]}, "reg2": {"pdf": "docs/regulamento-2-quadro.pdf", "pages": ["docs/reg2-01.jpg", "docs/reg2-02.jpg", "docs/reg2-03.jpg", "docs/reg2-04.jpg", "docs/reg2-05.jpg", "docs/reg2-06.jpg", "docs/reg2-07.jpg", "docs/reg2-08.jpg", "docs/reg2-09.jpg", "docs/reg2-10.jpg", "docs/reg2-11.jpg", "docs/reg2-12.jpg", "docs/reg2-13.jpg", "docs/reg2-14.jpg"]}, "tabela": {"pdf": "docs/tabela-municipal-2026.pdf", "pages": ["docs/tabela-1.jpg", "docs/tabela-2.jpg", "docs/tabela-3.jpg", "docs/tabela-4.jpg", "docs/tabela-5.jpg"]}, "aut": {"pdf": "docs/autorizacao-menores.pdf", "pages": ["docs/autorizacao-1.jpg"]}}}, "results": {"q1-1": {"h": 3, "a": 2, "goals": [{"t": "h", "p": "#09 Paulo Henrique", "tp": 1}, {"t": "a", "p": "#11 Carlos Daniel", "tp": 1}, {"t": "h", "p": "#03 Sidney", "tp": 2}, {"t": "h", "p": "#20 João Paulo", "tp": 2}, {"t": "a", "p": "#20 Rafael Alves", "tp": 2}], "cards": [{"t": "h", "p": "#09 Paulo Henrique", "c": "y", "tp": 1}, {"t": "h", "p": "#09 Paulo Henrique", "c": "r", "tp": 1}, {"t": "a", "p": "#13 Bruno Lima", "c": "y", "tp": 1}, {"t": "a", "p": "#03 Marcelo", "c": "y", "tp": 1}, {"t": "h", "p": "#05 Sérgio", "c": "y", "tp": 2}, {"t": "h", "p": "#02 Francisco", "c": "y", "tp": 2}, {"t": "h", "p": "#18 Robson Assis", "c": "y", "tp": 2}, {"t": "h", "p": "#10 Wesley Assis", "c": "y", "tp": 2}, {"t": "h", "p": "#07 Wosley Assis", "c": "y", "tp": 2}, {"t": "a", "p": "#11 Carlos Daniel", "c": "y", "tp": 2}, {"t": "a", "p": "#20 Rafael Alves", "c": "y", "tp": 2}, {"t": "a", "p": "#01 Saulo", "c": "y", "tp": 2}, {"t": "a", "p": "#10 Claudemir", "c": "r", "tp": 2}], "sumula": ["sumulas/q1-1-1.jpg"], "obs": "Início da partida às 19h16. Gols e cartões lançados pelo número da camisa anotado na súmula."}, "q2-1": {"h": 0, "a": 2, "goals": [{"t": "a", "p": "#09 Robério Santos", "tp": 1}, {"t": "a", "p": "#09 Robério Santos", "tp": 1}], "cards": [{"t": "h", "p": "#03 Alef Santos", "c": "y", "tp": 1}, {"t": "a", "p": "#02 Rafael Carvalho", "c": "y", "tp": 1}, {"t": "a", "p": "#07 Wilton Santos", "c": "y", "tp": 1}, {"t": "h", "p": "#14 Carlos André", "c": "y", "tp": 2}, {"t": "a", "p": "#08 Rael Gomes", "c": "y", "tp": 2}], "sumula": ["sumulas/q2-1-1.jpg"], "obs": "Início da partida às 15h17. Gols e cartões lançados pelo número da camisa anotado na súmula."}}}</script>
+<script id="state" type="application/json">{
+ "v": 1,
+ "updatedAt": "2026-10-31T21:35:00-03:00",
+ "config": {
+  "pix": {
+   "chave": "4c1b82cc-c5ea-4e9a-ab03-493e97aa34ef",
+   "nome": "HUB SERTAO CONECTA",
+   "cidade": "CANINDE"
+  },
+  "whats": "",
+  "site": "https://hubsertaoconecta.com.br",
+  "hubLogo": "hub-logo.png",
+  "logo": "logo-campeonato.png",
+  "crests": {
+   "alto-bonito": "escudos/alto-bonito.png",
+   "america": "escudos/america.png",
+   "canada": "escudos/canada.png",
+   "capim-grosso": "escudos/capim-grosso.png",
+   "csf": "escudos/csf.png",
+   "futfisio": "escudos/futfisio.png",
+   "gremio-capim-grosso": "escudos/gremio-capim-grosso.png",
+   "lagoa-do-frio": "escudos/lagoa-do-frio.png",
+   "mandacaru": "escudos/mandacaru.png",
+   "real-torre": "escudos/real-torre.png",
+   "red-bull": "escudos/red-bull.png",
+   "uniao-caninde": "escudos/uniao-caninde.png",
+   "esporte": "escudos/esporte.png",
+   "agrovila": "escudos/agrovila.png"
+  },
+  "docs": {
+   "reg1": {
+    "pdf": "docs/regulamento-1-quadro.pdf",
+    "pages": [
+     "docs/reg1-01.jpg",
+     "docs/reg1-02.jpg",
+     "docs/reg1-03.jpg",
+     "docs/reg1-04.jpg",
+     "docs/reg1-05.jpg",
+     "docs/reg1-06.jpg",
+     "docs/reg1-07.jpg",
+     "docs/reg1-08.jpg",
+     "docs/reg1-09.jpg",
+     "docs/reg1-10.jpg",
+     "docs/reg1-11.jpg",
+     "docs/reg1-12.jpg",
+     "docs/reg1-13.jpg",
+     "docs/reg1-14.jpg"
+    ]
+   },
+   "reg2": {
+    "pdf": "docs/regulamento-2-quadro.pdf",
+    "pages": [
+     "docs/reg2-01.jpg",
+     "docs/reg2-02.jpg",
+     "docs/reg2-03.jpg",
+     "docs/reg2-04.jpg",
+     "docs/reg2-05.jpg",
+     "docs/reg2-06.jpg",
+     "docs/reg2-07.jpg",
+     "docs/reg2-08.jpg",
+     "docs/reg2-09.jpg",
+     "docs/reg2-10.jpg",
+     "docs/reg2-11.jpg",
+     "docs/reg2-12.jpg",
+     "docs/reg2-13.jpg",
+     "docs/reg2-14.jpg"
+    ]
+   },
+   "tabela": {
+    "pdf": "docs/tabela-municipal-2026.pdf",
+    "pages": [
+     "docs/tabela-1.jpg",
+     "docs/tabela-2.jpg",
+     "docs/tabela-3.jpg",
+     "docs/tabela-4.jpg",
+     "docs/tabela-5.jpg"
+    ]
+   },
+   "aut": {
+    "pdf": "docs/autorizacao-menores.pdf",
+    "pages": [
+     "docs/autorizacao-1.jpg"
+    ]
+   }
+  }
+ },
+ "results": {
+  "q1-1": {
+   "h": 3,
+   "a": 2,
+   "goals": [
+    {
+     "t": "h",
+     "p": "#09 Paulo Henrique",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#11 Carlos Daniel",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#03 Sidney",
+     "tp": 2
+    },
+    {
+     "t": "h",
+     "p": "#20 João Paulo",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#20 Rafael Alves",
+     "tp": 2
+    }
+   ],
+   "cards": [
+    {
+     "t": "h",
+     "p": "#09 Paulo Henrique",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#09 Paulo Henrique",
+     "c": "r",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#13 Bruno Lima",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#03 Marcelo",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#05 Sérgio",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "h",
+     "p": "#02 Francisco",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "h",
+     "p": "#18 Robson Assis",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "h",
+     "p": "#10 Wesley Assis",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "h",
+     "p": "#07 Wosley Assis",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#11 Carlos Daniel",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#20 Rafael Alves",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#01 Saulo",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#10 Claudemir",
+     "c": "r",
+     "tp": 2
+    }
+   ],
+   "sumula": [
+    "sumulas/q1-1-1.jpg"
+   ],
+   "obs": "Início da partida às 19h16. Gols e cartões lançados pelo número da camisa anotado na súmula."
+  },
+  "q2-1": {
+   "h": 0,
+   "a": 2,
+   "goals": [
+    {
+     "t": "a",
+     "p": "#09 Robério Santos",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#09 Robério Santos",
+     "tp": 1
+    }
+   ],
+   "cards": [
+    {
+     "t": "h",
+     "p": "#03 Alef Santos",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#02 Rafael Carvalho",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#07 Wilton Santos",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#14 Carlos André",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#08 Rael Gomes",
+     "c": "y",
+     "tp": 2
+    }
+   ],
+   "sumula": [
+    "sumulas/q2-1-1.jpg"
+   ],
+   "obs": "Início da partida às 15h17. Gols e cartões lançados pelo número da camisa anotado na súmula."
+  },
+  "q2-2": {
+   "h": 1,
+   "a": 0,
+   "goals": [
+    {
+     "t": "h",
+     "p": "#79 Wilton Vitor",
+     "tp": 2
+    }
+   ],
+   "cards": [
+    {
+     "t": "h",
+     "p": "#80 Jorliton",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#92 Pedro Henrique",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#10 Tomás",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#20 Pedro",
+     "c": "r",
+     "tp": 2
+    }
+   ],
+   "sumula": [
+    "sumulas/q2-2-1.jpg"
+   ],
+   "info": {
+    "inicio": "19h27",
+    "mesario": "Alexandre"
+   },
+   "atletas": {
+    "h": [
+     [
+      "93",
+      "Kainan"
+     ],
+     [
+      "85",
+      "Alisson da Silva"
+     ],
+     [
+      "95",
+      "José Ronaldo"
+     ],
+     [
+      "91/82",
+      "Altair"
+     ],
+     [
+      "94",
+      "Luiz Fernando"
+     ],
+     [
+      "01",
+      "William Pereira"
+     ],
+     [
+      "84",
+      "Alex Teixeira"
+     ],
+     [
+      "92",
+      "Pedro Henrique"
+     ],
+     [
+      "88",
+      "Clederton"
+     ],
+     [
+      "78",
+      "Denilton"
+     ],
+     [
+      "82",
+      "Edson"
+     ],
+     [
+      "79",
+      "Wilton Vitor"
+     ],
+     [
+      "96/99",
+      "Vasguiton"
+     ],
+     [
+      "80/86",
+      "Jorliton"
+     ],
+     [
+      "81",
+      "Windemson"
+     ],
+     [
+      "86",
+      "Adriano Silva"
+     ],
+     [
+      "99",
+      "Kauê Santos"
+     ],
+     [
+      "98",
+      "Carlos César"
+     ],
+     [
+      "83",
+      "Daniel Gomes"
+     ]
+    ],
+    "a": [
+     [
+      "19",
+      "Davi Silva"
+     ],
+     [
+      "01",
+      "José David"
+     ],
+     [
+      "08",
+      "Levine"
+     ],
+     [
+      "09",
+      "Luan"
+     ],
+     [
+      "18",
+      "Jonatas"
+     ],
+     [
+      "20",
+      "Pedro"
+     ],
+     [
+      "14",
+      "Bruno"
+     ],
+     [
+      "10",
+      "Tomás"
+     ],
+     [
+      "17",
+      "Igor"
+     ],
+     [
+      "06/16",
+      "Cailson"
+     ],
+     [
+      "15",
+      "Renan"
+     ],
+     [
+      "03/14",
+      "Alexandre"
+     ],
+     [
+      "16",
+      "Adrielson"
+     ],
+     [
+      "11/17",
+      "Finlan"
+     ],
+     [
+      "05",
+      "Rosinaldo"
+     ],
+     [
+      "07/20",
+      "Lucas Santos"
+     ],
+     [
+      "02/13",
+      "Fagner"
+     ],
+     [
+      "04",
+      "Mércio"
+     ],
+     [
+      "13",
+      "Edivelton"
+     ],
+     [
+      "12",
+      "Acácio"
+     ]
+    ]
+   },
+   "obs": "Capitães: Alex Teixeira de Lima (Alto Bonito) e José Linina (Capim Grosso). Técnicos: José Adelmo (Alto Bonito) e Rosivaldo (Capim Grosso). Nomes transcritos da súmula manuscrita.",
+   "at": "2026-10-29T11:20:00-03:00"
+  },
+  "q1-2": {
+   "h": 1,
+   "a": 1,
+   "goals": [
+    {
+     "t": "h",
+     "p": "#08 Jonas",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#04 Ryan",
+     "tp": 2
+    }
+   ],
+   "cards": [
+    {
+     "t": "h",
+     "p": "#02 Eduardo",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#02 Natanaelson",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#06 Sevivaldo",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "h",
+     "p": "#07 André",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "h",
+     "p": "#08 Jonas",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "h",
+     "p": "#09 Jamison Santos",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#06 Everson",
+     "c": "y",
+     "tp": 2
+    }
+   ],
+   "sumula": [
+    "sumulas/q1-2-1.jpg"
+   ],
+   "info": {
+    "inicio": "21h19",
+    "mesario": "Alexandre"
+   },
+   "atletas": {
+    "h": [
+     [
+      "06/12",
+      "Sevivaldo"
+     ],
+     [
+      "07",
+      "André"
+     ],
+     [
+      "08",
+      "Jonas"
+     ],
+     [
+      "10/20",
+      "José Daniel"
+     ],
+     [
+      "04",
+      "Anderson"
+     ],
+     [
+      "11/14",
+      "Jamison Alves"
+     ],
+     [
+      "12",
+      "Tiago"
+     ],
+     [
+      "17",
+      "Sidiley"
+     ],
+     [
+      "15",
+      "Jadson"
+     ],
+     [
+      "01",
+      "Ismar"
+     ],
+     [
+      "20",
+      "Edson"
+     ],
+     [
+      "02/15",
+      "Eduardo"
+     ],
+     [
+      "05/17",
+      "Eduardo Craveiro"
+     ],
+     [
+      "13",
+      "Acácio"
+     ],
+     [
+      "09",
+      "Jamison Santos"
+     ],
+     [
+      "34",
+      "Welton Vito Santo"
+     ]
+    ],
+    "a": [
+     [
+      "16",
+      "Manuel"
+     ],
+     [
+      "04",
+      "Ryan"
+     ],
+     [
+      "14",
+      "Paulo Leandro"
+     ],
+     [
+      "18",
+      "Sidney Martins"
+     ],
+     [
+      "09",
+      "Erasmo"
+     ],
+     [
+      "02",
+      "Natanaelson"
+     ],
+     [
+      "06/18",
+      "Everson"
+     ],
+     [
+      "15",
+      "Anderson"
+     ],
+     [
+      "10",
+      "Antônio Jevison"
+     ],
+     [
+      "23",
+      "Harrison Rodrigues"
+     ],
+     [
+      "07",
+      "Sidney"
+     ],
+     [
+      "11",
+      "Robert Alves"
+     ],
+     [
+      "08",
+      "Mércio"
+     ]
+    ]
+   },
+   "obs": "Capitães: Acássio (Alto Bonito) e Gilvan (Capim Grosso). Técnicos: Erivaldo (Alto Bonito) e Rosivaldo (Capim Grosso). Nomes transcritos da súmula manuscrita.",
+   "at": "2026-10-29T11:20:00-03:00"
+  },
+  "q2-3": {
+   "h": 1,
+   "a": 4,
+   "goals": [
+    {
+     "t": "h",
+     "p": "#23 Admilson de Oliveira Silva",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#09 Rodrigo de Souza Silva",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#09 Rodrigo de Souza Silva",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#06 Luciano Oliveira Santos",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#06 Luciano Oliveira Santos",
+     "tp": 1
+    }
+   ],
+   "cards": [
+    {
+     "t": "h",
+     "p": "#05 Carlos Eduardo da Silva S. Fernandes",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#03 Lázaro Evangelista dos Santos",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#07 Emerson Alves dos Santos",
+     "c": "y",
+     "tp": 2
+    }
+   ],
+   "sumula": [
+    "sumulas/q2-3-1.jpg"
+   ],
+   "info": {
+    "inicio": "18h07"
+   },
+   "atletas": {
+    "h": [
+     [
+      "–",
+      "José Feitosa Neto"
+     ],
+     [
+      "05",
+      "Carlos Eduardo da Silva S. Fernandes"
+     ],
+     [
+      "17/07",
+      "Yan Gabriel Cordeiro Fernandes"
+     ],
+     [
+      "11",
+      "Pedro França Belém Neto"
+     ],
+     [
+      "01",
+      "Ezequiel da Silva Teles"
+     ],
+     [
+      "22",
+      "Weliton Graça de Brito"
+     ],
+     [
+      "13",
+      "Eclésio da Silva Teles"
+     ],
+     [
+      "07",
+      "Jean Vieira Nunes"
+     ],
+     [
+      "12/23",
+      "João Everton Lins dos Santos"
+     ],
+     [
+      "10",
+      "Douglas Lisboa da Silva"
+     ],
+     [
+      "–",
+      "Osmair dos Santos Lima"
+     ],
+     [
+      "09",
+      "Marcos Antônio dos S. Saturnino"
+     ],
+     [
+      "02/22",
+      "Carlos Manuel Bispo dos Santos"
+     ],
+     [
+      "04",
+      "Adenilson Jesus de Souza Cruz"
+     ],
+     [
+      "77",
+      "Jonata Conceição Santos Silva"
+     ],
+     [
+      "20",
+      "Lucas José da Silva"
+     ],
+     [
+      "23",
+      "Admilson de Oliveira Silva"
+     ]
+    ],
+    "a": [
+     [
+      "11",
+      "Mateus Marques dos Santos"
+     ],
+     [
+      "16",
+      "Marcelo Augusto Alves dos Santos"
+     ],
+     [
+      "–",
+      "Douglas Leite dos Santos"
+     ],
+     [
+      "19",
+      "Maciel dos Santos"
+     ],
+     [
+      "07",
+      "Emerson Alves dos Santos"
+     ],
+     [
+      "11/13",
+      "Adrieu Evangelista dos Santos"
+     ],
+     [
+      "09/17",
+      "Rodrigo de Souza Silva"
+     ],
+     [
+      "05/16",
+      "Lucas Jacinto de Meneses"
+     ],
+     [
+      "02",
+      "Eronias Viana dos Santos"
+     ],
+     [
+      "–",
+      "Edenilson Ramos dos Santos"
+     ],
+     [
+      "13",
+      "Matheus Ramos dos Santos"
+     ],
+     [
+      "12",
+      "Helbert Cavalcante da Cruz"
+     ],
+     [
+      "20",
+      "Gabriel Miguel da Silva"
+     ],
+     [
+      "04/18",
+      "Pedro Lucas Souza da Silva"
+     ],
+     [
+      "–",
+      "Alex Gomes da Silva"
+     ],
+     [
+      "03",
+      "Lázaro Evangelista dos Santos"
+     ],
+     [
+      "18",
+      "Mardinio Bernardino Gomes"
+     ],
+     [
+      "20",
+      "José Gabriel Bezerra da Silva"
+     ],
+     [
+      "08/19",
+      "Lucas Gabryell Araújo dos Santos"
+     ],
+     [
+      "06",
+      "Luciano Oliveira Santos"
+     ]
+    ]
+   },
+   "obs": "Todos os gols no 1º tempo. Gols e cartões lançados pelo número da camisa anotado na súmula.",
+   "at": "2026-10-31T21:30:00-03:00"
+  },
+  "q1-3": {
+   "h": 0,
+   "a": 1,
+   "goals": [
+    {
+     "t": "a",
+     "p": "#07 Jorge Eduardo Martins Cardoso",
+     "tp": 2
+    }
+   ],
+   "cards": [
+    {
+     "t": "h",
+     "p": "#21 Lincoln Eduardo Ferreira de Lima",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#08 Adilson Soares dos Santos",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#14 Vagner Soares dos Santos",
+     "c": "y",
+     "tp": 2
+    }
+   ],
+   "sumula": [
+    "sumulas/q1-3-1.jpg"
+   ],
+   "info": {
+    "inicio": "19h41"
+   },
+   "atletas": {
+    "h": [
+     [
+      "22",
+      "Emerton Santos de Lima"
+     ],
+     [
+      "18/31",
+      "Emerson Lima da Silva"
+     ],
+     [
+      "–",
+      "Gustavo Marcelino dos Santos"
+     ],
+     [
+      "07",
+      "Jamisson de Almeida Alves"
+     ],
+     [
+      "–",
+      "Fredson Paz da Silva"
+     ],
+     [
+      "12",
+      "Eduardo Ricardo S. do Nascimento"
+     ],
+     [
+      "23/27",
+      "Anderson de Almeida Alves"
+     ],
+     [
+      "20",
+      "Bruno Gabriel Rodrigues de Lima"
+     ],
+     [
+      "08/20",
+      "Marcelo Jorge Dantas de O. Filho"
+     ],
+     [
+      "19",
+      "Manoel Felipe Santos Correia"
+     ],
+     [
+      "10",
+      "José Rodrigues do Nascimento Neto"
+     ],
+     [
+      "01",
+      "Wedson dos Reis Souza"
+     ],
+     [
+      "21",
+      "Lincoln Eduardo Ferreira de Lima"
+     ],
+     [
+      "27",
+      "Jerfeson de Jesus Lisboa"
+     ],
+     [
+      "–",
+      "David de Souza Pereira"
+     ],
+     [
+      "30",
+      "José Dalvan de Oliveira Alves"
+     ],
+     [
+      "–",
+      "Vitor Silva Ventura Lins"
+     ],
+     [
+      "09",
+      "Pedro Henryque Santos Silva"
+     ],
+     [
+      "33",
+      "Pedro Henrique Santos de Oliveira"
+     ],
+     [
+      "31",
+      "Carlos Emanoel Ferreira da Silva"
+     ]
+    ],
+    "a": [
+     [
+      "08",
+      "Adilson Soares dos Santos"
+     ],
+     [
+      "–",
+      "Álvaro Torres Lima"
+     ],
+     [
+      "–",
+      "Jonas Alves Araújo"
+     ],
+     [
+      "07",
+      "Jorge Eduardo Martins Cardoso"
+     ],
+     [
+      "12",
+      "Luiz Otávio Rodrigues Barreto"
+     ],
+     [
+      "–",
+      "Rafael Gomes dos Santos"
+     ],
+     [
+      "10",
+      "Ramon Bezerra Gomes"
+     ],
+     [
+      "14",
+      "Vagner Soares dos Santos"
+     ],
+     [
+      "–",
+      "Marcelino Silva de Menezes"
+     ],
+     [
+      "–",
+      "Maycon Tavares da Silva"
+     ],
+     [
+      "–",
+      "Jamisson dos Santos Silva"
+     ],
+     [
+      "–",
+      "Givanildo de Jesus Gomes"
+     ],
+     [
+      "01",
+      "Eduardo Cardoso da Silva"
+     ],
+     [
+      "16/18",
+      "José Adilmo Soares dos Santos"
+     ],
+     [
+      "18",
+      "Eduardo Soares dos Santos"
+     ],
+     [
+      "13",
+      "Lucas Sastineo de Menezes"
+     ],
+     [
+      "03",
+      "Pedro Lucas"
+     ],
+     [
+      "06",
+      "Gabriel Miguel da Silva"
+     ]
+    ]
+   },
+   "obs": "Capitão do Real Torre: Álvaro. Gols e cartões lançados pelo número da camisa anotado na súmula.",
+   "at": "2026-10-31T21:30:00-03:00"
+  },
+  "vet-1": {
+   "h": 1,
+   "a": 5,
+   "goals": [
+    {
+     "t": "h",
+     "p": "#09 Flávio",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#07 Damião dos Santos",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#09 Fábio",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#07 Damião dos Santos",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#20 José Adair",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#19 Clebison",
+     "tp": 2
+    }
+   ],
+   "cards": [
+    {
+     "t": "h",
+     "p": "#19 Sóstenes",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#25 Eduilson dos Santos",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#03 Jucimar",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#08 Cleberton",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#19 Clebison",
+     "c": "y",
+     "tp": 2
+    }
+   ],
+   "sumula": [
+    "sumulas/vet-1-1.jpg"
+   ],
+   "info": {
+    "inicio": "17h11"
+   },
+   "atletas": {
+    "h": [
+     [
+      "25",
+      "Eduilson dos Santos"
+     ],
+     [
+      "18",
+      "Douglas Gerônimo dos Santos"
+     ],
+     [
+      "08/20",
+      "Evandro"
+     ],
+     [
+      "12",
+      "Saulo"
+     ],
+     [
+      "04",
+      "Romualdo"
+     ],
+     [
+      "16/19",
+      "Lealdo"
+     ],
+     [
+      "05/02",
+      "Joselan"
+     ],
+     [
+      "06/16",
+      "Stênio"
+     ],
+     [
+      "02/25",
+      "Gildemar"
+     ],
+     [
+      "07/18",
+      "Elenilton"
+     ],
+     [
+      "17",
+      "Josenilton"
+     ],
+     [
+      "20",
+      "Erivânio"
+     ],
+     [
+      "01",
+      "José Erinaldo"
+     ],
+     [
+      "23/25",
+      "José Graciel"
+     ],
+     [
+      "09",
+      "Flávio"
+     ],
+     [
+      "19",
+      "Sóstenes"
+     ],
+     [
+      "10",
+      "Juliano"
+     ],
+     [
+      "28",
+      "Ronildo"
+     ],
+     [
+      "15/28",
+      "Abdias"
+     ],
+     [
+      "11",
+      "Gilmário Moraes"
+     ]
+    ],
+    "a": [
+     [
+      "03",
+      "Jucimar"
+     ],
+     [
+      "14",
+      "Marcelo"
+     ],
+     [
+      "23",
+      "João Paulo"
+     ],
+     [
+      "06/21",
+      "Edgar Tobias Souza"
+     ],
+     [
+      "02",
+      "Deliano"
+     ],
+     [
+      "08",
+      "Cleberton"
+     ],
+     [
+      "19",
+      "Clebison"
+     ],
+     [
+      "07",
+      "Damião dos Santos"
+     ],
+     [
+      "09/17",
+      "Fábio"
+     ],
+     [
+      "01",
+      "Rivaldo"
+     ],
+     [
+      "20",
+      "José Adair"
+     ],
+     [
+      "11",
+      "Iranildo"
+     ],
+     [
+      "17/20",
+      "Adenildo"
+     ],
+     [
+      "21",
+      "Josenaldo"
+     ],
+     [
+      "18/09",
+      "Silvânio"
+     ],
+     [
+      "05",
+      "Adenilson"
+     ],
+     [
+      "10/19",
+      "Ivanildo"
+     ],
+     [
+      "13",
+      "Paulo Marcos"
+     ],
+     [
+      "15",
+      "José Batista"
+     ]
+    ]
+   },
+   "obs": "Gols e cartões lançados pelo número da camisa anotado na súmula.",
+   "at": "2026-10-31T21:35:00-03:00"
+  }
+ }
+}</script>
 
 <script id="app">
 (function(){
@@ -418,6 +1761,25 @@ const CATS = {
   jogos:[[1,'24/10','16:20','palmeiras-1','curitiba'],[4,'01/11','16:20','palmeiras-2','capim-grosso-2'],[7,'08/11','16:20','curitiba','capim-grosso-1'],[9,'14/11','16:20','adec','capim-grosso-2'],[10,'15/11','16:20','palmeiras-1','alto-bonito-v'],[13,'21/11','16:20','palmeiras-1','capim-grosso-1'],[14,'22/11','16:20','adec','palmeiras-2'],[17,'28/11','16:20','capim-grosso-1','alto-bonito-v'],[18,'29/11','16:20','curitiba','alto-bonito-v']],
   ko:[['sf1','Semifinal','12/12','16:20','A1','B2'],['sf2','Semifinal','13/12','16:20','B1','A2'],['f','Final','20/12','16:20','Wsf1','Wsf2']]}
 };
+const TEAM_INFO = {
+ 'agrovila':{full:'Associação Atlética Agrovila',sigla:'AAA',cores:'Verde, branco e azul',sobre:'Representa a comunidade da Agrovila. O escudo traz as três letras “AAA” no alto e uma faixa branca em forma de T que separa o verde do azul, com o nome da comunidade escrito na vertical.'},
+ 'futfisio':{full:'Futfisio',sigla:'FUT',cores:'Azul e verde',sobre:'O escudo é um “F” duplo e espelhado, metade azul e metade verde, com o nome Futfisio em branco no centro. Visual moderno, em 3D, bem diferente dos escudos tradicionais do campeonato.'},
+ 'canada':{full:'Associação Desportiva União Canadense',sigla:'AUC',fundado:'2004',estrelas:2,cores:'Verde, vermelho e branco',sobre:'Um dos clubes mais antigos do campeonato, fundado em 2004, segundo o próprio escudo. A folha de bordo vermelha, que lembra a bandeira do Canadá, carrega as letras A, U e C, e o escudo exibe duas estrelas no alto.'},
+ 'esporte':{full:'Esporte Clube Alto Bonito',sigla:'ECAB',cidade:'Canindé de São Francisco',estrelas:1,cores:'Vermelho, azul, verde e branco',sobre:'O escudo leva o nome de Canindé de São Francisco em destaque, uma bola dentro de uma coroa de louros e uma estrela no topo, com faixas em azul, vermelho e verde.'},
+ 'alto-bonito':{full:'Alto Bonito F.C.',sigla:'ABFC',estrelas:2,mascote:'Jacaré',cores:'Azul e branco',sobre:'Tem o jacaré como mascote, em cima da água, num escudo azul listrado. As duas estrelas douradas no alto marcam as conquistas do clube.'},
+ 'capim-grosso':{full:'Capim Grosso Futebol Clube',sigla:'CGFC',cidade:'Canindé-SE',estrelas:2,cores:'Verde, branco e preto',sobre:'Escudo redondo em verde e branco, com a bola no centro e o nome “Canindé-SE” na borda. Joga com camisa listrada em verde, branco e preto, e o escudo tem duas estrelas.'},
+ 'america':{full:'América Sport Club',sigla:'ASC',cidade:'Canindé',cores:'Vermelho, preto, branco e dourado',sobre:'O América de Canindé usa um escudo em forma de flecha, com as letras ASC entrelaçadas em vermelho, preto e branco, contornado de dourado.'},
+ 'uniao-caninde':{full:'União Canindé F.C.',sigla:'UCFC',estrelas:1,cores:'Vinho, dourado e prata',lema:'Nenhum jogador é tão bom quanto todos juntos',titulos:['Vice-campeão Canindeense 2025'],sobre:'O escudo em vinho e dourado traz duas mãos apertadas sobre uma bola, símbolo da união que dá nome ao clube. Foi vice-campeão canindeense em 2025.'},
+ 'csf':{full:'CSF',sigla:'CSF',fundado:'2026',estrelas:1,cores:'Laranja, azul e dourado',sobre:'Estreante, com 2026 no escudo. O desenho homenageia a paisagem da cidade: os cânions do Rio São Francisco, uma embarcação no rio e o chapéu de couro do sertanejo no alto.'},
+ 'real-torre':{full:'Real Torre F.C.',sigla:'RTFC',fundado:'2023',cores:'Preto e branco',sobre:'Fundado em 2023, segundo o escudo. O desenho mostra uma torre de transmissão e um jogador acertando uma bicicleta na bola, em preto e branco.'},
+ 'red-bull':{full:'Red Bull Canindé',sigla:'RBC',fundado:'2020',cidade:'Canindé-SE',estrelas:1,cores:'Preto e branco',sobre:'Fundado em 2020, segundo o escudo. Dois touros em posição de ataque, frente a frente, com a bola entre eles, e uma estrela acima do escudo.'},
+ 'gremio-capim-grosso':{full:'Grêmio Capim Grosso',sigla:'GIFC',fundado:'2012',estrelas:3,cores:'Azul celeste, preto e branco',sobre:'Fundado em 2012, segundo o escudo. O desenho segue o estilo tricolor gaúcho, em azul celeste, preto e branco, com três estrelas acima.'},
+ 'cuiaba':{full:'Cuiabá'},'olaria':{full:'Olaria City'},
+ 'mandacaru':{full:'Mandacaru',fundado:'2023',estrelas:2,cores:'Verde e preto',sobre:'Fundado em 2023, segundo o escudo. O desenho é uma paisagem do sertão: o mandacaru em primeiro plano, serras e o sol forte ao fundo, em verde sobre preto.'},
+ 'lagoa-do-frio':{full:'Associação E.C. Lagoa do Frio',sigla:'LDF',cidade:'Canindé-SE',cores:'Vermelho, azul-marinho e branco',sobre:'Representa o povoado Lagoa do Frio. O escudo redondo tem as letras L e F com uma bola no meio, sobre listras vermelhas e azul-marinho.'},
+ 'palmeiras-1':{full:'Palmeiras I'},'palmeiras-2':{full:'Palmeiras II'},'curitiba':{full:'Curitiba'},
+ 'capim-grosso-1':{full:'Capim Grosso I'},'capim-grosso-2':{full:'Capim Grosso II'},'adec':{full:'ADEC'},'alto-bonito-v':{full:'Alto Bonito'}
+};
 const SLOT_LBL = {G1:'1º geral',G2:'2º geral',G3:'3º geral',G4:'4º geral',G5:'5º geral',G6:'6º geral',T1:'1º melhor 3º',T2:'2º melhor 3º',S1:'1º das quartas',S2:'2º das quartas',S3:'3º das quartas',S4:'4º das quartas',Wsf1:'Vencedor semi 1',Wsf2:'Vencedor semi 2',A1:'1º do Grupo A',A2:'2º do Grupo A',B1:'1º do Grupo B',B2:'2º do Grupo B'};
 const DOCS = [
  {k:'reg1',t:'Regulamento · 1º Quadro',sub:'14 páginas · 14/10/2026',file:'regulamento-1-quadro.pdf'},
@@ -441,7 +1803,7 @@ for(const ck in CATS){
 const clubName = k => (CLUB[k]||{n:k}).n;
 
 /* ================= ESTADO DE INTERFACE ================= */
-const TABS = [['inicio','Início'],['jogos','Jogos'],['tabela','Tabela'],['destaques','Destaques'],['documentos','Docs']];
+const TABS = [['inicio','Início'],['jogos','Jogos'],['tabela','Tabela'],['times','Times'],['destaques','Destaques'],['documentos','Docs']];
 const UI = {cat:LS.get('cat','q1'), tab:'inicio', sim:false, team:'', tview:'grupos', canEdit:false};
 if(!CATS[UI.cat]) UI.cat='q1';
 {const h=location.hash.slice(1); if(TABS.some(t=>t[0]===h)) UI.tab=h; else if(CATS[h]) UI.cat=h;}
@@ -581,6 +1943,7 @@ const ICON = {
  cal:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>',
  table:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16M9 4v16"/></svg>',
  star:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg>',
+ shield:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M12 8v8M8.5 11.5h7"/></svg>',
  doc:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M6 3h8l5 5v13H6z"/><path d="M14 3v5h5M9 13h7M9 17h7"/></svg>',
  pin:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s7-6.1 7-11.5A7 7 0 0 0 5 9.5C5 14.9 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>',
  clock:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>',
@@ -655,6 +2018,7 @@ function vInicio(comp){
   return `${UI.sim?simBar():''}${hero}
   <section><div class="sh"><h2>Últimos resultados</h2><button class="btn sm ghost" data-act="tab" data-tab="jogos">Todos os jogos</button></div>
    ${recent.length?`<div class="day">${recent.map(m=>matchCard(m,comp)).join('')}</div>`:`<div class="card empty">Nenhum resultado lançado nesta categoria ainda.<button class="btn sm" data-act="sim">Ver como fica com o campeonato rolando</button></div>`}</section>
+  <section><div class="sh"><h2>Os ${Object.values(C.grupos).flat().length} times</h2><button class="btn sm ghost" data-act="tab" data-tab="times">Conhecer os times</button></div><div class="strip">${Object.values(C.grupos).flat().map(k=>`<button data-act="team-open" data-k="${k}" aria-label="${esc(clubName(k))}">${crest(k)}</button>`).join('')}</div></section>
   <section class="pixcard" aria-label="Apoie o aplicativo"><div class="ic">${ICON.pix}</div><div><b>Mantenha este app no ar</b><p>Placar, tabela e súmulas de graça para a torcida. Uma doação via Pix ajuda a cobrir hospedagem e atualização dos jogos.</p><button class="btn green sm" data-act="pix">${ICON.pix} Doar com Pix</button></div></section>
   <div class="grid2">
    <section class="card"><div class="sh"><h2>Líderes</h2><span class="r">por grupo</span></div><div class="rank">${leaders}</div></section>
@@ -663,6 +2027,44 @@ function vInicio(comp){
   </div>
   ${!UI.sim&&comp.played?`<div class="simbar" style="background:var(--surface);border-color:var(--line);color:var(--fg)"><span><b>Quer ver o mata-mata e o campeão?</b> Simule o restante do campeonato com placares fictícios.</span><button class="btn sm" data-act="sim">Simular campeonato</button></div>`:''}
   ${pitch()}`;
+}
+function teamCats(k){return Object.values(CATS).filter(c=>Object.values(c.grupos).flat().includes(k))}
+function vTimes(comp){
+  const C=CATS[UI.cat];const all=Object.entries(C.grupos);
+  const pos={};Object.values(comp.groups).forEach(rows=>rows.forEach((x,i)=>pos[x.k]=i+1));
+  return `${UI.sim?simBar():''}<section><div class="sh"><h2>Times · ${esc(C.nome)}</h2><span class="r">${Object.values(C.grupos).flat().length} equipes · toque no escudo</span></div>
+   ${all.map(([g,ks])=>`<div class="day"><h3>Grupo ${g}</h3><div class="crests">${ks.map(k=>{const c=CLUB[k]||{};return `<button class="cb" style="--tc:${c.c||'#555'}" data-act="team-open" data-k="${k}"><span class="pl">${pos[k]||''}º</span>${crest(k)}<b>${esc(clubName(k))}</b><small>${(TEAM_INFO[k]&&TEAM_INFO[k].fundado)?'DESDE '+TEAM_INFO[k].fundado:esc((c.s||''))}</small></button>`}).join('')}</div></div>`).join('')}
+  </section>
+  <div class="ask"><b>Seu time merece uma página completa</b><p>História, títulos, elenco com fotos, patrocinadores e notícias. Dirigente, mande o material do seu clube para o HUB Sertão Conecta.</p><div class="row"><a class="btn sm" href="${esc(S.config.site)}" target="_blank" rel="noopener">Falar com o HUB</a></div></div>`;
+}
+function teamSheet(k,ckIn){
+  const cats=teamCats(k);if(!cats.length)return;
+  const C=cats.find(c=>c.key===ckIn)||cats.find(c=>c.key===UI.cat)||cats[0];
+  const I=TEAM_INFO[k]||{};const club=CLUB[k]||{};const R=RES();const comp=compute(C.key,R);
+  const row=comp.rows[k];const g=row.g;const grp=comp.groups[g];const pos=grp.findIndex(x=>x.k===k)+1;
+  const games=C.list.filter(m=>{const s=sides(m,comp);return s.a===k||s.b===k});
+  const played=games.filter(m=>R[m.id]);const next=games.find(m=>!R[m.id]);
+  const sc=scorers(C.key,R,comp).filter(p=>p.team===k);
+  const dis=discipline(C.key,R,comp);const susp=dis.susp.filter(p=>p.team===k);
+  const facts=[];
+  if(I.fundado)facts.push(`<span class="chip">Fundado em ${esc(I.fundado)}</span>`);
+  if(I.estrelas)facts.push(`<span class="chip">${'★'.repeat(I.estrelas)} no escudo</span>`);
+  if(I.mascote)facts.push(`<span class="chip">Mascote: ${esc(I.mascote)}</span>`);
+  facts.push(`<span class="chip">Grupo ${g} · ${pos}º lugar</span>`);
+  const line=m=>{const r=R[m.id];const o=outcome(m,r);const s=sides(m,comp);const home=s.a===k;const opp=home?s.b:s.a;
+    let res='P',sc2=fmtHr(m.h);if(o){const gf=home?o.h:o.a,ga=home?o.a:o.h;res=gf>ga?'V':gf<ga?'D':'E';sc2=`${gf}×${ga}`}
+    return `<button class="ml" data-act="match" data-id="${m.id}"><span class="res ${res}">${res==='P'?'·':res}</span><span>${home?'':'@ '}${esc(clubName(opp))}<small>${fmtDay(m)} · ${m.ko?m.fase:m.rod+'ª rodada'}</small></span><b>${sc2}</b></button>`};
+  const tabs=cats.length>1?`<div class="cattabs">${cats.map(c=>`<button class="fbtn only" data-act="team-cat" data-k="${k}" data-c="${c.key}" aria-pressed="${c.key===C.key}">${esc(c.nome)}</button>`).join('')}</div>`:'';
+  const body=`<div class="th" style="--tc:${club.c||'#555'}">${crest(k)}<div style="min-width:0"><h3>${esc(clubName(k))}</h3><div class="fn">${esc(I.full||clubName(k))}${I.cidade?' · '+esc(I.cidade):''}</div><div class="row">${facts.join('')}</div></div></div>
+   ${tabs}
+   <div class="tstats"><div><b style="color:var(--sol)">${row.P}</b><span>pontos</span></div><div><b>${row.J}</b><span>jogos</span></div><div><b>${row.V}-${row.E}-${row.D}</b><span>V-E-D</span></div><div><b>${row.GP}:${row.GC}</b><span>gols</span></div><div><b>${row.CA}/${row.CV}</b><span>cartões</span></div></div>
+   <section class="story"><span class="eyebrow">Sobre o clube</span>${I.sobre?`<p>${esc(I.sobre)}</p>`:`<p class="muted">Ainda não recebemos a apresentação deste clube.</p>`}
+    ${(I.cores||I.lema||(I.titulos&&I.titulos.length))?`<ul>${I.cores?`<li>Cores: ${esc(I.cores)}</li>`:''}${I.lema?`<li>Lema: “${esc(I.lema)}”</li>`:''}${(I.titulos||[]).map(t=>`<li>${esc(t)}</li>`).join('')}<li>No Municipal 2026: ${cats.map(c=>esc(c.nome)).join(', ')}</li></ul>`:`<ul><li>No Municipal 2026: ${cats.map(c=>esc(c.nome)).join(', ')}</li></ul>`}</section>
+   ${next?`<section><div class="sh"><h2 style="font-size:20px">Próximo jogo</h2></div><div class="mini">${line(next)}</div></section>`:''}
+   <section><div class="sh"><h2 style="font-size:20px">Campanha · ${esc(C.nome)}</h2><span class="r">${played.length} de ${games.filter(m=>!m.ko).length} jogos da 1ª fase</span></div><div class="mini">${games.map(line).join('')}</div></section>
+   <section><div class="sh"><h2 style="font-size:20px">Artilheiros do time</h2></div><div class="rank">${sc.length?sc.slice(0,5).map((p,i)=>rk(p,i)).join(''):'<div class="empty">Nenhum gol ainda nesta categoria.</div>'}</div>${susp.length?`<p class="warn">Suspenso${susp.length>1?'s':''} para o próximo jogo: ${susp.map(p=>esc(p.name)).join(', ')}.</p>`:''}</section>
+   <div class="ask"><b>História do clube</b><p>A história completa, os títulos, as fotos e o elenco deste time podem entrar aqui. Dirigente, envie o material para o HUB Sertão Conecta.</p><div class="row"><a class="btn sm ghost" href="${esc(S.config.site)}" target="_blank" rel="noopener">Enviar a história do time</a><a class="btn sm green" href="https://wa.me/?text=${encodeURIComponent(clubName(k)+' no Municipal 2026: '+row.P+' pontos, '+pos+'º do Grupo '+g+' ('+C.nome+')\n'+location.origin+location.pathname+'#time-'+k)}" target="_blank" rel="noopener">${ICON.share} Compartilhar</a></div></div>`;
+  openSheet(clubName(k),body);
 }
 function rk(p,i){return `<div class="rk ${i===0?'first':''}"><span class="p">${i+1}</span>${crest(p.team,'cr sm')}<span class="nm"><b>${esc(p.name)}</b><small>${esc(clubName(p.team))}</small></span><span class="v">${p.g}</span></div>`}
 function simBar(){return `<div class="simbar"><span><b>Modo simulação.</b> Placares fictícios gerados só na sua tela para mostrar como o app funciona. Os jogos reais lançados continuam valendo.</span><button class="btn sm ghost" data-act="sim" style="color:#E3D9FF;border-color:#5B47A0">Voltar aos dados reais</button></div>`}
@@ -799,7 +2201,7 @@ function shell(){
   <footer><div class="wrap"><span class="eyebrow" style="color:var(--muted)">Desenvolvido por</span><a class="hub" href="${esc(S.config.site)}" target="_blank" rel="noopener" aria-label="HUB Sertão Conecta — abrir site">${hubMark()}</a>
    <p>Aplicativo de demonstração criado e mantido pelo HUB Sertão Conecta, sem vínculo com a Prefeitura Municipal ou a Secretaria Municipal de Esporte de Canindé de São Francisco. Tabela, regulamentos e resultados conforme documentos e súmulas divulgados pela organização do campeonato.</p>
    <p>Atualizado em ${esc(new Date(S.updatedAt||Date.now()).toLocaleString('pt-BR',{day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'}))}</p></div></footer>
-  <nav class="nav" aria-label="Seções"><div class="wrap">${TABS.map(([k,l],i)=>`<button data-act="tab" data-tab="${k}" ${UI.tab===k?'aria-current="page"':''}>${[ICON.home,ICON.cal,ICON.table,ICON.star,ICON.doc][i]}<span>${l}</span></button>`).join('')}</div></nav>
+  <nav class="nav" aria-label="Seções"><div class="wrap">${TABS.map(([k,l],i)=>`<button data-act="tab" data-tab="${k}" ${UI.tab===k?'aria-current="page"':''}>${{inicio:ICON.home,jogos:ICON.cal,tabela:ICON.table,times:ICON.shield,destaques:ICON.star,documentos:ICON.doc}[k]}<span>${l}</span></button>`).join('')}</div></nav>
   <button class="pixfab" data-act="pix" aria-label="Doar com Pix para manter o app">${ICON.pix}<span>Doe Pix</span></button>
   ${UI.canEdit?`<button class="btn adm" data-act="admin">${ICON.gear} Painel</button>`:''}`;
 }
@@ -809,7 +2211,7 @@ function render(anim=true,flipKeys){
   const v=$('#view');
   const before={};
   if(flipKeys&&!RM) $$('[data-flip]',v).forEach(el=>before[el.dataset.flip]=el.getBoundingClientRect().top);
-  const html={inicio:vInicio,jogos:vJogos,tabela:vTabela,destaques:vDestaques,documentos:vDocs}[UI.tab](comp);
+  const html={inicio:vInicio,jogos:vJogos,tabela:vTabela,times:vTimes,destaques:vDestaques,documentos:vDocs}[UI.tab](comp);
   v.innerHTML=html;
   if(anim){v.classList.remove('in');void v.offsetWidth;v.classList.add('in')}
   if(flipKeys&&!RM){$$('[data-flip]',v).forEach(el=>{const b=before[el.dataset.flip];if(b==null)return;const d=b-el.getBoundingClientRect().top;if(Math.abs(d)>1)el.animate([{transform:`translateY(${d}px)`,background:'rgba(255,199,44,.12)'},{transform:'none',background:'transparent'}],{duration:700,easing:'cubic-bezier(.2,.8,.2,1)'})})}
@@ -1010,6 +2412,8 @@ document.addEventListener('click',e=>{
   else if(a==='tview'){UI.tview=t.dataset.k;render(false)}
   else if(a==='sim'){UI.sim=!UI.sim;if(UI.sim&&!SIM)SIM=buildSim();render(false,true);toast(UI.sim?'Simulação ligada: placares fictícios':'De volta aos dados reais')}
   else if(a==='match'){matchSheet(t.dataset.id)}
+  else if(a==='team-open'){teamSheet(t.dataset.k)}
+  else if(a==='team-cat'){teamSheet(t.dataset.k,t.dataset.c)}
   else if(a==='close'){closeSheet()}
   else if(a==='pix'){pixSheet()}
   else if(a==='copy'){copy(t.dataset.text)}
@@ -1032,7 +2436,8 @@ document.addEventListener('click',e=>{
 document.addEventListener('input',e=>{const el=e.target.closest('[data-ed]');if(el&&DRAFT&&el.dataset.ed!=='upload')edInput(el)});
 document.addEventListener('change',e=>{const el=e.target.closest('[data-ed]');if(!el||!DRAFT)return;if(el.dataset.ed==='upload'){edUpload([...el.files]);el.value=''}else if(el.tagName==='SELECT')edInput(el);if(el.dataset.ed==='score')drawEdit()});
 document.addEventListener('keydown',e=>{if(e.key==='Escape')closeSheet()});
-addEventListener('hashchange',()=>{const h=location.hash.slice(1);if(TABS.some(t=>t[0]===h)&&h!==UI.tab){UI.tab=h;render()}});
+const openTeamHash=()=>{const h=location.hash.slice(1);if(h.startsWith('time-')&&CLUB[h.slice(5)])teamSheet(h.slice(5))};setTimeout(openTeamHash,400);
+addEventListener('hashchange',()=>{openTeamHash();const h=location.hash.slice(1);if(TABS.some(t=>t[0]===h)&&h!==UI.tab){UI.tab=h;render()}});
 
 if(location.hash==='#organizador'){LS.set('org',1)}
 if(LS.get('org',0)){UI.canEdit=true;if(location.hash==='#organizador')UI.tab='inicio'}
