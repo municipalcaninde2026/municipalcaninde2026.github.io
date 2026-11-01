@@ -1,6 +1,6 @@
 {
  "v": 1,
- "updatedAt": "2026-10-29T11:20:00-03:00",
+ "updatedAt": "2026-10-31T21:30:00-03:00",
  "config": {
   "pix": {
    "chave": "4c1b82cc-c5ea-4e9a-ab03-493e97aa34ef",
@@ -650,6 +650,416 @@
    },
    "obs": "Capitães: Acássio (Alto Bonito) e Gilvan (Capim Grosso). Técnicos: Erivaldo (Alto Bonito) e Rosivaldo (Capim Grosso). Nomes transcritos da súmula manuscrita.",
    "at": "2026-10-29T11:20:00-03:00"
+  },
+  "q2-3": {
+   "h": 1,
+   "a": 4,
+   "goals": [
+    {
+     "t": "h",
+     "p": "#23 Admilson de Oliveira Silva",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#09 Rodrigo de Souza Silva",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#09 Rodrigo de Souza Silva",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#06 Luciano Oliveira Santos",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#06 Luciano Oliveira Santos",
+     "tp": 1
+    }
+   ],
+   "cards": [
+    {
+     "t": "h",
+     "p": "#05 Carlos Eduardo da Silva S. Fernandes",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#03 Lázaro Evangelista dos Santos",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#07 Emerson Alves dos Santos",
+     "c": "y",
+     "tp": 2
+    }
+   ],
+   "sumula": [
+    "sumulas/q2-3-1.jpg"
+   ],
+   "info": {
+    "inicio": "18h07"
+   },
+   "atletas": {
+    "h": [
+     [
+      "–",
+      "José Feitosa Neto"
+     ],
+     [
+      "05",
+      "Carlos Eduardo da Silva S. Fernandes"
+     ],
+     [
+      "17/07",
+      "Yan Gabriel Cordeiro Fernandes"
+     ],
+     [
+      "11",
+      "Pedro França Belém Neto"
+     ],
+     [
+      "01",
+      "Ezequiel da Silva Teles"
+     ],
+     [
+      "22",
+      "Weliton Graça de Brito"
+     ],
+     [
+      "13",
+      "Eclésio da Silva Teles"
+     ],
+     [
+      "07",
+      "Jean Vieira Nunes"
+     ],
+     [
+      "12/23",
+      "João Everton Lins dos Santos"
+     ],
+     [
+      "10",
+      "Douglas Lisboa da Silva"
+     ],
+     [
+      "–",
+      "Osmair dos Santos Lima"
+     ],
+     [
+      "09",
+      "Marcos Antônio dos S. Saturnino"
+     ],
+     [
+      "02/22",
+      "Carlos Manuel Bispo dos Santos"
+     ],
+     [
+      "04",
+      "Adenilson Jesus de Souza Cruz"
+     ],
+     [
+      "77",
+      "Jonata Conceição Santos Silva"
+     ],
+     [
+      "20",
+      "Lucas José da Silva"
+     ],
+     [
+      "23",
+      "Admilson de Oliveira Silva"
+     ]
+    ],
+    "a": [
+     [
+      "11",
+      "Mateus Marques dos Santos"
+     ],
+     [
+      "16",
+      "Marcelo Augusto Alves dos Santos"
+     ],
+     [
+      "–",
+      "Douglas Leite dos Santos"
+     ],
+     [
+      "19",
+      "Maciel dos Santos"
+     ],
+     [
+      "07",
+      "Emerson Alves dos Santos"
+     ],
+     [
+      "11/13",
+      "Adrieu Evangelista dos Santos"
+     ],
+     [
+      "09/17",
+      "Rodrigo de Souza Silva"
+     ],
+     [
+      "05/16",
+      "Lucas Jacinto de Meneses"
+     ],
+     [
+      "02",
+      "Eronias Viana dos Santos"
+     ],
+     [
+      "–",
+      "Edenilson Ramos dos Santos"
+     ],
+     [
+      "13",
+      "Matheus Ramos dos Santos"
+     ],
+     [
+      "12",
+      "Helbert Cavalcante da Cruz"
+     ],
+     [
+      "20",
+      "Gabriel Miguel da Silva"
+     ],
+     [
+      "04/18",
+      "Pedro Lucas Souza da Silva"
+     ],
+     [
+      "–",
+      "Alex Gomes da Silva"
+     ],
+     [
+      "03",
+      "Lázaro Evangelista dos Santos"
+     ],
+     [
+      "18",
+      "Mardinio Bernardino Gomes"
+     ],
+     [
+      "20",
+      "José Gabriel Bezerra da Silva"
+     ],
+     [
+      "08/19",
+      "Lucas Gabryell Araújo dos Santos"
+     ],
+     [
+      "06",
+      "Luciano Oliveira Santos"
+     ]
+    ]
+   },
+   "obs": "Todos os gols no 1º tempo. Gols e cartões lançados pelo número da camisa anotado na súmula.",
+   "at": "2026-10-31T21:30:00-03:00"
+  },
+  "q1-3": {
+   "h": 0,
+   "a": 1,
+   "goals": [
+    {
+     "t": "a",
+     "p": "#07 Jorge Eduardo Martins Cardoso",
+     "tp": 2
+    }
+   ],
+   "cards": [
+    {
+     "t": "h",
+     "p": "#21 Lincoln Eduardo Ferreira de Lima",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#08 Adilson Soares dos Santos",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#14 Vagner Soares dos Santos",
+     "c": "y",
+     "tp": 2
+    }
+   ],
+   "sumula": [
+    "sumulas/q1-3-1.jpg"
+   ],
+   "info": {
+    "inicio": "19h41"
+   },
+   "atletas": {
+    "h": [
+     [
+      "22",
+      "Emerton Santos de Lima"
+     ],
+     [
+      "18/31",
+      "Emerson Lima da Silva"
+     ],
+     [
+      "–",
+      "Gustavo Marcelino dos Santos"
+     ],
+     [
+      "07",
+      "Jamisson de Almeida Alves"
+     ],
+     [
+      "–",
+      "Fredson Paz da Silva"
+     ],
+     [
+      "12",
+      "Eduardo Ricardo S. do Nascimento"
+     ],
+     [
+      "23/27",
+      "Anderson de Almeida Alves"
+     ],
+     [
+      "20",
+      "Bruno Gabriel Rodrigues de Lima"
+     ],
+     [
+      "08/20",
+      "Marcelo Jorge Dantas de O. Filho"
+     ],
+     [
+      "19",
+      "Manoel Felipe Santos Correia"
+     ],
+     [
+      "10",
+      "José Rodrigues do Nascimento Neto"
+     ],
+     [
+      "01",
+      "Wedson dos Reis Souza"
+     ],
+     [
+      "21",
+      "Lincoln Eduardo Ferreira de Lima"
+     ],
+     [
+      "27",
+      "Jerfeson de Jesus Lisboa"
+     ],
+     [
+      "–",
+      "David de Souza Pereira"
+     ],
+     [
+      "30",
+      "José Dalvan de Oliveira Alves"
+     ],
+     [
+      "–",
+      "Vitor Silva Ventura Lins"
+     ],
+     [
+      "09",
+      "Pedro Henryque Santos Silva"
+     ],
+     [
+      "33",
+      "Pedro Henrique Santos de Oliveira"
+     ],
+     [
+      "31",
+      "Carlos Emanoel Ferreira da Silva"
+     ]
+    ],
+    "a": [
+     [
+      "08",
+      "Adilson Soares dos Santos"
+     ],
+     [
+      "–",
+      "Álvaro Torres Lima"
+     ],
+     [
+      "–",
+      "Jonas Alves Araújo"
+     ],
+     [
+      "07",
+      "Jorge Eduardo Martins Cardoso"
+     ],
+     [
+      "12",
+      "Luiz Otávio Rodrigues Barreto"
+     ],
+     [
+      "–",
+      "Rafael Gomes dos Santos"
+     ],
+     [
+      "10",
+      "Ramon Bezerra Gomes"
+     ],
+     [
+      "14",
+      "Vagner Soares dos Santos"
+     ],
+     [
+      "–",
+      "Marcelino Silva de Menezes"
+     ],
+     [
+      "–",
+      "Maycon Tavares da Silva"
+     ],
+     [
+      "–",
+      "Jamisson dos Santos Silva"
+     ],
+     [
+      "–",
+      "Givanildo de Jesus Gomes"
+     ],
+     [
+      "01",
+      "Eduardo Cardoso da Silva"
+     ],
+     [
+      "16/18",
+      "José Adilmo Soares dos Santos"
+     ],
+     [
+      "18",
+      "Eduardo Soares dos Santos"
+     ],
+     [
+      "13",
+      "Lucas Sastineo de Menezes"
+     ],
+     [
+      "03",
+      "Pedro Lucas"
+     ],
+     [
+      "06",
+      "Gabriel Miguel da Silva"
+     ]
+    ]
+   },
+   "obs": "Capitão do Real Torre: Álvaro. Gols e cartões lançados pelo número da camisa anotado na súmula.",
+   "at": "2026-10-31T21:30:00-03:00"
   }
  }
 }
