@@ -1,6 +1,6 @@
 {
  "v": 1,
- "updatedAt": "2026-11-03T11:15:00-03:00",
+ "updatedAt": "2026-11-03T11:50:00-03:00",
  "config": {
   "pix": {
    "chave": "4c1b82cc-c5ea-4e9a-ab03-493e97aa34ef",
@@ -1672,6 +1672,253 @@
    },
    "obs": "Capitão do Canadá: Alex Júnior. Horário na súmula: 17h30. Gols e cartões lançados pelo número da camisa anotado na súmula.",
    "at": "2026-11-03T11:15:00-03:00"
+  },
+  "vet-4": {
+   "h": 0,
+   "a": 6,
+   "goals": [
+    {
+     "t": "a",
+     "p": "#05 Domingos Torquatro dos Santos",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#11 Edicleuson Anacleto da Silva",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#11 Edicleuson Anacleto da Silva",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#11 Edicleuson Anacleto da Silva",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#14 Edivânio da Silva Souto",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#11 Edicleuson Anacleto da Silva",
+     "tp": 2
+    }
+   ],
+   "cards": [
+    {
+     "t": "h",
+     "p": "#17 Edson Lima dos Santos",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#17 Edson Lima dos Santos",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "h",
+     "p": "#17 Edson Lima dos Santos",
+     "c": "r",
+     "tp": 2
+    },
+    {
+     "t": "h",
+     "p": "#08 Marcos Pereira Vasconcelos",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#34 César Ferreira",
+     "c": "y",
+     "tp": 2
+    }
+   ],
+   "sumula": [
+    "sumulas/vet-4-1.jpg"
+   ],
+   "atletas": {
+    "h": [
+     [
+      "01",
+      "Gilvan Vieira dos Santos"
+     ],
+     [
+      "12",
+      "Eder Qelton Silva dos Santos"
+     ],
+     [
+      "–",
+      "Albano Ricardo de Souza"
+     ],
+     [
+      "13",
+      "José Adilson Domingos da Silva"
+     ],
+     [
+      "09",
+      "Edvan Cavalcante Rodrigues"
+     ],
+     [
+      "11",
+      "Mário Junior da Silva"
+     ],
+     [
+      "06",
+      "Edenilson Rodrigues da S. Santos"
+     ],
+     [
+      "–",
+      "Sebastião da Silva Nunes"
+     ],
+     [
+      "10",
+      "José Epifânio do Nascimento"
+     ],
+     [
+      "21",
+      "Rui Marques Soares"
+     ],
+     [
+      "–",
+      "Everaldo da Silva Junior"
+     ],
+     [
+      "17",
+      "Edson Lima dos Santos"
+     ],
+     [
+      "–",
+      "José Adeilson dos Santos"
+     ],
+     [
+      "08",
+      "Marcos Pereira Vasconcelos"
+     ],
+     [
+      "20",
+      "Ricardo Lima Marques"
+     ],
+     [
+      "07/20",
+      "José Ventura Lins Neto"
+     ],
+     [
+      "14/15",
+      "Clodoilson Campina Valfredo"
+     ],
+     [
+      "05",
+      "Alessandro Rezende de Lima"
+     ],
+     [
+      "15",
+      "José Marcos da Silva"
+     ],
+     [
+      "–",
+      "Alencar Gomes dos Santos"
+     ],
+     [
+      "–",
+      "José Welton Araújo Alves"
+     ],
+     [
+      "–",
+      "José Sérgio da Silva"
+     ]
+    ],
+    "a": [
+     [
+      "01",
+      "José Ivanio de Almeida"
+     ],
+     [
+      "09",
+      "Genivaldo da Cruz Silva"
+     ],
+     [
+      "14",
+      "Edivânio da Silva Souto"
+     ],
+     [
+      "34",
+      "César Ferreira"
+     ],
+     [
+      "35",
+      "Jair Rocha Viana"
+     ],
+     [
+      "15",
+      "Erinaldo Farias"
+     ],
+     [
+      "17",
+      "Natanael Rodrigues Brandão"
+     ],
+     [
+      "16",
+      "Alequisandro Antônio Pereira"
+     ],
+     [
+      "06",
+      "José Ailton Alves de Sá"
+     ],
+     [
+      "20",
+      "Denival do Nascimento Cruz"
+     ],
+     [
+      "31",
+      "Paulo Junho Soares da Silva"
+     ],
+     [
+      "19",
+      "Jiscelo de Santana"
+     ],
+     [
+      "04",
+      "Edivonaldo Antônio da Silva"
+     ],
+     [
+      "18",
+      "Edivaldo Correia da Silva"
+     ],
+     [
+      "32",
+      "Reginaldo Pereira Lima"
+     ],
+     [
+      "–",
+      "Nailson Marinho dos Santos"
+     ],
+     [
+      "05",
+      "Domingos Torquatro dos Santos"
+     ],
+     [
+      "08",
+      "José Altair Soares dos Santos"
+     ],
+     [
+      "–",
+      "Eduardo Oliveira Sá"
+     ],
+     [
+      "11",
+      "Edicleuson Anacleto da Silva"
+     ]
+    ]
+   },
+   "obs": "Edicleuson marcou quatro gols. Edson (#17, Palmeiras II) recebeu dois amarelos e foi expulso no 2º tempo. Capitães: José Epifânio (Palmeiras II) e Domingos (Capim Grosso II). Gols e cartões lançados pelo número da camisa anotado na súmula.",
+   "at": "2026-11-03T11:50:00-03:00"
   }
  }
 }
