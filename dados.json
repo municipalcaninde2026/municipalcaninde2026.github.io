@@ -1,6 +1,6 @@
 {
  "v": 1,
- "updatedAt": "2026-10-31T21:35:00-03:00",
+ "updatedAt": "2026-11-03T11:15:00-03:00",
  "config": {
   "pix": {
    "chave": "4c1b82cc-c5ea-4e9a-ab03-493e97aa34ef",
@@ -1298,6 +1298,380 @@
    },
    "obs": "Gols e cartões lançados pelo número da camisa anotado na súmula.",
    "at": "2026-10-31T21:35:00-03:00"
+  },
+  "q2-4": {
+   "h": 4,
+   "a": 1,
+   "goals": [
+    {
+     "t": "h",
+     "p": "#09 Wanderson",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#09 Wanderson",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#09 Caio Pietro",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#09 Wanderson",
+     "tp": 2
+    },
+    {
+     "t": "h",
+     "p": "#14 Izaelson",
+     "tp": 2
+    }
+   ],
+   "cards": [
+    {
+     "t": "h",
+     "p": "#11 Jaelson",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#12",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#06 Tomás",
+     "c": "y",
+     "tp": 2
+    }
+   ],
+   "sumula": [
+    "sumulas/q2-4-1.jpg"
+   ],
+   "info": {
+    "mesario": "Alexandre"
+   },
+   "atletas": {
+    "h": [
+     [
+      "09/07",
+      "Wanderson"
+     ],
+     [
+      "22/19",
+      "Maicon Gomes"
+     ],
+     [
+      "17",
+      "Luciano"
+     ],
+     [
+      "20",
+      "Samuel"
+     ],
+     [
+      "25",
+      "Adison Andrade"
+     ],
+     [
+      "11",
+      "Jaelson"
+     ],
+     [
+      "08/13",
+      "Ronald"
+     ],
+     [
+      "06",
+      "Rangel"
+     ],
+     [
+      "16",
+      "Bruno"
+     ],
+     [
+      "14",
+      "Izaelson"
+     ],
+     [
+      "13",
+      "Paulo Henrique"
+     ],
+     [
+      "99",
+      "Eduardo"
+     ],
+     [
+      "19",
+      "Max"
+     ],
+     [
+      "04",
+      "Cristiano"
+     ],
+     [
+      "10",
+      "Robson"
+     ],
+     [
+      "03/20",
+      "Diego"
+     ],
+     [
+      "07",
+      "Anthony"
+     ],
+     [
+      "01",
+      "José Cleildo"
+     ]
+    ],
+    "a": [
+     [
+      "18",
+      "Clenaldo Lima"
+     ],
+     [
+      "05",
+      "Kleberson"
+     ],
+     [
+      "07",
+      "José Alaff"
+     ],
+     [
+      "06",
+      "Tomás"
+     ],
+     [
+      "04",
+      "Nilton"
+     ],
+     [
+      "22",
+      "Damião"
+     ],
+     [
+      "16",
+      "Tonho Silva"
+     ],
+     [
+      "17",
+      "Lucas"
+     ],
+     [
+      "02/16",
+      "Erick"
+     ],
+     [
+      "13",
+      "Douglas"
+     ],
+     [
+      "08",
+      "Antônio Kelvin"
+     ],
+     [
+      "09/13",
+      "Caio Pietro"
+     ],
+     [
+      "15",
+      "Francisco"
+     ],
+     [
+      "03/18",
+      "Marquinhos"
+     ]
+    ]
+   },
+   "obs": "Wanderson marcou três gols. Capitães: Robson de Lima (Cuiabá) e José Alaff (Esporte). Gols e cartões lançados pelo número da camisa anotado na súmula.",
+   "at": "2026-11-03T11:15:00-03:00"
+  },
+  "q1-4": {
+   "h": 2,
+   "a": 0,
+   "goals": [
+    {
+     "t": "h",
+     "p": "#09 Nadson dos Santos Silva",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#10 Alex Junior de Lima Silva",
+     "tp": 2
+    }
+   ],
+   "cards": [
+    {
+     "t": "h",
+     "p": "#11 Francielio de Assis Gonçalves",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#17 Railho dos Santos",
+     "c": "y",
+     "tp": 2
+    }
+   ],
+   "sumula": [
+    "sumulas/q1-4-1.jpg"
+   ],
+   "atletas": {
+    "h": [
+     [
+      "21",
+      "Antônio Henrique Santos Souza"
+     ],
+     [
+      "05",
+      "Luiz Fagno de Jesus Santos"
+     ],
+     [
+      "07",
+      "José Edinaldo Firmino"
+     ],
+     [
+      "15/07",
+      "Everton Rocha Santos"
+     ],
+     [
+      "04",
+      "João Paulo Almeida Gomes"
+     ],
+     [
+      "–",
+      "Thallys Davi Viana Goios"
+     ],
+     [
+      "–",
+      "Paulo César Teixeira Alves"
+     ],
+     [
+      "10",
+      "Alex Junior de Lima Silva"
+     ],
+     [
+      "18",
+      "Elison Salustiano da Silva"
+     ],
+     [
+      "06",
+      "Camargo Pereira Lourenço"
+     ],
+     [
+      "–",
+      "Rikelme Cirino dos Santos"
+     ],
+     [
+      "01",
+      "Fábio Henrique Oliveira Brazil"
+     ],
+     [
+      "08/05",
+      "José Weslley Kassio R. de Carvalho"
+     ],
+     [
+      "–",
+      "Vitor Junior Aragão da Penha"
+     ],
+     [
+      "09",
+      "Nadson dos Santos Silva"
+     ],
+     [
+      "14",
+      "Henrique da Silva Santos"
+     ],
+     [
+      "02",
+      "Valdomiro da Silva Santos"
+     ],
+     [
+      "03",
+      "Mateus Gomes Neto"
+     ],
+     [
+      "11",
+      "Francielio de Assis Gonçalves"
+     ]
+    ],
+    "a": [
+     [
+      "–",
+      "João Paulo de Jesus Santos"
+     ],
+     [
+      "18",
+      "Edvaldo Igino dos Santos"
+     ],
+     [
+      "12",
+      "Filadelson Santos de Jesus"
+     ],
+     [
+      "09",
+      "Marcley Joaquim da Silva"
+     ],
+     [
+      "06",
+      "Israel dos Santos Sousa Junior"
+     ],
+     [
+      "07/10",
+      "Anderson Gomes da Silva"
+     ],
+     [
+      "17",
+      "Railho dos Santos"
+     ],
+     [
+      "08",
+      "Claudevan Nascimento dos Santos"
+     ],
+     [
+      "16",
+      "José Allif dos Santos Gomes"
+     ],
+     [
+      "14",
+      "Gabriel Vieira da Conceição"
+     ],
+     [
+      "–",
+      "José Wilton da Silva Santos"
+     ],
+     [
+      "–",
+      "Clebson Aragão Oliveira"
+     ],
+     [
+      "11",
+      "Aldey Torquatro dos Santos"
+     ],
+     [
+      "04",
+      "Weverton"
+     ],
+     [
+      "10",
+      "Kaio Pietro"
+     ],
+     [
+      "22",
+      "Eduardo"
+     ]
+    ]
+   },
+   "obs": "Capitão do Canadá: Alex Júnior. Horário na súmula: 17h30. Gols e cartões lançados pelo número da camisa anotado na súmula.",
+   "at": "2026-11-03T11:15:00-03:00"
   }
  }
 }
