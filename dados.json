@@ -1,6 +1,6 @@
 {
  "v": 1,
- "updatedAt": "2026-11-03T11:50:00-03:00",
+ "updatedAt": "2026-11-06T14:50:00-03:00",
  "config": {
   "pix": {
    "chave": "4c1b82cc-c5ea-4e9a-ab03-493e97aa34ef",
@@ -1919,6 +1919,445 @@
    },
    "obs": "Edicleuson marcou quatro gols. Edson (#17, Palmeiras II) recebeu dois amarelos e foi expulso no 2º tempo. Capitães: José Epifânio (Palmeiras II) e Domingos (Capim Grosso II). Gols e cartões lançados pelo número da camisa anotado na súmula.",
    "at": "2026-11-03T11:50:00-03:00"
+  },
+  "q2-5": {
+   "h": 0,
+   "a": 3,
+   "goals": [
+    {
+     "t": "a",
+     "p": "#09 Leonardo da Silva",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#21 Mateus dos Santos Silva",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#10 Rai dos Santos Lima",
+     "tp": 2
+    }
+   ],
+   "cards": [
+    {
+     "t": "h",
+     "p": "#04 Ruan Lima Silveira",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#08 Anderson Esteves da Silva",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#09 Leonardo da Silva",
+     "c": "y",
+     "tp": 2
+    }
+   ],
+   "sumula": [
+    "sumulas/q2-5-1.jpg"
+   ],
+   "info": {
+    "mesario": "Alexandre"
+   },
+   "atletas": {
+    "h": [
+     [
+      "06",
+      "Arthur de Souza Oliveira"
+     ],
+     [
+      "18",
+      "Gabriel Clemente Feitosa"
+     ],
+     [
+      "08",
+      "Roberto Bispo da Silva"
+     ],
+     [
+      "20",
+      "João Hitallo da Silva Gomes"
+     ],
+     [
+      "09",
+      "José Aécio Rodrigues da Silva"
+     ],
+     [
+      "16",
+      "Antony Richard Santos Vieira"
+     ],
+     [
+      "13",
+      "Romário Vinícius Santos Silva"
+     ],
+     [
+      "05",
+      "Eliel Fellipe Torres Santos"
+     ],
+     [
+      "10",
+      "Gilmar da Silva Filho"
+     ],
+     [
+      "07",
+      "Rafael de Jesus Monteiro"
+     ],
+     [
+      "21/19",
+      "João Gabriel Varjão de Oliveira"
+     ],
+     [
+      "02",
+      "Pedro Henrique Oliveira Duarte"
+     ],
+     [
+      "15",
+      "Lucas dos Santos"
+     ],
+     [
+      "14",
+      "Bruno da Silva Alves"
+     ],
+     [
+      "04",
+      "Ruan Lima Silveira"
+     ],
+     [
+      "01",
+      "Carlos Eduardo Lopes da Silva"
+     ],
+     [
+      "11/07",
+      "Eduardo Silva Barros"
+     ]
+    ],
+    "a": [
+     [
+      "05",
+      "Ivan Rodrigues de Souza"
+     ],
+     [
+      "15",
+      "Alison Santos Silva"
+     ],
+     [
+      "08",
+      "Anderson Esteves da Silva"
+     ],
+     [
+      "10",
+      "Rai dos Santos Lima"
+     ],
+     [
+      "19",
+      "Valdeir de Melo Santos"
+     ],
+     [
+      "06/20",
+      "Thales de Oliveira Lima"
+     ],
+     [
+      "04",
+      "Luciano Gomes de Souza"
+     ],
+     [
+      "12/10",
+      "José Edjano Lima"
+     ],
+     [
+      "25",
+      "José Guilherme Rodrigo dos Santos"
+     ],
+     [
+      "03/15",
+      "Mailson Valêncio Gomes"
+     ],
+     [
+      "21/23",
+      "Mateus dos Santos Silva"
+     ],
+     [
+      "07/25",
+      "José Nilton Alves Andrade"
+     ],
+     [
+      "23",
+      "Marcelo da Silva Santos"
+     ],
+     [
+      "17",
+      "José Welington da Silva"
+     ],
+     [
+      "11",
+      "José Nilton Vitorino Lima"
+     ],
+     [
+      "09/15",
+      "Leonardo da Silva"
+     ],
+     [
+      "16",
+      "Laumir de Freitas Oliveira Neto"
+     ],
+     [
+      "02",
+      "Alan da Paz Silva"
+     ],
+     [
+      "20",
+      "Ramon Rodrigues Silva Oliveira"
+     ],
+     [
+      "01",
+      "Pedro Henrique Rodrigues dos Santos"
+     ],
+     [
+      "19",
+      "Alef dos Santos Vieira"
+     ],
+     [
+      "18",
+      "Apolinário Neto Lima Silva"
+     ]
+    ]
+   },
+   "obs": "Jogo adiado de 04/11. Capitão do Grêmio Capim Grosso: Mailson. Gols e cartões lançados pelo número da camisa anotado na súmula.",
+   "at": "2026-11-06T14:50:00-03:00"
+  },
+  "q1-5": {
+   "h": 0,
+   "a": 2,
+   "goals": [
+    {
+     "t": "a",
+     "p": "#07 Wagner Antônio Marinho de Souza",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#12 João Batista Cabral da Silva",
+     "tp": 2
+    }
+   ],
+   "cards": [
+    {
+     "t": "h",
+     "p": "#02 Edson Invenção da Silva",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "h",
+     "p": "#13 Mikael da Silva Santos",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "h",
+     "p": "#13 Mikael da Silva Santos",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "h",
+     "p": "#13 Mikael da Silva Santos",
+     "c": "r",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#05 Maxsuel Jesus do Espírito Santo",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#13 Claudi Soares dos Santos",
+     "c": "y",
+     "tp": 2
+    }
+   ],
+   "sumula": [
+    "sumulas/q1-5-1.jpg"
+   ],
+   "info": {
+    "mesario": "Alexandre"
+   },
+   "atletas": {
+    "h": [
+     [
+      "–",
+      "Adenison Costa Santos"
+     ],
+     [
+      "–",
+      "Elivelton Aragão Oliveira"
+     ],
+     [
+      "13",
+      "Mikael da Silva Santos"
+     ],
+     [
+      "04",
+      "Manoel Messias Leite de Souza"
+     ],
+     [
+      "15",
+      "Ednaldo Cardoso dos Santos"
+     ],
+     [
+      "–",
+      "João Mateus Santos de Almeida"
+     ],
+     [
+      "06/12",
+      "Salatiel Alexandre de Assis"
+     ],
+     [
+      "–",
+      "Liomar Gouveia da Rocha"
+     ],
+     [
+      "02",
+      "Edson Invenção da Silva"
+     ],
+     [
+      "11",
+      "Alisson da Silva Santos"
+     ],
+     [
+      "01",
+      "José Jeferson Lemos da Silva"
+     ],
+     [
+      "05",
+      "Brenno Silva Santos"
+     ],
+     [
+      "19",
+      "Antônio Martins dos Santos Neto"
+     ],
+     [
+      "20",
+      "Manoel Everton de Jesus Santos"
+     ],
+     [
+      "–",
+      "Leandro de Santana Correia"
+     ],
+     [
+      "12",
+      "José Aécio"
+     ],
+     [
+      "16/44",
+      "Roberto Bispo"
+     ],
+     [
+      "44",
+      "Eliel"
+     ]
+    ],
+    "a": [
+     [
+      "11",
+      "Dario Fernando Silva Ferreira"
+     ],
+     [
+      "07/17",
+      "Wagner Antônio Marinho de Souza"
+     ],
+     [
+      "08/13",
+      "Saniel Antônio da Silva"
+     ],
+     [
+      "03/23",
+      "Cristiano Alves da Silva"
+     ],
+     [
+      "10",
+      "Alexssandro Silva de Souza"
+     ],
+     [
+      "14",
+      "Galileu Costa Valença"
+     ],
+     [
+      "13",
+      "Claudi Soares dos Santos"
+     ],
+     [
+      "17",
+      "Emanoel Gomes da Silva"
+     ],
+     [
+      "20/19",
+      "Ruan Gabriel Souza Oliveira"
+     ],
+     [
+      "12",
+      "João Batista Cabral da Silva"
+     ],
+     [
+      "23",
+      "Antônio Dionísio da Silva Neto"
+     ],
+     [
+      "29",
+      "Diel dos Santos Silva"
+     ],
+     [
+      "21",
+      "Clebson Tavares Lima"
+     ],
+     [
+      "15",
+      "Jenilton dos Santos Torres"
+     ],
+     [
+      "16",
+      "Flávio Henrique Gomes Feitosa"
+     ],
+     [
+      "02/11",
+      "Wemersson de Araújo Silva"
+     ],
+     [
+      "06/19",
+      "Cleiton Vieira Freitas"
+     ],
+     [
+      "05",
+      "Maxsuel Jesus do Espírito Santo"
+     ],
+     [
+      "04",
+      "Daniel de Jesus Alcântara"
+     ],
+     [
+      "–",
+      "Marcos Batinga dos Santos Filho"
+     ],
+     [
+      "19",
+      "José Nilton"
+     ],
+     [
+      "01",
+      "Pedro"
+     ]
+    ]
+   },
+   "obs": "Jogo adiado de 04/11. Placar conferido pelos gols anotados (o campo do placar ficou em branco na súmula). Mikael (#13, Red Bull) recebeu dois amarelos e foi expulso no 2º tempo. Capitão do Red Bull: Brenno Silva Santos. Gols e cartões lançados pelo número da camisa anotado na súmula.",
+   "at": "2026-11-06T14:50:00-03:00"
   }
  }
 }
