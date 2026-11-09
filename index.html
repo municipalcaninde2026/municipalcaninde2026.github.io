@@ -1878,7 +1878,7 @@ function sides(m,comp){ // times de um jogo (resolve mata-mata)
   const k=comp.ko[m.kid]; return {a:k.a,b:k.b,proj:k.proj};
 }
 /* ================= MOTOR: CARTÕES E SUSPENSÕES (Art. 24) ================= */
-const pkey = (t,p)=>t+'|'+String(p||'').trim().toLowerCase().replace(/\s+/g,' ');
+const pkey = (t,p)=>{const v=String(p||'').trim().toLowerCase().replace(/\s+/g,' ');const nm=v.replace(/^#\d+\s*/,'');return t+'|'+(nm||v)};
 function discipline(ck,R,comp){
   const C=CATS[ck]; const P={}; const hist=[]; let koStarted=false;
   const ordered=C.list.slice();
