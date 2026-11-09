@@ -356,6 +356,30 @@ details.rule .lu ol{list-style:none;margin:6px 0 0;padding:0;display:grid;gap:3p
 .res.V{background:var(--ok)}.res.E{background:#7D8576}.res.D{background:var(--bad)}.res.P{background:var(--surface-2);color:var(--muted);border:1px solid var(--line)}
 .hst p:first-of-type::first-letter{float:left;font-family:var(--f-display);font-size:3.2em;line-height:.85;padding:4px 8px 0 0;color:var(--sol)}
 .hst p{line-height:1.6}
+.spbar{position:relative;background:linear-gradient(180deg,#0A0E0A,#121812);border-block:1px solid var(--line);overflow:hidden}
+.spbar .lbl{position:absolute;left:0;top:0;bottom:0;z-index:2;display:flex;align-items:center;gap:6px;padding:0 12px 0 max(12px,env(safe-area-inset-left,0px));background:linear-gradient(90deg,#0A0E0A 70%,transparent);font-stretch:78%;font-weight:800;letter-spacing:.14em;text-transform:uppercase;font-size:10.5px;color:var(--sol);pointer-events:none}
+.spbar .run{display:flex;gap:10px;width:max-content;padding:8px 0;animation:marq 70s linear infinite}
+.spbar:hover .run,.spbar:focus-within .run{animation-play-state:paused}
+.spbar .run button{flex:none;width:104px;aspect-ratio:16/9;max-width:none;border-radius:8px;overflow:hidden;border:1px solid rgba(255,255,255,.12);padding:0;background:#fff;box-shadow:0 4px 10px rgba(0,0,0,.35);transition:transform .2s}
+.spbar .run button:hover{transform:translateY(-2px) scale(1.04)}
+.spbar .run img{width:100%;height:100%;object-fit:cover;display:block}
+.spbar .run .you{background:var(--sol);color:var(--sol-fg);display:grid;place-items:center;text-align:center;font-weight:800;font-stretch:78%;text-transform:uppercase;letter-spacing:.04em;font-size:12px;line-height:1.05;padding:6px;border-color:var(--sol)}
+@keyframes marq{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.spbar{overflow-x:auto}.spbar .run{animation:none}}
+.spgrid2{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,140px),1fr));gap:8px}
+.spgrid2 button{padding:0;border:1px solid var(--line);border-radius:10px;overflow:hidden;aspect-ratio:16/9;max-width:100%;background:#fff;transition:transform .2s,border-color .2s}
+.spgrid2 button:hover{transform:translateY(-2px);border-color:var(--sol)}
+.spgrid2 img{width:100%;height:100%;object-fit:cover;display:block}
+.becta{position:relative;overflow:hidden;border-radius:16px;padding:16px;display:grid;gap:10px;background:linear-gradient(120deg,var(--sol) 0%,var(--sol-deep) 100%);color:var(--sol-fg)}
+.becta::after{content:"";position:absolute;right:-40px;top:-40px;width:170px;height:170px;border-radius:50%;border:26px solid rgba(255,255,255,.18);pointer-events:none}
+.becta h2{font-family:var(--f-display);font-weight:400;font-size:clamp(24px,6.4vw,34px);text-transform:uppercase;line-height:1;position:relative}
+.becta p{margin:0;font-size:14.5px;font-weight:600;max-width:56ch;position:relative}
+.becta ul{margin:0;padding-left:18px;font-size:13.5px;font-weight:600;display:grid;gap:2px;position:relative}
+.becta .row{position:relative}
+.becta .btn.dark{background:var(--sol-fg);color:var(--sol)}
+.becta .fone{font-weight:800;font-size:15px;user-select:all}
+.spbig{border-radius:12px;overflow:hidden;background:#fff;aspect-ratio:16/9;max-width:100%}
+.spbig img{width:100%;height:100%;object-fit:contain;display:block}
 .qr{background:#fff;padding:12px;border-radius:12px;width:max-content;max-width:100%;margin-inline:auto}
 .qr img,.qr canvas{display:block;width:200px;height:200px}
 textarea.cc{width:100%;min-height:74px;font-family:ui-monospace,Menlo,monospace;font-size:12px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px;color:var(--fg);resize:vertical}
@@ -402,14 +426,14 @@ html{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset
 
 <script id="state" type="application/json">{
  "v": 1,
- "updatedAt": "2026-10-31T21:35:00-03:00",
+ "updatedAt": "2026-11-09T10:30:00-03:00",
  "config": {
   "pix": {
    "chave": "4c1b82cc-c5ea-4e9a-ab03-493e97aa34ef",
    "nome": "HUB SERTAO CONECTA",
    "cidade": "CANINDE"
   },
-  "whats": "",
+  "whats": "(79) 99911-1241",
   "site": "https://hubsertaoconecta.com.br",
   "hubLogo": "hub-logo.png",
   "logo": "logo-campeonato.png",
@@ -498,7 +522,7 @@ html{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset
     },
     {
      "t": "a",
-     "p": "#11 Carlos Daniel",
+     "p": "#11 Carlos Daniel Santana Santos",
      "tp": 1
     },
     {
@@ -574,7 +598,7 @@ html{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset
     },
     {
      "t": "a",
-     "p": "#11 Carlos Daniel",
+     "p": "#11 Carlos Daniel Santana Santos",
      "c": "y",
      "tp": 2
     },
@@ -608,12 +632,12 @@ html{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset
    "goals": [
     {
      "t": "a",
-     "p": "#09 Robério Santos",
+     "p": "#09 Robério Santos Pereira",
      "tp": 1
     },
     {
      "t": "a",
-     "p": "#09 Robério Santos",
+     "p": "#09 Robério Santos Pereira",
      "tp": 1
     }
    ],
@@ -1700,6 +1724,2053 @@ html{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset
    },
    "obs": "Gols e cartões lançados pelo número da camisa anotado na súmula.",
    "at": "2026-10-31T21:35:00-03:00"
+  },
+  "q2-4": {
+   "h": 4,
+   "a": 1,
+   "goals": [
+    {
+     "t": "h",
+     "p": "#09 Wanderson",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#09 Wanderson",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#09 Caio Pietro",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#09 Wanderson",
+     "tp": 2
+    },
+    {
+     "t": "h",
+     "p": "#14 Izaelson",
+     "tp": 2
+    }
+   ],
+   "cards": [
+    {
+     "t": "h",
+     "p": "#11 Jaelson",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#12",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#06 Tomás",
+     "c": "y",
+     "tp": 2
+    }
+   ],
+   "sumula": [
+    "sumulas/q2-4-1.jpg"
+   ],
+   "info": {
+    "mesario": "Alexandre"
+   },
+   "atletas": {
+    "h": [
+     [
+      "09/07",
+      "Wanderson"
+     ],
+     [
+      "22/19",
+      "Maicon Gomes"
+     ],
+     [
+      "17",
+      "Luciano"
+     ],
+     [
+      "20",
+      "Samuel"
+     ],
+     [
+      "25",
+      "Adison Andrade"
+     ],
+     [
+      "11",
+      "Jaelson"
+     ],
+     [
+      "08/13",
+      "Ronald"
+     ],
+     [
+      "06",
+      "Rangel"
+     ],
+     [
+      "16",
+      "Bruno"
+     ],
+     [
+      "14",
+      "Izaelson"
+     ],
+     [
+      "13",
+      "Paulo Henrique"
+     ],
+     [
+      "99",
+      "Eduardo"
+     ],
+     [
+      "19",
+      "Max"
+     ],
+     [
+      "04",
+      "Cristiano"
+     ],
+     [
+      "10",
+      "Robson"
+     ],
+     [
+      "03/20",
+      "Diego"
+     ],
+     [
+      "07",
+      "Anthony"
+     ],
+     [
+      "01",
+      "José Cleildo"
+     ]
+    ],
+    "a": [
+     [
+      "18",
+      "Clenaldo Lima"
+     ],
+     [
+      "05",
+      "Kleberson"
+     ],
+     [
+      "07",
+      "José Alaff"
+     ],
+     [
+      "06",
+      "Tomás"
+     ],
+     [
+      "04",
+      "Nilton"
+     ],
+     [
+      "22",
+      "Damião"
+     ],
+     [
+      "16",
+      "Tonho Silva"
+     ],
+     [
+      "17",
+      "Lucas"
+     ],
+     [
+      "02/16",
+      "Erick"
+     ],
+     [
+      "13",
+      "Douglas"
+     ],
+     [
+      "08",
+      "Antônio Kelvin"
+     ],
+     [
+      "09/13",
+      "Caio Pietro"
+     ],
+     [
+      "15",
+      "Francisco"
+     ],
+     [
+      "03/18",
+      "Marquinhos"
+     ]
+    ]
+   },
+   "obs": "Wanderson marcou três gols. Capitães: Robson de Lima (Cuiabá) e José Alaff (Esporte). Gols e cartões lançados pelo número da camisa anotado na súmula.",
+   "at": "2026-11-03T11:15:00-03:00"
+  },
+  "q1-4": {
+   "h": 2,
+   "a": 0,
+   "goals": [
+    {
+     "t": "h",
+     "p": "#09 Nadson dos Santos Silva",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#10 Alex Junior de Lima Silva",
+     "tp": 2
+    }
+   ],
+   "cards": [
+    {
+     "t": "h",
+     "p": "#11 Francielio de Assis Gonçalves",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#17 Railho dos Santos",
+     "c": "y",
+     "tp": 2
+    }
+   ],
+   "sumula": [
+    "sumulas/q1-4-1.jpg"
+   ],
+   "atletas": {
+    "h": [
+     [
+      "21",
+      "Antônio Henrique Santos Souza"
+     ],
+     [
+      "05",
+      "Luiz Fagno de Jesus Santos"
+     ],
+     [
+      "07",
+      "José Edinaldo Firmino"
+     ],
+     [
+      "15/07",
+      "Everton Rocha Santos"
+     ],
+     [
+      "04",
+      "João Paulo Almeida Gomes"
+     ],
+     [
+      "–",
+      "Thallys Davi Viana Goios"
+     ],
+     [
+      "–",
+      "Paulo César Teixeira Alves"
+     ],
+     [
+      "10",
+      "Alex Junior de Lima Silva"
+     ],
+     [
+      "18",
+      "Elison Salustiano da Silva"
+     ],
+     [
+      "06",
+      "Camargo Pereira Lourenço"
+     ],
+     [
+      "–",
+      "Rikelme Cirino dos Santos"
+     ],
+     [
+      "01",
+      "Fábio Henrique Oliveira Brazil"
+     ],
+     [
+      "08/05",
+      "José Weslley Kassio R. de Carvalho"
+     ],
+     [
+      "–",
+      "Vitor Junior Aragão da Penha"
+     ],
+     [
+      "09",
+      "Nadson dos Santos Silva"
+     ],
+     [
+      "14",
+      "Henrique da Silva Santos"
+     ],
+     [
+      "02",
+      "Valdomiro da Silva Santos"
+     ],
+     [
+      "03",
+      "Mateus Gomes Neto"
+     ],
+     [
+      "11",
+      "Francielio de Assis Gonçalves"
+     ]
+    ],
+    "a": [
+     [
+      "–",
+      "João Paulo de Jesus Santos"
+     ],
+     [
+      "18",
+      "Edvaldo Igino dos Santos"
+     ],
+     [
+      "12",
+      "Filadelson Santos de Jesus"
+     ],
+     [
+      "09",
+      "Marcley Joaquim da Silva"
+     ],
+     [
+      "06",
+      "Israel dos Santos Sousa Junior"
+     ],
+     [
+      "07/10",
+      "Anderson Gomes da Silva"
+     ],
+     [
+      "17",
+      "Railho dos Santos"
+     ],
+     [
+      "08",
+      "Claudevan Nascimento dos Santos"
+     ],
+     [
+      "16",
+      "José Allif dos Santos Gomes"
+     ],
+     [
+      "14",
+      "Gabriel Vieira da Conceição"
+     ],
+     [
+      "–",
+      "José Wilton da Silva Santos"
+     ],
+     [
+      "–",
+      "Clebson Aragão Oliveira"
+     ],
+     [
+      "11",
+      "Aldey Torquatro dos Santos"
+     ],
+     [
+      "04",
+      "Weverton"
+     ],
+     [
+      "10",
+      "Kaio Pietro"
+     ],
+     [
+      "22",
+      "Eduardo"
+     ]
+    ]
+   },
+   "obs": "Capitão do Canadá: Alex Júnior. Horário na súmula: 17h30. Gols e cartões lançados pelo número da camisa anotado na súmula.",
+   "at": "2026-11-03T11:15:00-03:00"
+  },
+  "vet-4": {
+   "h": 0,
+   "a": 6,
+   "goals": [
+    {
+     "t": "a",
+     "p": "#05 Domingos Torquatro dos Santos",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#11 Edicleuson Anacleto da Silva",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#11 Edicleuson Anacleto da Silva",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#11 Edicleuson Anacleto da Silva",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#14 Edivânio da Silva Souto",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#11 Edicleuson Anacleto da Silva",
+     "tp": 2
+    }
+   ],
+   "cards": [
+    {
+     "t": "h",
+     "p": "#17 Edson Lima dos Santos",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#17 Edson Lima dos Santos",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "h",
+     "p": "#17 Edson Lima dos Santos",
+     "c": "r",
+     "tp": 2
+    },
+    {
+     "t": "h",
+     "p": "#08 Marcos Pereira Vasconcelos",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#34 César Ferreira",
+     "c": "y",
+     "tp": 2
+    }
+   ],
+   "sumula": [
+    "sumulas/vet-4-1.jpg"
+   ],
+   "atletas": {
+    "h": [
+     [
+      "01",
+      "Gilvan Vieira dos Santos"
+     ],
+     [
+      "12",
+      "Eder Qelton Silva dos Santos"
+     ],
+     [
+      "–",
+      "Albano Ricardo de Souza"
+     ],
+     [
+      "13",
+      "José Adilson Domingos da Silva"
+     ],
+     [
+      "09",
+      "Edvan Cavalcante Rodrigues"
+     ],
+     [
+      "11",
+      "Mário Junior da Silva"
+     ],
+     [
+      "06",
+      "Edenilson Rodrigues da S. Santos"
+     ],
+     [
+      "–",
+      "Sebastião da Silva Nunes"
+     ],
+     [
+      "10",
+      "José Epifânio do Nascimento"
+     ],
+     [
+      "21",
+      "Rui Marques Soares"
+     ],
+     [
+      "–",
+      "Everaldo da Silva Junior"
+     ],
+     [
+      "17",
+      "Edson Lima dos Santos"
+     ],
+     [
+      "–",
+      "José Adeilson dos Santos"
+     ],
+     [
+      "08",
+      "Marcos Pereira Vasconcelos"
+     ],
+     [
+      "20",
+      "Ricardo Lima Marques"
+     ],
+     [
+      "07/20",
+      "José Ventura Lins Neto"
+     ],
+     [
+      "14/15",
+      "Clodoilson Campina Valfredo"
+     ],
+     [
+      "05",
+      "Alessandro Rezende de Lima"
+     ],
+     [
+      "15",
+      "José Marcos da Silva"
+     ],
+     [
+      "–",
+      "Alencar Gomes dos Santos"
+     ],
+     [
+      "–",
+      "José Welton Araújo Alves"
+     ],
+     [
+      "–",
+      "José Sérgio da Silva"
+     ]
+    ],
+    "a": [
+     [
+      "01",
+      "José Ivanio de Almeida"
+     ],
+     [
+      "09",
+      "Genivaldo da Cruz Silva"
+     ],
+     [
+      "14",
+      "Edivânio da Silva Souto"
+     ],
+     [
+      "34",
+      "César Ferreira"
+     ],
+     [
+      "35",
+      "Jair Rocha Viana"
+     ],
+     [
+      "15",
+      "Erinaldo Farias"
+     ],
+     [
+      "17",
+      "Natanael Rodrigues Brandão"
+     ],
+     [
+      "16",
+      "Alequisandro Antônio Pereira"
+     ],
+     [
+      "06",
+      "José Ailton Alves de Sá"
+     ],
+     [
+      "20",
+      "Denival do Nascimento Cruz"
+     ],
+     [
+      "31",
+      "Paulo Junho Soares da Silva"
+     ],
+     [
+      "19",
+      "Jiscelo de Santana"
+     ],
+     [
+      "04",
+      "Edivonaldo Antônio da Silva"
+     ],
+     [
+      "18",
+      "Edivaldo Correia da Silva"
+     ],
+     [
+      "32",
+      "Reginaldo Pereira Lima"
+     ],
+     [
+      "–",
+      "Nailson Marinho dos Santos"
+     ],
+     [
+      "05",
+      "Domingos Torquatro dos Santos"
+     ],
+     [
+      "08",
+      "José Altair Soares dos Santos"
+     ],
+     [
+      "–",
+      "Eduardo Oliveira Sá"
+     ],
+     [
+      "11",
+      "Edicleuson Anacleto da Silva"
+     ]
+    ]
+   },
+   "obs": "Edicleuson marcou quatro gols. Edson (#17, Palmeiras II) recebeu dois amarelos e foi expulso no 2º tempo. Capitães: José Epifânio (Palmeiras II) e Domingos (Capim Grosso II). Gols e cartões lançados pelo número da camisa anotado na súmula.",
+   "at": "2026-11-03T11:50:00-03:00"
+  },
+  "q2-5": {
+   "h": 0,
+   "a": 3,
+   "goals": [
+    {
+     "t": "a",
+     "p": "#09 Leonardo da Silva",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#21 Mateus dos Santos Silva",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#10 Rai dos Santos Lima",
+     "tp": 2
+    }
+   ],
+   "cards": [
+    {
+     "t": "h",
+     "p": "#04 Ruan Lima Silveira",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#08 Anderson Esteves da Silva",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#09 Leonardo da Silva",
+     "c": "y",
+     "tp": 2
+    }
+   ],
+   "sumula": [
+    "sumulas/q2-5-1.jpg"
+   ],
+   "info": {
+    "mesario": "Alexandre"
+   },
+   "atletas": {
+    "h": [
+     [
+      "06",
+      "Arthur de Souza Oliveira"
+     ],
+     [
+      "18",
+      "Gabriel Clemente Feitosa"
+     ],
+     [
+      "08",
+      "Roberto Bispo da Silva"
+     ],
+     [
+      "20",
+      "João Hitallo da Silva Gomes"
+     ],
+     [
+      "09",
+      "José Aécio Rodrigues da Silva"
+     ],
+     [
+      "16",
+      "Antony Richard Santos Vieira"
+     ],
+     [
+      "13",
+      "Romário Vinícius Santos Silva"
+     ],
+     [
+      "05",
+      "Eliel Fellipe Torres Santos"
+     ],
+     [
+      "10",
+      "Gilmar da Silva Filho"
+     ],
+     [
+      "07",
+      "Rafael de Jesus Monteiro"
+     ],
+     [
+      "21/19",
+      "João Gabriel Varjão de Oliveira"
+     ],
+     [
+      "02",
+      "Pedro Henrique Oliveira Duarte"
+     ],
+     [
+      "15",
+      "Lucas dos Santos"
+     ],
+     [
+      "14",
+      "Bruno da Silva Alves"
+     ],
+     [
+      "04",
+      "Ruan Lima Silveira"
+     ],
+     [
+      "01",
+      "Carlos Eduardo Lopes da Silva"
+     ],
+     [
+      "11/07",
+      "Eduardo Silva Barros"
+     ]
+    ],
+    "a": [
+     [
+      "05",
+      "Ivan Rodrigues de Souza"
+     ],
+     [
+      "15",
+      "Alison Santos Silva"
+     ],
+     [
+      "08",
+      "Anderson Esteves da Silva"
+     ],
+     [
+      "10",
+      "Rai dos Santos Lima"
+     ],
+     [
+      "19",
+      "Valdeir de Melo Santos"
+     ],
+     [
+      "06/20",
+      "Thales de Oliveira Lima"
+     ],
+     [
+      "04",
+      "Luciano Gomes de Souza"
+     ],
+     [
+      "12/10",
+      "José Edjano Lima"
+     ],
+     [
+      "25",
+      "José Guilherme Rodrigo dos Santos"
+     ],
+     [
+      "03/15",
+      "Mailson Valêncio Gomes"
+     ],
+     [
+      "21/23",
+      "Mateus dos Santos Silva"
+     ],
+     [
+      "07/25",
+      "José Nilton Alves Andrade"
+     ],
+     [
+      "23",
+      "Marcelo da Silva Santos"
+     ],
+     [
+      "17",
+      "José Welington da Silva"
+     ],
+     [
+      "11",
+      "José Nilton Vitorino Lima"
+     ],
+     [
+      "09/15",
+      "Leonardo da Silva"
+     ],
+     [
+      "16",
+      "Laumir de Freitas Oliveira Neto"
+     ],
+     [
+      "02",
+      "Alan da Paz Silva"
+     ],
+     [
+      "20",
+      "Ramon Rodrigues Silva Oliveira"
+     ],
+     [
+      "01",
+      "Pedro Henrique Rodrigues dos Santos"
+     ],
+     [
+      "19",
+      "Alef dos Santos Vieira"
+     ],
+     [
+      "18",
+      "Apolinário Neto Lima Silva"
+     ]
+    ]
+   },
+   "obs": "Jogo adiado de 04/11. Capitão do Grêmio Capim Grosso: Mailson. Gols e cartões lançados pelo número da camisa anotado na súmula.",
+   "at": "2026-11-06T14:50:00-03:00"
+  },
+  "q1-5": {
+   "h": 0,
+   "a": 2,
+   "goals": [
+    {
+     "t": "a",
+     "p": "#07 Wagner Antônio Marinho de Souza",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#12 João Batista Cabral da Silva",
+     "tp": 2
+    }
+   ],
+   "cards": [
+    {
+     "t": "h",
+     "p": "#02 Edson Invenção da Silva",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "h",
+     "p": "#13 Mikael da Silva Santos",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "h",
+     "p": "#13 Mikael da Silva Santos",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "h",
+     "p": "#13 Mikael da Silva Santos",
+     "c": "r",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#05 Maxsuel Jesus do Espírito Santo",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#13 Claudi Soares dos Santos",
+     "c": "y",
+     "tp": 2
+    }
+   ],
+   "sumula": [
+    "sumulas/q1-5-1.jpg"
+   ],
+   "info": {
+    "mesario": "Alexandre"
+   },
+   "atletas": {
+    "h": [
+     [
+      "–",
+      "Adenison Costa Santos"
+     ],
+     [
+      "–",
+      "Elivelton Aragão Oliveira"
+     ],
+     [
+      "13",
+      "Mikael da Silva Santos"
+     ],
+     [
+      "04",
+      "Manoel Messias Leite de Souza"
+     ],
+     [
+      "15",
+      "Ednaldo Cardoso dos Santos"
+     ],
+     [
+      "–",
+      "João Mateus Santos de Almeida"
+     ],
+     [
+      "06/12",
+      "Salatiel Alexandre de Assis"
+     ],
+     [
+      "–",
+      "Liomar Gouveia da Rocha"
+     ],
+     [
+      "02",
+      "Edson Invenção da Silva"
+     ],
+     [
+      "11",
+      "Alisson da Silva Santos"
+     ],
+     [
+      "01",
+      "José Jeferson Lemos da Silva"
+     ],
+     [
+      "05",
+      "Brenno Silva Santos"
+     ],
+     [
+      "19",
+      "Antônio Martins dos Santos Neto"
+     ],
+     [
+      "20",
+      "Manoel Everton de Jesus Santos"
+     ],
+     [
+      "–",
+      "Leandro de Santana Correia"
+     ],
+     [
+      "12",
+      "José Aécio"
+     ],
+     [
+      "16/44",
+      "Roberto Bispo"
+     ],
+     [
+      "44",
+      "Eliel"
+     ]
+    ],
+    "a": [
+     [
+      "11",
+      "Dario Fernando Silva Ferreira"
+     ],
+     [
+      "07/17",
+      "Wagner Antônio Marinho de Souza"
+     ],
+     [
+      "08/13",
+      "Saniel Antônio da Silva"
+     ],
+     [
+      "03/23",
+      "Cristiano Alves da Silva"
+     ],
+     [
+      "10",
+      "Alexssandro Silva de Souza"
+     ],
+     [
+      "14",
+      "Galileu Costa Valença"
+     ],
+     [
+      "13",
+      "Claudi Soares dos Santos"
+     ],
+     [
+      "17",
+      "Emanoel Gomes da Silva"
+     ],
+     [
+      "20/19",
+      "Ruan Gabriel Souza Oliveira"
+     ],
+     [
+      "12",
+      "João Batista Cabral da Silva"
+     ],
+     [
+      "23",
+      "Antônio Dionísio da Silva Neto"
+     ],
+     [
+      "29",
+      "Diel dos Santos Silva"
+     ],
+     [
+      "21",
+      "Clebson Tavares Lima"
+     ],
+     [
+      "15",
+      "Jenilton dos Santos Torres"
+     ],
+     [
+      "16",
+      "Flávio Henrique Gomes Feitosa"
+     ],
+     [
+      "02/11",
+      "Wemersson de Araújo Silva"
+     ],
+     [
+      "06/19",
+      "Cleiton Vieira Freitas"
+     ],
+     [
+      "05",
+      "Maxsuel Jesus do Espírito Santo"
+     ],
+     [
+      "04",
+      "Daniel de Jesus Alcântara"
+     ],
+     [
+      "–",
+      "Marcos Batinga dos Santos Filho"
+     ],
+     [
+      "19",
+      "José Nilton"
+     ],
+     [
+      "01",
+      "Pedro"
+     ]
+    ]
+   },
+   "obs": "Jogo adiado de 04/11. Placar conferido pelos gols anotados (o campo do placar ficou em branco na súmula). Mikael (#13, Red Bull) recebeu dois amarelos e foi expulso no 2º tempo. Capitão do Red Bull: Brenno Silva Santos. Gols e cartões lançados pelo número da camisa anotado na súmula.",
+   "at": "2026-11-06T14:50:00-03:00"
+  },
+  "q2-7": {
+   "h": 2,
+   "a": 2,
+   "goals": [
+    {
+     "t": "h",
+     "p": "#11 José Anderson Correia de Souza",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#11 José Anderson Correia de Souza",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#11 Tiago dos Anjos Silva",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#09 Márcio Oliveira Santos",
+     "tp": 2
+    }
+   ],
+   "cards": [
+    {
+     "t": "h",
+     "p": "#05 Wellington de Jesus Santos",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#13 Micael Fernandes da Silva",
+     "c": "r",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#04 Rodrigo Amaro de Santana",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#08 Marcelo Lima Santos",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#20 Genisson Rodrigues de Oliveira",
+     "c": "y",
+     "tp": 1
+    }
+   ],
+   "sumula": [
+    "sumulas/q2-7-1.jpg"
+   ],
+   "info": {
+    "inicio": "15h05"
+   },
+   "atletas": {
+    "h": [
+     [
+      "–",
+      "Gilmário dos Santos"
+     ],
+     [
+      "07",
+      "Edevaldo Santos da Silva"
+     ],
+     [
+      "05/09",
+      "Wellington de Jesus Santos"
+     ],
+     [
+      "11",
+      "José Anderson Correia de Souza"
+     ],
+     [
+      "–",
+      "Wanderson Junior Barbosa da Silva"
+     ],
+     [
+      "04",
+      "Josimário Alves de Oliveira"
+     ],
+     [
+      "20",
+      "José Glaudison Correia dos Santos"
+     ],
+     [
+      "10",
+      "Eduardo Santos da Silva"
+     ],
+     [
+      "01",
+      "Luís Fernandes Marques de Andrade"
+     ],
+     [
+      "09",
+      "Renato Gomes do Nascimento"
+     ],
+     [
+      "03",
+      "Maycon Nascimento Aragão"
+     ],
+     [
+      "06",
+      "Caio Guthiers Ribeiro da Cruz"
+     ],
+     [
+      "08",
+      "Ricardo Fernandes de Oliveira"
+     ],
+     [
+      "02",
+      "Wenderson Invenção de J. da Silva"
+     ],
+     [
+      "13",
+      "Micael Fernandes da Silva"
+     ],
+     [
+      "33",
+      "Júlio César Santos Silva"
+     ],
+     [
+      "–",
+      "Cristiano Tenório dos Santos"
+     ]
+    ],
+    "a": [
+     [
+      "03",
+      "Leogeneffer Araújo dos Santos"
+     ],
+     [
+      "–",
+      "Carlos Henrique Vieira"
+     ],
+     [
+      "04/20",
+      "Rodrigo Amaro de Santana"
+     ],
+     [
+      "11/16",
+      "Tiago dos Anjos Silva"
+     ],
+     [
+      "16",
+      "Edione Alves Vieira"
+     ],
+     [
+      "20",
+      "Genisson Rodrigues de Oliveira"
+     ],
+     [
+      "02",
+      "Jefersson Marques Santos"
+     ],
+     [
+      "08",
+      "Marcelo Lima Santos"
+     ],
+     [
+      "09",
+      "Márcio Oliveira Santos"
+     ],
+     [
+      "22",
+      "Jakson Roberto Andrade Teixeira"
+     ],
+     [
+      "21",
+      "Nilton César dos Anjos Silva"
+     ],
+     [
+      "05/17",
+      "Dharlly Biserra Gomes"
+     ],
+     [
+      "07/05",
+      "Jonas Constante de Almeida Junior"
+     ],
+     [
+      "14",
+      "Marcos Jefferson Ramos Silva"
+     ],
+     [
+      "–",
+      "Genilton Pereira de Santana"
+     ],
+     [
+      "–",
+      "Rodrigo Santos Gonçalves"
+     ],
+     [
+      "–",
+      "Gildevan Filgueira da Silva"
+     ],
+     [
+      "06/21",
+      "Alan Caetano de Sá"
+     ],
+     [
+      "–",
+      "Jeosafá Pedro Andrade Ferreira"
+     ],
+     [
+      "05",
+      "José Maykon Góes da Silva"
+     ],
+     [
+      "17",
+      "Arthur Vinícius Costa Azevedo"
+     ],
+     [
+      "–",
+      "Eder Welton Silva dos Santos"
+     ]
+    ]
+   },
+   "obs": "O União buscou o empate no 2º tempo depois de sair perdendo por 2 × 0. Micael (#13, Olaria) foi expulso no 2º tempo. Capitão do Olaria: Eduardo Santos da Silva. Gols e cartões lançados pelo número da camisa anotado na súmula.",
+   "at": "2026-11-09T10:30:00-03:00"
+  },
+  "q1-7": {
+   "h": 2,
+   "a": 5,
+   "goals": [
+    {
+     "t": "h",
+     "p": "#10 Wedson Silva Santos",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#06 João Victor Ferreira da Silva",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#09 Manoel Henrique de Oliveira Silva",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#11 Breno Silva dos Santos",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#04 André Luiz dos Santos Rodrigues",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#11 Breno Silva dos Santos",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#09 Manoel Henrique de Oliveira Silva",
+     "tp": 1
+    }
+   ],
+   "cards": [
+    {
+     "t": "h",
+     "p": "#02 José Maria Gregório Junior",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "h",
+     "p": "#19 João Pedro Araújo Silva",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#04 André Luiz dos Santos Rodrigues",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#05 Jamis Lima de Andrade",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#08 Tiago Noia Silva",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#18 Valdene Marques da Silva",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#22 Dayvison Lucas Bezerra Souza",
+     "c": "y",
+     "tp": 2
+    }
+   ],
+   "sumula": [
+    "sumulas/q1-7-1.jpg"
+   ],
+   "atletas": {
+    "h": [
+     [
+      "02",
+      "José Maria Gregório Junior"
+     ],
+     [
+      "06",
+      "João Victor Ferreira da Silva"
+     ],
+     [
+      "07/16",
+      "Raul de Lima Meneses"
+     ],
+     [
+      "05/19",
+      "Pablo Henrique Feitosa Santos"
+     ],
+     [
+      "16",
+      "Widley Marlon Felipe Silveira Freitas"
+     ],
+     [
+      "19",
+      "João Pedro Araújo Silva"
+     ],
+     [
+      "04/14",
+      "Erick Elias Santos Martins"
+     ],
+     [
+      "10",
+      "Wedson Silva Santos"
+     ],
+     [
+      "08",
+      "David Eduardo Almeida Souza"
+     ],
+     [
+      "11",
+      "Eliedson Rodrigues de Melo Junior"
+     ],
+     [
+      "18",
+      "William dos Santos Silva"
+     ],
+     [
+      "12",
+      "José Adailton Fontes Capela"
+     ],
+     [
+      "19",
+      "Geovane Silva Campos"
+     ],
+     [
+      "–",
+      "Franklin Eduardo Silva França"
+     ],
+     [
+      "03",
+      "Ícaro Nilcledson Santos Santana"
+     ],
+     [
+      "17/02",
+      "Luís Felipe Ferreira de Souza"
+     ],
+     [
+      "09",
+      "Geovani Geralcino Monteiro Lima"
+     ]
+    ],
+    "a": [
+     [
+      "11",
+      "Breno Silva dos Santos"
+     ],
+     [
+      "08/15",
+      "Tiago Noia Silva"
+     ],
+     [
+      "10",
+      "Luiz Guilherme Bezerra Souza"
+     ],
+     [
+      "03",
+      "Emmanuel Sarmento Oliveira"
+     ],
+     [
+      "22",
+      "Dayvison Lucas Bezerra Souza"
+     ],
+     [
+      "01/12",
+      "Cícero Gonçalves Correia"
+     ],
+     [
+      "07/18",
+      "Ryckelme da Silva Santos"
+     ],
+     [
+      "13",
+      "Isaías Sobral dos Santos"
+     ],
+     [
+      "18",
+      "Valdene Marques da Silva"
+     ],
+     [
+      "15",
+      "José Ivan Silvino"
+     ],
+     [
+      "17",
+      "Pedro Lucas Rodrigues Melo"
+     ],
+     [
+      "04",
+      "André Luiz dos Santos Rodrigues"
+     ],
+     [
+      "12",
+      "Galdene de Souza Almeida"
+     ],
+     [
+      "–",
+      "Celso Henrique Melo de Almeida"
+     ],
+     [
+      "16",
+      "Evangelista Santos da Rocha"
+     ],
+     [
+      "05/14",
+      "Jamis Lima de Andrade"
+     ],
+     [
+      "19",
+      "Antonny Rian Silva Santos"
+     ],
+     [
+      "06/13",
+      "Kauan Matheus dos Santos Marques"
+     ],
+     [
+      "14",
+      "Vinícius Guilherme Alves Lima"
+     ],
+     [
+      "09",
+      "Manoel Henrique de Oliveira Silva"
+     ],
+     [
+      "20/09",
+      "Henrique Siqueira dos Santos"
+     ]
+    ]
+   },
+   "obs": "Todos os sete gols saíram no 1º tempo. Manoel Henrique e Breno marcaram duas vezes cada. Capitão do América: Ícaro Nilcledson. Horário na súmula: 17h30. Gols e cartões lançados pelo número da camisa anotado na súmula.",
+   "at": "2026-11-09T10:30:00-03:00"
+  },
+  "q2-6": {
+   "h": 5,
+   "a": 1,
+   "goals": [
+    {
+     "t": "h",
+     "p": "#09 Robério Santos Pereira",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#09 Robério Santos Pereira",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#10 Igor de Jesus Leandro",
+     "tp": 2
+    },
+    {
+     "t": "h",
+     "p": "#11 José Rael Gomes dos Anjos",
+     "tp": 2
+    },
+    {
+     "t": "h",
+     "p": "#08 Uilton Santos da Silva",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#15 José Damião Santana Pereira",
+     "tp": 2
+    }
+   ],
+   "cards": [
+    {
+     "t": "h",
+     "p": "#15 Mardoqueu Silva Feitosa",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#03 Jardson Evangelista Lima",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#03 Marco Sérgio dos Santos",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#04 José Nilton Alves dos Santos",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#06 Thomaz Aquino Neto",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#06 Thomaz Aquino Neto",
+     "c": "r",
+     "tp": 2
+    }
+   ],
+   "sumula": [
+    "sumulas/q2-6-1.jpg"
+   ],
+   "info": {
+    "inicio": "16h18",
+    "mesario": "Big Léo"
+   },
+   "atletas": {
+    "h": [
+     [
+      "02",
+      "Geovanne Barbosa Carvalho"
+     ],
+     [
+      "07",
+      "Paulo Vinícius Santos Pereira"
+     ],
+     [
+      "06",
+      "Vitor Hugo Lisboa da Silva"
+     ],
+     [
+      "13",
+      "Luozimário Gomes da Silva"
+     ],
+     [
+      "15",
+      "Mardoqueu Silva Feitosa"
+     ],
+     [
+      "–",
+      "Maxsuel Oliveira Cruz"
+     ],
+     [
+      "–",
+      "José Ivaldo da Silva"
+     ],
+     [
+      "21",
+      "Leandro dos Santos Conceição"
+     ],
+     [
+      "04",
+      "Wesley Henrique dos Santos"
+     ],
+     [
+      "10",
+      "Igor de Jesus Leandro"
+     ],
+     [
+      "–",
+      "Marcos Souza dos Santos"
+     ],
+     [
+      "–",
+      "Manoel Diego dos Santos Silva"
+     ],
+     [
+      "08",
+      "Uilton Santos da Silva"
+     ],
+     [
+      "14",
+      "Miguel Otávio Cordeiro Mendonça"
+     ],
+     [
+      "–",
+      "Gilderlan Aragão dos Santos"
+     ],
+     [
+      "22",
+      "Rafael Carvalho dos Reis"
+     ],
+     [
+      "09",
+      "Robério Santos Pereira"
+     ],
+     [
+      "18",
+      "Leandro Gomes Silva"
+     ],
+     [
+      "11",
+      "José Rael Gomes dos Anjos"
+     ],
+     [
+      "03",
+      "Jardson Evangelista Lima"
+     ],
+     [
+      "01",
+      "Antônio Vilmar Veras Santos Filho"
+     ],
+     [
+      "17",
+      "Edson de Souza Bezerra"
+     ],
+     [
+      "16",
+      "Erivaldo Mendonça Santos"
+     ]
+    ],
+    "a": [
+     [
+      "13",
+      "Ray Douglas Ferreira da Silva"
+     ],
+     [
+      "11",
+      "Marcus Vinícius Nunes Diniz"
+     ],
+     [
+      "09",
+      "Kaio Pietro Silva Moura"
+     ],
+     [
+      "16",
+      "Tiago Vieira da Costa"
+     ],
+     [
+      "–",
+      "Klebison de Sá Melo"
+     ],
+     [
+      "–",
+      "José Maciel Félix"
+     ],
+     [
+      "07",
+      "José Alaf Gerônimo da Silva"
+     ],
+     [
+      "02",
+      "Herick Rodrigues de Lima Cirqueira"
+     ],
+     [
+      "17",
+      "Lucas Vieira da Conceição"
+     ],
+     [
+      "03",
+      "Marco Sérgio dos Santos"
+     ],
+     [
+      "–",
+      "Francisco José de Jesus Moreira"
+     ],
+     [
+      "04",
+      "José Nilton Alves dos Santos"
+     ],
+     [
+      "15",
+      "José Damião Santana Pereira"
+     ],
+     [
+      "–",
+      "Natalino dos Santos Veríssimo"
+     ],
+     [
+      "06",
+      "Thomaz Aquino Neto"
+     ],
+     [
+      "08",
+      "Antônio Kelwyn Braz Grajeiro"
+     ],
+     [
+      "–",
+      "Weverton Batista da Silva"
+     ],
+     [
+      "–",
+      "Antônio Silva"
+     ],
+     [
+      "18",
+      "Lenaldo Lima dos Santos"
+     ],
+     [
+      "–",
+      "Eduardo Melo da Silva"
+     ],
+     [
+      "–",
+      "Marcondes da Silva"
+     ],
+     [
+      "01",
+      "Jhon Vicky de Sá Santos"
+     ]
+    ]
+   },
+   "obs": "Placar conferido pelos gols anotados (o campo do placar ficou em branco na súmula). Robério marcou duas vezes. Thomaz (#06, Esporte) foi expulso no 2º tempo. Capitães: Jardson (Futfisio) e José Alaf (Esporte). Gols e cartões lançados pelo número da camisa anotado na súmula.",
+   "at": "2026-11-09T10:30:00-03:00"
+  },
+  "q1-6": {
+   "h": 7,
+   "a": 0,
+   "goals": [
+    {
+     "t": "h",
+     "p": "#04 Rodrigo Barreto Gois de Souza",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#13 Joeverton Silva dos Santos",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#09 Carlos Daniel Santana Santos",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#09 Carlos Daniel Santana Santos",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#11 Diego Alves de Lima",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#80 Guilherme dos Santos Santana",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#17 Igor de Jesus",
+     "tp": 1
+    }
+   ],
+   "cards": [
+    {
+     "t": "a",
+     "p": "#05 João Paulo de Jesus Santos",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#12",
+     "c": "y",
+     "tp": 2
+    }
+   ],
+   "sumula": [
+    "sumulas/q1-6-1.jpg"
+   ],
+   "info": {
+    "inicio": "18h00",
+    "mesario": "Big Léo"
+   },
+   "atletas": {
+    "h": [
+     [
+      "90",
+      "Saulo Araújo Fontes"
+     ],
+     [
+      "04",
+      "Rodrigo Barreto Gois de Souza"
+     ],
+     [
+      "02",
+      "Edson Dhyego Mariano Silva"
+     ],
+     [
+      "–",
+      "Bruno Lima da Silva"
+     ],
+     [
+      "09",
+      "Carlos Daniel Santana Santos"
+     ],
+     [
+      "11",
+      "Diego Alves de Lima"
+     ],
+     [
+      "14",
+      "Jefersson Rodrigues de Almeida"
+     ],
+     [
+      "45",
+      "Marcelo Bento de Andrade"
+     ],
+     [
+      "06",
+      "Rafael Alves da Silva"
+     ],
+     [
+      "13",
+      "Joeverton Silva dos Santos"
+     ],
+     [
+      "10",
+      "Ryan Santos Inocêncio"
+     ],
+     [
+      "–",
+      "Claudemi Félix da Silva"
+     ],
+     [
+      "08",
+      "Matheus dos Anjos Silva"
+     ],
+     [
+      "80",
+      "Guilherme dos Santos Santana"
+     ],
+     [
+      "–",
+      "James Lisboa de Farias"
+     ],
+     [
+      "–",
+      "Antônio Vilmar V. Santos F."
+     ],
+     [
+      "–",
+      "Edson de Souza Bezerra"
+     ],
+     [
+      "–",
+      "Mardoqueu Silva Feitosa"
+     ],
+     [
+      "–",
+      "Erivaldo Mendonça Santos"
+     ],
+     [
+      "17",
+      "Igor de Jesus"
+     ],
+     [
+      "15",
+      "Wesley Henrique"
+     ],
+     [
+      "88",
+      "Geovane Barbosa"
+     ],
+     [
+      "27",
+      "Jardelson"
+     ]
+    ],
+    "a": [
+     [
+      "05",
+      "João Paulo de Jesus Santos"
+     ],
+     [
+      "–",
+      "Edvaldo Igino dos Santos"
+     ],
+     [
+      "–",
+      "Filaderlson Santos de Jesus"
+     ],
+     [
+      "–",
+      "Marcley Joaquim da Silva"
+     ],
+     [
+      "06",
+      "Israel dos Santos Sousa Junior"
+     ],
+     [
+      "11",
+      "Anderson Gomes da Silva"
+     ],
+     [
+      "–",
+      "Railho dos Santos"
+     ],
+     [
+      "08",
+      "Claudevan Nascimento dos Santos"
+     ],
+     [
+      "13",
+      "José Allif dos Santos Gomes"
+     ],
+     [
+      "14",
+      "Gabriel Vieira da Conceição"
+     ],
+     [
+      "–",
+      "José Wilton da Silva Santos"
+     ],
+     [
+      "03",
+      "Clebson Aragão Oliveira"
+     ],
+     [
+      "09",
+      "Aldey Torquatro dos Santos"
+     ],
+     [
+      "–",
+      "Geyverson Félix dos Santos"
+     ],
+     [
+      "07",
+      "José Adoelson dos Santos Gomes"
+     ],
+     [
+      "18",
+      "Rafael Souza Cruz"
+     ],
+     [
+      "22",
+      "Eduardo Melo da Silva"
+     ],
+     [
+      "10",
+      "Kaio Pietro"
+     ],
+     [
+      "15",
+      "Clebson de Sá Melo"
+     ],
+     [
+      "04",
+      "Marcondes da Silva"
+     ]
+    ]
+   },
+   "obs": "Placar conferido pelos gols anotados (o campo do placar ficou em branco na súmula). Todos os gols no 1º tempo; Carlos Daniel marcou duas vezes. Gols e cartões lançados pelo número da camisa anotado na súmula.",
+   "at": "2026-11-09T10:30:00-03:00"
   }
  }
 }</script>
@@ -1783,6 +3854,8 @@ const TEAM_INFO = {
  'capim-grosso-1':{full:'Capim Grosso I'},'capim-grosso-2':{full:'Capim Grosso II'},'adec':{full:'ADEC'},'alto-bonito-v':{full:'Alto Bonito'}
 };
 const ADIADO = {'q1-5':{de:'04/11',motivo:'Jogo adiado de 04/11 para 05/11'},'q2-5':{de:'04/11',motivo:'Jogo adiado de 04/11 para 05/11'}};
+const APOIO_WHATS='5579999111241', APOIO_FONE='(79) 99911-1241';
+const SPONSORS=[{k:'77-promocoes',n:'77 Promoções'},{k:'adriano-farma',n:'Adriano Farma'},{k:'amigos-da-refrigeracao',n:'Amigos da Refrigeração'},{k:'betogas',n:'BetoGás'},{k:'branco-de-artur',n:'Branco de Artur'},{k:'rildo-joaquim',n:'Vereador Rildo Joaquim'},{k:'dt-estetica',n:'DT Estética Automotiva'},{k:'g9-fitness',n:'G9 Fitness'},{k:'isaias-multimarcas',n:'Isaías Multimarcas'},{k:'jucimar',n:'Jucimar Mototáxi'},{k:'kiss-modas',n:'Kiss Modas'},{k:'clenia-ventura',n:'Clênia Ventura Estética'},{k:'copa-de-vaquejada',n:'Copa de Vaquejada'},{k:'mercadinho-lisboa',n:'Mercadinho Lisboa'},{k:'rancho-novo-horizonte',n:'Rancho Novo Horizonte'},{k:'tavares-oliveira',n:'Tavares & Oliveira'},{k:'vavazinho',n:'Vereador Vavazinho da Ambulância'},{k:'emanoel-aleixo',n:'Emanoel Aleixo'},{k:'wilton-da-nova-vida',n:'Wilton da Nova Vida'},{k:'hub-sertao-conecta',n:'HUB Sertão Conecta'}];
 const SLOT_LBL = {G1:'1º geral',G2:'2º geral',G3:'3º geral',G4:'4º geral',G5:'5º geral',G6:'6º geral',T1:'1º melhor 3º',T2:'2º melhor 3º',S1:'1º das quartas',S2:'2º das quartas',S3:'3º das quartas',S4:'4º das quartas',Wsf1:'Vencedor semi 1',Wsf2:'Vencedor semi 2',A1:'1º do Grupo A',A2:'2º do Grupo A',B1:'1º do Grupo B',B2:'2º do Grupo B'};
 const DOCS = [
  {k:'reg1',t:'Regulamento · 1º Quadro',sub:'14 páginas · 14/10/2026',file:'regulamento-1-quadro.pdf'},
@@ -2023,6 +4096,7 @@ function vInicio(comp){
    ${recent.length?`<div class="day">${recent.map(m=>matchCard(m,comp)).join('')}</div>`:`<div class="card empty">Nenhum resultado lançado nesta categoria ainda.<button class="btn sm" data-act="sim">Ver como fica com o campeonato rolando</button></div>`}</section>
   <section><div class="sh"><h2>Os ${Object.values(C.grupos).flat().length} times</h2><button class="btn sm ghost" data-act="tab" data-tab="times">Conhecer os times</button></div><div class="strip">${Object.values(C.grupos).flat().map(k=>`<button data-act="team-open" data-k="${k}" aria-label="${esc(clubName(k))}">${crest(k)}</button>`).join('')}</div></section>
   <section class="pixcard" aria-label="Apoie o aplicativo"><div class="ic">${ICON.pix}</div><div><b>Mantenha este app no ar</b><p>Placar, tabela e súmulas de graça para a torcida. Uma doação via Pix ajuda a cobrir hospedagem e atualização dos jogos.</p><button class="btn green sm" data-act="pix">${ICON.pix} Doar com Pix</button></div></section>
+  ${apoioBlock()}
   <div class="grid2">
    <section class="card"><div class="sh"><h2>Líderes</h2><span class="r">por grupo</span></div><div class="rank">${leaders}</div></section>
    <section class="card"><div class="sh"><h2>Artilharia</h2><button class="btn sm ghost" data-act="tab" data-tab="destaques">Ver tudo</button></div>
@@ -2038,6 +4112,7 @@ function vTimes(comp){
   return `${UI.sim?simBar():''}<section><div class="sh"><h2>Times · ${esc(C.nome)}</h2><span class="r">${Object.values(C.grupos).flat().length} equipes · toque no escudo</span></div>
    ${all.map(([g,ks])=>`<div class="day"><h3>Grupo ${g}</h3><div class="crests">${ks.map(k=>{const c=CLUB[k]||{};return `<button class="cb" style="--tc:${c.c||'#555'}" data-act="team-open" data-k="${k}"><span class="pl">${pos[k]||''}º</span>${crest(k)}<b>${esc(clubName(k))}</b><small>${(TEAM_INFO[k]&&TEAM_INFO[k].fundado)?'DESDE '+TEAM_INFO[k].fundado:esc((c.s||''))}</small></button>`}).join('')}</div></div>`).join('')}
   </section>
+  ${apoioCTA(true)}
   <div class="ask"><b>Seu time merece uma página completa</b><p>História, títulos, elenco com fotos, patrocinadores e notícias. Dirigente, mande o material do seu clube para o HUB Sertão Conecta.</p><div class="row"><a class="btn sm" href="${esc(S.config.site)}" target="_blank" rel="noopener">Falar com o HUB</a></div></div>`;
 }
 function teamSheet(k,ckIn){
@@ -2072,6 +4147,10 @@ function teamSheet(k,ckIn){
    <div class="ask"><b>${I.historia?'Tem mais da história do clube?':'História do clube'}</b><p>${I.historia?'Fotos antigas, ex-jogadores, títulos e elenco atual podem entrar aqui. Dirigente, envie o material para o HUB Sertão Conecta.</p>':''}${I.historia?'<p hidden>':''}A história completa, os títulos, as fotos e o elenco deste time podem entrar aqui. Dirigente, envie o material para o HUB Sertão Conecta.</p><div class="row"><a class="btn sm ghost" href="${esc(S.config.site)}" target="_blank" rel="noopener">Enviar a história do time</a><a class="btn sm green" href="https://wa.me/?text=${encodeURIComponent(clubName(k)+' no Municipal 2026: '+row.P+' pontos, '+pos+'º do Grupo '+g+' ('+C.nome+')\n'+location.origin+location.pathname+'#time-'+k)}" target="_blank" rel="noopener">${ICON.share} Compartilhar</a></div></div>`;
   openSheet(clubName(k),body);
 }
+function apoioMsg(){return encodeURIComponent('Olá, Emanoel! Vi o app do Campeonato Municipal 2026 e quero colocar a minha marca como apoiador.')}
+function apoioCTA(compact){return `<section class="becta"><h2>Apoie você também</h2><p>Sua marca vista por jogadores, dirigentes e torcida de Canindé em todos os jogos do Municipal 2026.</p>${compact?'':'<ul><li>Logo na faixa de apoiadores que passa no topo do app</li><li>Espaço na página inicial e na página do seu negócio</li><li>Divulgação junto aos resultados e súmulas</li></ul>'}<div class="row"><a class="btn dark" href="https://wa.me/${APOIO_WHATS}?text=${apoioMsg()}" target="_blank" rel="noopener">Quero apoiar pelo WhatsApp</a><span class="fone">${APOIO_FONE}</span></div></section>`}
+function apoioBlock(){return `<section><div class="sh"><h2>Quem apoia</h2><span class="r">${SPONSORS.length} apoiadores · toque na marca</span></div><div class="spgrid2">${SPONSORS.map(x=>`<button data-act="sp" data-k="${x.k}" aria-label="${esc(x.n)}"><img src="apoiadores/${x.k}.jpg" alt="" loading="lazy"></button>`).join('')}</div></section>${apoioCTA(false)}`}
+function spSheet(k){const x=SPONSORS.find(s=>s.k===k);if(!x)return;openSheet(x.n,`<div class="spbig"><img src="apoiadores/${x.k}.jpg" alt="${esc(x.n)}"></div><p class="note" style="color:var(--fg)"><b>${esc(x.n)}</b> apoia o app do Campeonato Municipal de Futebol 2026 de Canindé de São Francisco. Prestigie quem apoia o esporte da cidade.</p>${apoioCTA(true)}`)}
 function rk(p,i){return `<div class="rk ${i===0?'first':''}"><span class="p">${i+1}</span>${crest(p.team,'cr sm')}<span class="nm"><b>${esc(p.name)}</b><small>${esc(clubName(p.team))}</small></span><span class="v">${p.g}</span></div>`}
 function simBar(){return `<div class="simbar"><span><b>Modo simulação.</b> Placares fictícios gerados só na sua tela para mostrar como o app funciona. Os jogos reais lançados continuam valendo.</span><button class="btn sm ghost" data-act="sim" style="color:#E3D9FF;border-color:#5B47A0">Voltar aos dados reais</button></div>`}
 function pitch(){
@@ -2202,6 +4281,7 @@ function shell(){
   return `<div class="demo"><div class="wrap"><span><b>Demonstração</b>App independente do HUB Sertão Conecta. Não é um canal oficial da Prefeitura de Canindé de São Francisco.</span><a href="${esc(S.config.site)}" target="_blank" rel="noopener">Quero um app assim</a></div></div>
   <header class="top"><div class="wrap">${logo}<div class="ttl"><h1>Municipal <span>2026</span></h1><p>Futebol de campo · Canindé de São Francisco/SE · Andrezão</p></div>
    <button class="pixbtn" data-act="pix" aria-label="Apoiar o app com Pix">${ICON.pix}<span>Pix<span class="t2"> · Apoie</span></span></button></div></header>
+  <div class="spbar" aria-label="Apoiadores do app"><span class="lbl">${ICON.star.replace('<svg','<svg width="12" height="12"')}Apoio</span><div class="run">${[0,1].map(r=>SPONSORS.map(x=>`<button data-act="sp" data-k="${x.k}" ${r?'tabindex="-1" aria-hidden="true"':''} aria-label="${esc(x.n)}"><img src="apoiadores/${x.k}.jpg" alt="" loading="lazy"></button>`).join('')+`<button class="you" data-act="apoie" ${r?'tabindex="-1" aria-hidden="true"':''}>Sua marca aqui</button>`).join('')}</div></div>
   <div class="cats"><div class="wrap"><div class="seg" role="group" aria-label="Categoria"><span class="pill" style="transform:translateX(${ci*100}%)"></span>${Object.values(CATS).map(c=>`<button data-act="cat" data-k="${c.key}" aria-pressed="${UI.cat===c.key}">${esc(c.nome)}<small>${esc(c.sub)}</small></button>`).join('')}</div></div></div>
   <main><div class="wrap"><div id="view"></div></div></main>
   <footer><div class="wrap"><span class="eyebrow" style="color:var(--muted)">Desenvolvido por</span><a class="hub" href="${esc(S.config.site)}" target="_blank" rel="noopener" aria-label="HUB Sertão Conecta — abrir site">${hubMark()}</a>
@@ -2418,6 +4498,8 @@ document.addEventListener('click',e=>{
   else if(a==='tview'){UI.tview=t.dataset.k;render(false)}
   else if(a==='sim'){UI.sim=!UI.sim;if(UI.sim&&!SIM)SIM=buildSim();render(false,true);toast(UI.sim?'Simulação ligada: placares fictícios':'De volta aos dados reais')}
   else if(a==='match'){matchSheet(t.dataset.id)}
+  else if(a==='sp'){spSheet(t.dataset.k)}
+  else if(a==='apoie'){openSheet('Seja apoiador',apoioCTA(false))}
   else if(a==='team-open'){teamSheet(t.dataset.k)}
   else if(a==='team-cat'){teamSheet(t.dataset.k,t.dataset.c)}
   else if(a==='close'){closeSheet()}
