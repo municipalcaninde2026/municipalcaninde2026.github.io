@@ -1,6 +1,6 @@
 {
  "v": 1,
- "updatedAt": "2026-11-06T14:50:00-03:00",
+ "updatedAt": "2026-11-09T10:30:00-03:00",
  "config": {
   "pix": {
    "chave": "4c1b82cc-c5ea-4e9a-ab03-493e97aa34ef",
@@ -2358,6 +2358,993 @@
    },
    "obs": "Jogo adiado de 04/11. Placar conferido pelos gols anotados (o campo do placar ficou em branco na súmula). Mikael (#13, Red Bull) recebeu dois amarelos e foi expulso no 2º tempo. Capitão do Red Bull: Brenno Silva Santos. Gols e cartões lançados pelo número da camisa anotado na súmula.",
    "at": "2026-11-06T14:50:00-03:00"
+  },
+  "q2-7": {
+   "h": 2,
+   "a": 2,
+   "goals": [
+    {
+     "t": "h",
+     "p": "#11 José Anderson Correia de Souza",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#11 José Anderson Correia de Souza",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#11 Tiago dos Anjos Silva",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#09 Márcio Oliveira Santos",
+     "tp": 2
+    }
+   ],
+   "cards": [
+    {
+     "t": "h",
+     "p": "#05 Wellington de Jesus Santos",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#13 Micael Fernandes da Silva",
+     "c": "r",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#04 Rodrigo Amaro de Santana",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#08 Marcelo Lima Santos",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#20 Genisson Rodrigues de Oliveira",
+     "c": "y",
+     "tp": 1
+    }
+   ],
+   "sumula": [
+    "sumulas/q2-7-1.jpg"
+   ],
+   "info": {
+    "inicio": "15h05"
+   },
+   "atletas": {
+    "h": [
+     [
+      "–",
+      "Gilmário dos Santos"
+     ],
+     [
+      "07",
+      "Edevaldo Santos da Silva"
+     ],
+     [
+      "05/09",
+      "Wellington de Jesus Santos"
+     ],
+     [
+      "11",
+      "José Anderson Correia de Souza"
+     ],
+     [
+      "–",
+      "Wanderson Junior Barbosa da Silva"
+     ],
+     [
+      "04",
+      "Josimário Alves de Oliveira"
+     ],
+     [
+      "20",
+      "José Glaudison Correia dos Santos"
+     ],
+     [
+      "10",
+      "Eduardo Santos da Silva"
+     ],
+     [
+      "01",
+      "Luís Fernandes Marques de Andrade"
+     ],
+     [
+      "09",
+      "Renato Gomes do Nascimento"
+     ],
+     [
+      "03",
+      "Maycon Nascimento Aragão"
+     ],
+     [
+      "06",
+      "Caio Guthiers Ribeiro da Cruz"
+     ],
+     [
+      "08",
+      "Ricardo Fernandes de Oliveira"
+     ],
+     [
+      "02",
+      "Wenderson Invenção de J. da Silva"
+     ],
+     [
+      "13",
+      "Micael Fernandes da Silva"
+     ],
+     [
+      "33",
+      "Júlio César Santos Silva"
+     ],
+     [
+      "–",
+      "Cristiano Tenório dos Santos"
+     ]
+    ],
+    "a": [
+     [
+      "03",
+      "Leogeneffer Araújo dos Santos"
+     ],
+     [
+      "–",
+      "Carlos Henrique Vieira"
+     ],
+     [
+      "04/20",
+      "Rodrigo Amaro de Santana"
+     ],
+     [
+      "11/16",
+      "Tiago dos Anjos Silva"
+     ],
+     [
+      "16",
+      "Edione Alves Vieira"
+     ],
+     [
+      "20",
+      "Genisson Rodrigues de Oliveira"
+     ],
+     [
+      "02",
+      "Jefersson Marques Santos"
+     ],
+     [
+      "08",
+      "Marcelo Lima Santos"
+     ],
+     [
+      "09",
+      "Márcio Oliveira Santos"
+     ],
+     [
+      "22",
+      "Jakson Roberto Andrade Teixeira"
+     ],
+     [
+      "21",
+      "Nilton César dos Anjos Silva"
+     ],
+     [
+      "05/17",
+      "Dharlly Biserra Gomes"
+     ],
+     [
+      "07/05",
+      "Jonas Constante de Almeida Junior"
+     ],
+     [
+      "14",
+      "Marcos Jefferson Ramos Silva"
+     ],
+     [
+      "–",
+      "Genilton Pereira de Santana"
+     ],
+     [
+      "–",
+      "Rodrigo Santos Gonçalves"
+     ],
+     [
+      "–",
+      "Gildevan Filgueira da Silva"
+     ],
+     [
+      "06/21",
+      "Alan Caetano de Sá"
+     ],
+     [
+      "–",
+      "Jeosafá Pedro Andrade Ferreira"
+     ],
+     [
+      "05",
+      "José Maykon Góes da Silva"
+     ],
+     [
+      "17",
+      "Arthur Vinícius Costa Azevedo"
+     ],
+     [
+      "–",
+      "Eder Welton Silva dos Santos"
+     ]
+    ]
+   },
+   "obs": "O União buscou o empate no 2º tempo depois de sair perdendo por 2 × 0. Micael (#13, Olaria) foi expulso no 2º tempo. Capitão do Olaria: Eduardo Santos da Silva. Gols e cartões lançados pelo número da camisa anotado na súmula.",
+   "at": "2026-11-09T10:30:00-03:00"
+  },
+  "q1-7": {
+   "h": 2,
+   "a": 5,
+   "goals": [
+    {
+     "t": "h",
+     "p": "#10 Wedson Silva Santos",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#06 João Victor Ferreira da Silva",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#09 Manoel Henrique de Oliveira Silva",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#11 Breno Silva dos Santos",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#04 André Luiz dos Santos Rodrigues",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#11 Breno Silva dos Santos",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#09 Manoel Henrique de Oliveira Silva",
+     "tp": 1
+    }
+   ],
+   "cards": [
+    {
+     "t": "h",
+     "p": "#02 José Maria Gregório Junior",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "h",
+     "p": "#19 João Pedro Araújo Silva",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#04 André Luiz dos Santos Rodrigues",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#05 Jamis Lima de Andrade",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#08 Tiago Noia Silva",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#18 Valdene Marques da Silva",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#22 Dayvison Lucas Bezerra Souza",
+     "c": "y",
+     "tp": 2
+    }
+   ],
+   "sumula": [
+    "sumulas/q1-7-1.jpg"
+   ],
+   "atletas": {
+    "h": [
+     [
+      "02",
+      "José Maria Gregório Junior"
+     ],
+     [
+      "06",
+      "João Victor Ferreira da Silva"
+     ],
+     [
+      "07/16",
+      "Raul de Lima Meneses"
+     ],
+     [
+      "05/19",
+      "Pablo Henrique Feitosa Santos"
+     ],
+     [
+      "16",
+      "Widley Marlon Felipe Silveira Freitas"
+     ],
+     [
+      "19",
+      "João Pedro Araújo Silva"
+     ],
+     [
+      "04/14",
+      "Erick Elias Santos Martins"
+     ],
+     [
+      "10",
+      "Wedson Silva Santos"
+     ],
+     [
+      "08",
+      "David Eduardo Almeida Souza"
+     ],
+     [
+      "11",
+      "Eliedson Rodrigues de Melo Junior"
+     ],
+     [
+      "18",
+      "William dos Santos Silva"
+     ],
+     [
+      "12",
+      "José Adailton Fontes Capela"
+     ],
+     [
+      "19",
+      "Geovane Silva Campos"
+     ],
+     [
+      "–",
+      "Franklin Eduardo Silva França"
+     ],
+     [
+      "03",
+      "Ícaro Nilcledson Santos Santana"
+     ],
+     [
+      "17/02",
+      "Luís Felipe Ferreira de Souza"
+     ],
+     [
+      "09",
+      "Geovani Geralcino Monteiro Lima"
+     ]
+    ],
+    "a": [
+     [
+      "11",
+      "Breno Silva dos Santos"
+     ],
+     [
+      "08/15",
+      "Tiago Noia Silva"
+     ],
+     [
+      "10",
+      "Luiz Guilherme Bezerra Souza"
+     ],
+     [
+      "03",
+      "Emmanuel Sarmento Oliveira"
+     ],
+     [
+      "22",
+      "Dayvison Lucas Bezerra Souza"
+     ],
+     [
+      "01/12",
+      "Cícero Gonçalves Correia"
+     ],
+     [
+      "07/18",
+      "Ryckelme da Silva Santos"
+     ],
+     [
+      "13",
+      "Isaías Sobral dos Santos"
+     ],
+     [
+      "18",
+      "Valdene Marques da Silva"
+     ],
+     [
+      "15",
+      "José Ivan Silvino"
+     ],
+     [
+      "17",
+      "Pedro Lucas Rodrigues Melo"
+     ],
+     [
+      "04",
+      "André Luiz dos Santos Rodrigues"
+     ],
+     [
+      "12",
+      "Galdene de Souza Almeida"
+     ],
+     [
+      "–",
+      "Celso Henrique Melo de Almeida"
+     ],
+     [
+      "16",
+      "Evangelista Santos da Rocha"
+     ],
+     [
+      "05/14",
+      "Jamis Lima de Andrade"
+     ],
+     [
+      "19",
+      "Antonny Rian Silva Santos"
+     ],
+     [
+      "06/13",
+      "Kauan Matheus dos Santos Marques"
+     ],
+     [
+      "14",
+      "Vinícius Guilherme Alves Lima"
+     ],
+     [
+      "09",
+      "Manoel Henrique de Oliveira Silva"
+     ],
+     [
+      "20/09",
+      "Henrique Siqueira dos Santos"
+     ]
+    ]
+   },
+   "obs": "Todos os sete gols saíram no 1º tempo. Manoel Henrique e Breno marcaram duas vezes cada. Capitão do América: Ícaro Nilcledson. Horário na súmula: 17h30. Gols e cartões lançados pelo número da camisa anotado na súmula.",
+   "at": "2026-11-09T10:30:00-03:00"
+  },
+  "q2-6": {
+   "h": 5,
+   "a": 1,
+   "goals": [
+    {
+     "t": "h",
+     "p": "#09 Robério Santos Pereira",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#09 Robério Santos Pereira",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#10 Igor de Jesus Leandro",
+     "tp": 2
+    },
+    {
+     "t": "h",
+     "p": "#11 José Rael Gomes dos Anjos",
+     "tp": 2
+    },
+    {
+     "t": "h",
+     "p": "#08 Uilton Santos da Silva",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#15 José Damião Santana Pereira",
+     "tp": 2
+    }
+   ],
+   "cards": [
+    {
+     "t": "h",
+     "p": "#15 Mardoqueu Silva Feitosa",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#03 Jardson Evangelista Lima",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#03 Marco Sérgio dos Santos",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#04 José Nilton Alves dos Santos",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#06 Thomaz Aquino Neto",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#06 Thomaz Aquino Neto",
+     "c": "r",
+     "tp": 2
+    }
+   ],
+   "sumula": [
+    "sumulas/q2-6-1.jpg"
+   ],
+   "info": {
+    "inicio": "16h18",
+    "mesario": "Big Léo"
+   },
+   "atletas": {
+    "h": [
+     [
+      "02",
+      "Geovanne Barbosa Carvalho"
+     ],
+     [
+      "07",
+      "Paulo Vinícius Santos Pereira"
+     ],
+     [
+      "06",
+      "Vitor Hugo Lisboa da Silva"
+     ],
+     [
+      "13",
+      "Luozimário Gomes da Silva"
+     ],
+     [
+      "15",
+      "Mardoqueu Silva Feitosa"
+     ],
+     [
+      "–",
+      "Maxsuel Oliveira Cruz"
+     ],
+     [
+      "–",
+      "José Ivaldo da Silva"
+     ],
+     [
+      "21",
+      "Leandro dos Santos Conceição"
+     ],
+     [
+      "04",
+      "Wesley Henrique dos Santos"
+     ],
+     [
+      "10",
+      "Igor de Jesus Leandro"
+     ],
+     [
+      "–",
+      "Marcos Souza dos Santos"
+     ],
+     [
+      "–",
+      "Manoel Diego dos Santos Silva"
+     ],
+     [
+      "08",
+      "Uilton Santos da Silva"
+     ],
+     [
+      "14",
+      "Miguel Otávio Cordeiro Mendonça"
+     ],
+     [
+      "–",
+      "Gilderlan Aragão dos Santos"
+     ],
+     [
+      "22",
+      "Rafael Carvalho dos Reis"
+     ],
+     [
+      "09",
+      "Robério Santos Pereira"
+     ],
+     [
+      "18",
+      "Leandro Gomes Silva"
+     ],
+     [
+      "11",
+      "José Rael Gomes dos Anjos"
+     ],
+     [
+      "03",
+      "Jardson Evangelista Lima"
+     ],
+     [
+      "01",
+      "Antônio Vilmar Veras Santos Filho"
+     ],
+     [
+      "17",
+      "Edson de Souza Bezerra"
+     ],
+     [
+      "16",
+      "Erivaldo Mendonça Santos"
+     ]
+    ],
+    "a": [
+     [
+      "13",
+      "Ray Douglas Ferreira da Silva"
+     ],
+     [
+      "11",
+      "Marcus Vinícius Nunes Diniz"
+     ],
+     [
+      "09",
+      "Kaio Pietro Silva Moura"
+     ],
+     [
+      "16",
+      "Tiago Vieira da Costa"
+     ],
+     [
+      "–",
+      "Klebison de Sá Melo"
+     ],
+     [
+      "–",
+      "José Maciel Félix"
+     ],
+     [
+      "07",
+      "José Alaf Gerônimo da Silva"
+     ],
+     [
+      "02",
+      "Herick Rodrigues de Lima Cirqueira"
+     ],
+     [
+      "17",
+      "Lucas Vieira da Conceição"
+     ],
+     [
+      "03",
+      "Marco Sérgio dos Santos"
+     ],
+     [
+      "–",
+      "Francisco José de Jesus Moreira"
+     ],
+     [
+      "04",
+      "José Nilton Alves dos Santos"
+     ],
+     [
+      "15",
+      "José Damião Santana Pereira"
+     ],
+     [
+      "–",
+      "Natalino dos Santos Veríssimo"
+     ],
+     [
+      "06",
+      "Thomaz Aquino Neto"
+     ],
+     [
+      "08",
+      "Antônio Kelwyn Braz Grajeiro"
+     ],
+     [
+      "–",
+      "Weverton Batista da Silva"
+     ],
+     [
+      "–",
+      "Antônio Silva"
+     ],
+     [
+      "18",
+      "Lenaldo Lima dos Santos"
+     ],
+     [
+      "–",
+      "Eduardo Melo da Silva"
+     ],
+     [
+      "–",
+      "Marcondes da Silva"
+     ],
+     [
+      "01",
+      "Jhon Vicky de Sá Santos"
+     ]
+    ]
+   },
+   "obs": "Placar conferido pelos gols anotados (o campo do placar ficou em branco na súmula). Robério marcou duas vezes. Thomaz (#06, Esporte) foi expulso no 2º tempo. Capitães: Jardson (Futfisio) e José Alaf (Esporte). Gols e cartões lançados pelo número da camisa anotado na súmula.",
+   "at": "2026-11-09T10:30:00-03:00"
+  },
+  "q1-6": {
+   "h": 7,
+   "a": 0,
+   "goals": [
+    {
+     "t": "h",
+     "p": "#04 Rodrigo Barreto Gois de Souza",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#13 Joeverton Silva dos Santos",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#09 Carlos Daniel Santana Santos",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#09 Carlos Daniel Santana Santos",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#11 Diego Alves de Lima",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#80 Guilherme dos Santos Santana",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#17 Igor de Jesus",
+     "tp": 1
+    }
+   ],
+   "cards": [
+    {
+     "t": "a",
+     "p": "#05 João Paulo de Jesus Santos",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#12",
+     "c": "y",
+     "tp": 2
+    }
+   ],
+   "sumula": [
+    "sumulas/q1-6-1.jpg"
+   ],
+   "info": {
+    "inicio": "18h00",
+    "mesario": "Big Léo"
+   },
+   "atletas": {
+    "h": [
+     [
+      "90",
+      "Saulo Araújo Fontes"
+     ],
+     [
+      "04",
+      "Rodrigo Barreto Gois de Souza"
+     ],
+     [
+      "02",
+      "Edson Dhyego Mariano Silva"
+     ],
+     [
+      "–",
+      "Bruno Lima da Silva"
+     ],
+     [
+      "09",
+      "Carlos Daniel Santana Santos"
+     ],
+     [
+      "11",
+      "Diego Alves de Lima"
+     ],
+     [
+      "14",
+      "Jefersson Rodrigues de Almeida"
+     ],
+     [
+      "45",
+      "Marcelo Bento de Andrade"
+     ],
+     [
+      "06",
+      "Rafael Alves da Silva"
+     ],
+     [
+      "13",
+      "Joeverton Silva dos Santos"
+     ],
+     [
+      "10",
+      "Ryan Santos Inocêncio"
+     ],
+     [
+      "–",
+      "Claudemi Félix da Silva"
+     ],
+     [
+      "08",
+      "Matheus dos Anjos Silva"
+     ],
+     [
+      "80",
+      "Guilherme dos Santos Santana"
+     ],
+     [
+      "–",
+      "James Lisboa de Farias"
+     ],
+     [
+      "–",
+      "Antônio Vilmar V. Santos F."
+     ],
+     [
+      "–",
+      "Edson de Souza Bezerra"
+     ],
+     [
+      "–",
+      "Mardoqueu Silva Feitosa"
+     ],
+     [
+      "–",
+      "Erivaldo Mendonça Santos"
+     ],
+     [
+      "17",
+      "Igor de Jesus"
+     ],
+     [
+      "15",
+      "Wesley Henrique"
+     ],
+     [
+      "88",
+      "Geovane Barbosa"
+     ],
+     [
+      "27",
+      "Jardelson"
+     ]
+    ],
+    "a": [
+     [
+      "05",
+      "João Paulo de Jesus Santos"
+     ],
+     [
+      "–",
+      "Edvaldo Igino dos Santos"
+     ],
+     [
+      "–",
+      "Filaderlson Santos de Jesus"
+     ],
+     [
+      "–",
+      "Marcley Joaquim da Silva"
+     ],
+     [
+      "06",
+      "Israel dos Santos Sousa Junior"
+     ],
+     [
+      "11",
+      "Anderson Gomes da Silva"
+     ],
+     [
+      "–",
+      "Railho dos Santos"
+     ],
+     [
+      "08",
+      "Claudevan Nascimento dos Santos"
+     ],
+     [
+      "13",
+      "José Allif dos Santos Gomes"
+     ],
+     [
+      "14",
+      "Gabriel Vieira da Conceição"
+     ],
+     [
+      "–",
+      "José Wilton da Silva Santos"
+     ],
+     [
+      "03",
+      "Clebson Aragão Oliveira"
+     ],
+     [
+      "09",
+      "Aldey Torquatro dos Santos"
+     ],
+     [
+      "–",
+      "Geyverson Félix dos Santos"
+     ],
+     [
+      "07",
+      "José Adoelson dos Santos Gomes"
+     ],
+     [
+      "18",
+      "Rafael Souza Cruz"
+     ],
+     [
+      "22",
+      "Eduardo Melo da Silva"
+     ],
+     [
+      "10",
+      "Kaio Pietro"
+     ],
+     [
+      "15",
+      "Clebson de Sá Melo"
+     ],
+     [
+      "04",
+      "Marcondes da Silva"
+     ]
+    ]
+   },
+   "obs": "Placar conferido pelos gols anotados (o campo do placar ficou em branco na súmula). Todos os gols no 1º tempo; Carlos Daniel marcou duas vezes. Gols e cartões lançados pelo número da camisa anotado na súmula.",
+   "at": "2026-11-09T10:30:00-03:00"
   }
  }
 }
