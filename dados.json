@@ -1,6 +1,6 @@
 {
  "v": 1,
- "updatedAt": "2026-11-12T12:45:00-03:00",
+ "updatedAt": "2026-11-12T15:10:00-03:00",
  "config": {
   "pix": {
    "chave": "4c1b82cc-c5ea-4e9a-ab03-493e97aa34ef",
@@ -72,8 +72,7 @@
      "docs/tabela-1.jpg",
      "docs/tabela-2.jpg",
      "docs/tabela-3.jpg",
-     "docs/tabela-4.jpg",
-     "docs/tabela-5.jpg"
+     "docs/tabela-4.jpg"
     ]
    },
    "aut": {
@@ -1670,7 +1669,7 @@
      ]
     ]
    },
-   "obs": "Capitão do Canadá: Alex Júnior. Horário na súmula: 17h30. Gols e cartões lançados pelo número da camisa anotado na súmula.",
+   "obs": "Capitão do Canadá: Alex Júnior. Gols e cartões lançados pelo número da camisa anotado na súmula.",
    "at": "2026-11-03T11:15:00-03:00"
   },
   "vet-4": {
@@ -2832,7 +2831,7 @@
      ]
     ]
    },
-   "obs": "Todos os sete gols saíram no 1º tempo. Manoel Henrique e Breno marcaram duas vezes cada. Capitão do América: Ícaro Nilcledson. Horário na súmula: 17h30. Gols e cartões lançados pelo número da camisa anotado na súmula.",
+   "obs": "Todos os sete gols saíram no 1º tempo. Manoel Henrique e Breno marcaram duas vezes cada. Capitão do América: Ícaro Nilcledson. Gols e cartões lançados pelo número da camisa anotado na súmula.",
    "at": "2026-11-09T10:30:00-03:00"
   },
   "q2-6": {
