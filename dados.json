@@ -1,6 +1,6 @@
 {
  "v": 1,
- "updatedAt": "2026-11-09T10:30:00-03:00",
+ "updatedAt": "2026-11-12T12:45:00-03:00",
  "config": {
   "pix": {
    "chave": "4c1b82cc-c5ea-4e9a-ab03-493e97aa34ef",
@@ -3345,6 +3345,471 @@
    },
    "obs": "Placar conferido pelos gols anotados (o campo do placar ficou em branco na súmula). Todos os gols no 1º tempo; Carlos Daniel marcou duas vezes. Gols e cartões lançados pelo número da camisa anotado na súmula.",
    "at": "2026-11-09T10:30:00-03:00"
+  },
+  "q1-8": {
+   "h": 0,
+   "a": 2,
+   "goals": [
+    {
+     "t": "a",
+     "p": "#11 Leandro de Santana Correia",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#11 Leandro de Santana Correia",
+     "tp": 2
+    }
+   ],
+   "cards": [
+    {
+     "t": "h",
+     "p": "#33 Pedro Henrique Santos de Oliveira",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#21 Lincoln Eduardo Ferreira de Lima",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "h",
+     "p": "#29 Fredson Paz da Silva",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#14 José Tiago da Silva",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#05 Antônio Martins dos Santos Neto",
+     "c": "y",
+     "tp": 2
+    }
+   ],
+   "sumula": [
+    "sumulas/q1-8-1.jpg"
+   ],
+   "atletas": {
+    "h": [
+     [
+      "–",
+      "Emerton Santos de Lima"
+     ],
+     [
+      "30",
+      "Emerson Lima da Silva"
+     ],
+     [
+      "23",
+      "Gustavo Marcelino dos Santos"
+     ],
+     [
+      "07",
+      "Jamisson de Almeida Alves"
+     ],
+     [
+      "29",
+      "Fredson Paz da Silva"
+     ],
+     [
+      "12",
+      "Eduardo Ricardo S. do Nascimento"
+     ],
+     [
+      "22",
+      "Anderson de Almeida Alves"
+     ],
+     [
+      "20",
+      "Bruno Gabriel Rodrigues de Lima"
+     ],
+     [
+      "08/27",
+      "Marcelo Jorge Dantas de O. Filho"
+     ],
+     [
+      "19",
+      "Manoel Felipe Santos Correia"
+     ],
+     [
+      "10",
+      "José Rodrigues do Nascimento Neto"
+     ],
+     [
+      "01",
+      "Wedson dos Reis Souza"
+     ],
+     [
+      "21/24",
+      "Lincoln Eduardo Ferreira de Lima"
+     ],
+     [
+      "27",
+      "Jerfeson de Jesus Lisboa"
+     ],
+     [
+      "32",
+      "Rodrigo Gomes dos Santos"
+     ],
+     [
+      "–",
+      "José Dalvan de Oliveira Alves"
+     ],
+     [
+      "34/22",
+      "Vitor Silva Ventura Lins"
+     ],
+     [
+      "09/23",
+      "Pedro Henryque Santos Silva"
+     ],
+     [
+      "33",
+      "Pedro Henrique Santos de Oliveira"
+     ],
+     [
+      "24",
+      "Carlos Emanoel Ferreira da Silva"
+     ],
+     [
+      "26/25",
+      "Pietro Gabriel Machado de Souza"
+     ],
+     [
+      "25",
+      "Admilson de Oliveira"
+     ]
+    ],
+    "a": [
+     [
+      "–",
+      "Adenison Costa Santos"
+     ],
+     [
+      "13",
+      "Elivelton Aragão Oliveira"
+     ],
+     [
+      "–",
+      "Mikael da Silva Santos"
+     ],
+     [
+      "04/30",
+      "Manoel Messias Leite de Souza"
+     ],
+     [
+      "12",
+      "Ednaldo Cardoso dos Santos"
+     ],
+     [
+      "09",
+      "João Mateus Santos de Almeida"
+     ],
+     [
+      "16",
+      "Salatiel Alexandre de Assis"
+     ],
+     [
+      "–",
+      "Liomar Gouveia da Rocha"
+     ],
+     [
+      "02",
+      "Edson Invenção da Silva"
+     ],
+     [
+      "14",
+      "José Tiago da Silva"
+     ],
+     [
+      "19",
+      "Alisson da Silva Santos"
+     ],
+     [
+      "–",
+      "José Jeferson Lemos da Silva"
+     ],
+     [
+      "–",
+      "Brenno Silva Santos"
+     ],
+     [
+      "05",
+      "Antônio Martins dos Santos Neto"
+     ],
+     [
+      "–",
+      "Manoel Everton de Jesus Santos"
+     ],
+     [
+      "11",
+      "Leandro de Santana Correia"
+     ],
+     [
+      "30/13",
+      "Gilmar da Silva"
+     ],
+     [
+      "15",
+      "Roberto Bispo"
+     ],
+     [
+      "06",
+      "Eliel Felipe"
+     ]
+    ]
+   },
+   "obs": "Placar conferido pelos gols anotados (o campo do placar ficou em branco na súmula). Capitão do CSF: Pedro Henrique. Gols e cartões lançados pelo número da camisa anotado na súmula.",
+   "at": "2026-11-12T12:45:00-03:00"
+  },
+  "q2-8": {
+   "h": 2,
+   "a": 2,
+   "goals": [
+    {
+     "t": "h",
+     "p": "#20 Lucas José da Silva",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#20 Lucas José da Silva",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#07 Rafael de Jesus Monteiro",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#14 Bruno da Silva Alves",
+     "tp": 2
+    }
+   ],
+   "cards": [
+    {
+     "t": "h",
+     "p": "#11 Pedro França Belém Neto",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#05 Carlos Eduardo da Silva S. Fernandes",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#27 Jonata Conceição Santos Silva",
+     "c": "r",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#06 Arthur de Souza Oliveira",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#09 José Aécio Rodrigues da Silva",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#18 Gabriel Clemente Feitosa",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#06 Arthur de Souza Oliveira",
+     "c": "r",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#18 Gabriel Clemente Feitosa",
+     "c": "r",
+     "tp": 2
+    }
+   ],
+   "sumula": [
+    "sumulas/q2-8-1.jpg"
+   ],
+   "info": {
+    "mesario": "Alexandre"
+   },
+   "atletas": {
+    "h": [
+     [
+      "–",
+      "José Feitosa Neto"
+     ],
+     [
+      "05",
+      "Carlos Eduardo da Silva S. Fernandes"
+     ],
+     [
+      "17/13",
+      "Yan Gabriel Cordeiro Fernandes"
+     ],
+     [
+      "11/10",
+      "Pedro França Belém Neto"
+     ],
+     [
+      "01",
+      "Ezequiel da Silva Teles"
+     ],
+     [
+      "22",
+      "Weliton Graça de Brito"
+     ],
+     [
+      "13",
+      "Eclésio da Silva Teles"
+     ],
+     [
+      "07",
+      "Jean Vieira Nunes"
+     ],
+     [
+      "12",
+      "João Everton Lins dos Santos"
+     ],
+     [
+      "10",
+      "Douglas Lisboa da Silva"
+     ],
+     [
+      "–",
+      "Osmair dos Santos Lima"
+     ],
+     [
+      "09",
+      "Marcos Antônio dos S. Saturnino"
+     ],
+     [
+      "02/22",
+      "Carlos Manuel Bispo dos Santos"
+     ],
+     [
+      "–",
+      "Adenilson Jesus de Souza Cruz"
+     ],
+     [
+      "27",
+      "Jonata Conceição Santos Silva"
+     ],
+     [
+      "77/09",
+      "Cícero Augusto R. da Silva"
+     ],
+     [
+      "71",
+      "Fabrício Santos Graça"
+     ],
+     [
+      "04",
+      "Alan Braz Cordeiro da Silva"
+     ],
+     [
+      "20",
+      "Lucas José da Silva"
+     ],
+     [
+      "23/07",
+      "Admilson de Oliveira Silva"
+     ]
+    ],
+    "a": [
+     [
+      "06",
+      "Arthur de Souza Oliveira"
+     ],
+     [
+      "18",
+      "Gabriel Clemente Feitosa"
+     ],
+     [
+      "08/18",
+      "Roberto Bispo da Silva"
+     ],
+     [
+      "–",
+      "João Hitallo da Silva Gomes"
+     ],
+     [
+      "09",
+      "José Aécio Rodrigues da Silva"
+     ],
+     [
+      "16",
+      "Antony Richard Santos Vieira"
+     ],
+     [
+      "13",
+      "Romário Vinícius Santos Silva"
+     ],
+     [
+      "05",
+      "Eliel Fellipe Torres Santos"
+     ],
+     [
+      "10/11",
+      "Gilmar da Silva Filho"
+     ],
+     [
+      "07/16",
+      "Rafael de Jesus Monteiro"
+     ],
+     [
+      "01",
+      "João Gabriel Varjão de Oliveira"
+     ],
+     [
+      "02",
+      "Pedro Henrique Oliveira Duarte"
+     ],
+     [
+      "15/02",
+      "Lucas dos Santos"
+     ],
+     [
+      "14",
+      "Bruno da Silva Alves"
+     ],
+     [
+      "21/14",
+      "José Sizo Santos Carvalho"
+     ],
+     [
+      "04",
+      "Ruan Lima Silveira"
+     ],
+     [
+      "–",
+      "Carlos Eduardo Lopes da Silva"
+     ],
+     [
+      "11",
+      "Eduardo Silva Barros"
+     ]
+    ]
+   },
+   "obs": "Lucas José marcou os dois gols do Mandacaru. Expulsos no 2º tempo: Jonata (#27, Mandacaru), Arthur (#06) e Gabriel (#18), ambos do Red Bull após o segundo amarelo. Capitão do Mandacaru: Admilson. Gols e cartões lançados pelo número da camisa anotado na súmula.",
+   "at": "2026-11-12T12:45:00-03:00"
   }
  }
 }
