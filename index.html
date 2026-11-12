@@ -582,7 +582,7 @@ function compute(ck,R){
   }
   const rankOf={}; ['G1','G2','G3','G4','G5','G6','T1','T2'].forEach((s,i)=>{if(slots[s])rankOf[slots[s]]=i});
   const ko={};
-  const team=(m,s)=>slots[s]||null;
+  const team=(m,s)=>(!done&&/^[GTAB]\d$/.test(s))?null:(slots[s]||null);
   C.list.filter(m=>m.ko).forEach(m=>{
     if(m.kid==='sf1'&&C.fmt==='q'){
       const qw=['qf1','qf2','qf3','qf4'].map(q=>ko[q]&&ko[q].win).filter(Boolean);
@@ -872,7 +872,7 @@ function bracket(comp){
   const C=CATS[UI.cat];const ko=C.list.filter(m=>m.ko);
   const col=(f,t)=>`<div class="col"><h4>${t}</h4>${ko.filter(m=>m.fase===f).map(m=>kmatch(m,comp)).join('')}</div>`;
   const champ=comp.champ?`<div class="champ">${TROPHY}<div><span class="eyebrow">Campeão${UI.sim?' (simulação)':''}</span><b>${esc(clubName(comp.champ))}</b><span class="muted">Vice: ${esc(clubName(comp.vice))} · Prêmio ${esc(C.premio[0])}</span></div></div>`:'';
-  return `${champ}${!comp.done?'<p class="note">Enquanto a 1ª fase não termina, os confrontos mostram uma projeção: como ficaria se o campeonato acabasse hoje.</p>':''}
+  return `${champ}${!comp.done?'<p class="note">Os confrontos do mata-mata serão definidos quando terminar toda a 1ª fase, pelos critérios do Art. 20.</p>':''}
    <div class="bracket"><div class="br ${C.fmt==='v'?'v':''}">${C.fmt==='q'?col('Quartas','Quartas de final'):''}${col('Semifinal','Semifinais')}${col('Final','Final · 20/12')}</div></div>
    ${C.fmt==='q'?'<p class="note">Semifinal: os 4 vencedores das quartas são reordenados pela campanha da 1ª fase. 2º × 3º em 12/12 e 1º × 4º em 13/12, como na tabela oficial.</p>':''}`;
 }
