@@ -1,6 +1,6 @@
 {
  "v": 1,
- "updatedAt": "2026-11-15T20:45:00-03:00",
+ "updatedAt": "2026-11-15T20:50:00-03:00",
  "config": {
   "pix": {
    "chave": "4c1b82cc-c5ea-4e9a-ab03-493e97aa34ef",
@@ -3842,6 +3842,22 @@
    "cards": [],
    "obs": "Vitória do América por 5 × 3 no jogo de 15/11.",
    "at": "2026-11-15T20:45:00-03:00"
+  },
+  "q2-10": {
+   "h": 2,
+   "a": 1,
+   "goals": [],
+   "cards": [],
+   "obs": "Vitória do Alto Bonito por 2 × 1 no jogo de 15/11.",
+   "at": "2026-11-15T20:50:00-03:00"
+  },
+  "vet-10": {
+   "h": 3,
+   "a": 0,
+   "goals": [],
+   "cards": [],
+   "obs": "Vitória do Palmeiras por 3 × 0 no jogo de 15/11.",
+   "at": "2026-11-15T20:50:00-03:00"
   }
  }
 }
