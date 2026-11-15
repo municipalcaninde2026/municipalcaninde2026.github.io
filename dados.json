@@ -1,6 +1,6 @@
 {
  "v": 1,
- "updatedAt": "2026-11-15T11:25:00-03:00",
+ "updatedAt": "2026-11-15T11:30:00-03:00",
  "config": {
   "pix": {
    "chave": "4c1b82cc-c5ea-4e9a-ab03-493e97aa34ef",
@@ -3818,6 +3818,22 @@
    "cards": [],
    "obs": "Agrovila e Canadá empataram sem gols no jogo de 14/11.",
    "at": "2026-11-15T11:25:00-03:00"
+  },
+  "q2-9": {
+   "h": 2,
+   "a": 0,
+   "goals": [],
+   "cards": [],
+   "obs": "Vitória da Agrovila por 2 × 0 no jogo de 14/11.",
+   "at": "2026-11-15T11:30:00-03:00"
+  },
+  "vet-9": {
+   "h": 3,
+   "a": 0,
+   "goals": [],
+   "cards": [],
+   "obs": "Vitória da ADEC por 3 × 0 no jogo de 14/11.",
+   "at": "2026-11-15T11:30:00-03:00"
   }
  }
 }
