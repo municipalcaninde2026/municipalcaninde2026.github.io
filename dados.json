@@ -1,6 +1,6 @@
 {
  "v": 1,
- "updatedAt": "2026-11-15T20:50:00-03:00",
+ "updatedAt": "2026-11-16T12:00:00-03:00",
  "config": {
   "pix": {
    "chave": "4c1b82cc-c5ea-4e9a-ab03-493e97aa34ef",
@@ -3815,17 +3815,450 @@
    "h": 0,
    "a": 0,
    "goals": [],
-   "cards": [],
-   "obs": "Agrovila e Canadá empataram sem gols no jogo de 14/11.",
-   "at": "2026-11-15T11:25:00-03:00"
+   "cards": [
+    {
+     "t": "h",
+     "p": "#08 Daniel Santana Oliveira",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#05 Sérgio Gomes do Nascimento",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#14 Henrique da Silva Santos",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#15 Everton Rocha Santos",
+     "c": "y",
+     "tp": 2
+    }
+   ],
+   "sumula": [
+    "sumulas/q1-9-1.jpg"
+   ],
+   "info": {
+    "inicio": "19h20",
+    "mesario": "Big Léo"
+   },
+   "atletas": {
+    "h": [
+     [
+      "–",
+      "Robson Assis da Silva"
+     ],
+     [
+      "–",
+      "Wosley Assis da Silva"
+     ],
+     [
+      "10",
+      "Francescoli Alves Oliveira da Silva"
+     ],
+     [
+      "04",
+      "Wesley Vinícius Fonseca Pereira"
+     ],
+     [
+      "–",
+      "Erik Cauã Martins Santos"
+     ],
+     [
+      "01",
+      "José Rafael Gomes Junior"
+     ],
+     [
+      "–",
+      "Sidney Pereira Venuto"
+     ],
+     [
+      "09",
+      "Pablo Henrique Rodrigues Nobre"
+     ],
+     [
+      "–",
+      "Wesley Assis da Silva"
+     ],
+     [
+      "08",
+      "Daniel Santana Oliveira"
+     ],
+     [
+      "–",
+      "Wanderson Assis da Silva"
+     ],
+     [
+      "17",
+      "José Douglas Tavares de Melo"
+     ],
+     [
+      "–",
+      "Paulo Henrique Cardeal Pereira"
+     ],
+     [
+      "02",
+      "Francisco Barbosa Rios"
+     ],
+     [
+      "05",
+      "Sérgio Gomes do Nascimento"
+     ],
+     [
+      "03",
+      "Gabriel Henrique Santos Fernandes"
+     ],
+     [
+      "14",
+      "Gilmar Gomes Silva"
+     ],
+     [
+      "06",
+      "Leandro Alexandrino dos Santos"
+     ],
+     [
+      "07",
+      "Elias Gomes Cavalcante"
+     ],
+     [
+      "11",
+      "Maycon Junior Rodrigues da Silva"
+     ],
+     [
+      "15",
+      "Luiz Marcos Caetano Filho"
+     ],
+     [
+      "16",
+      "Rafael da Silva"
+     ],
+     [
+      "13",
+      "Alexsandro dos Santos"
+     ],
+     [
+      "18",
+      "Carlos André"
+     ]
+    ],
+    "a": [
+     [
+      "21",
+      "Antônio Henrique Santos Souza"
+     ],
+     [
+      "05",
+      "Luiz Fagno de Jesus Santos"
+     ],
+     [
+      "07",
+      "José Edinaldo Firmino"
+     ],
+     [
+      "15",
+      "Everton Rocha Santos"
+     ],
+     [
+      "04",
+      "João Paulo Almeida Gomes"
+     ],
+     [
+      "20",
+      "Thallys Davi Viana Goios"
+     ],
+     [
+      "–",
+      "Paulo César Teixeira Alves"
+     ],
+     [
+      "10",
+      "Alex Junior de Lima Silva"
+     ],
+     [
+      "–",
+      "Elison Salustiano da Silva"
+     ],
+     [
+      "06",
+      "Camargo Pereira Lourenço"
+     ],
+     [
+      "–",
+      "Rikelme Cirino dos Santos"
+     ],
+     [
+      "01",
+      "Fábio Henrique Oliveira Brazil"
+     ],
+     [
+      "08",
+      "José Weslley Kassio R. de Carvalho"
+     ],
+     [
+      "–",
+      "Vitor Junior Aragão da Penha"
+     ],
+     [
+      "09",
+      "Nadson dos Santos Silva"
+     ],
+     [
+      "14",
+      "Henrique da Silva Santos"
+     ],
+     [
+      "02",
+      "Valdomiro da Silva Santos"
+     ],
+     [
+      "03",
+      "Mateus Gomes Neto"
+     ],
+     [
+      "11",
+      "Francielio de Assis Gonçalves"
+     ],
+     [
+      "–",
+      "José Talmir Cavalcante dos Santos"
+     ]
+    ]
+   },
+   "obs": "Jogo sem gols. Capitão do Canadá: Mateus Gomes Neto. Cartões lançados pelo número da camisa anotado na súmula.",
+   "at": "2026-11-16T12:00:00-03:00"
   },
   "q2-9": {
    "h": 2,
    "a": 0,
-   "goals": [],
-   "cards": [],
-   "obs": "Vitória da Agrovila por 2 × 0 no jogo de 14/11.",
-   "at": "2026-11-15T11:30:00-03:00"
+   "goals": [
+    {
+     "t": "h",
+     "p": "#07 João Paulo Leite da Silva",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#09 Elvis Américo Jesus dos Santos",
+     "tp": 2
+    }
+   ],
+   "cards": [
+    {
+     "t": "h",
+     "p": "#20 Jaildo Gomes de Resende",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#04 Alex Sandro dos Santos Bezerra",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#25 Jaelson Felix da Silva",
+     "c": "r",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#15 Paulo Henrique Felix dos Santos",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#10 Geovane da Conceição Morais",
+     "c": "y",
+     "tp": 2
+    }
+   ],
+   "sumula": [
+    "sumulas/q2-9-1.jpg"
+   ],
+   "info": {
+    "inicio": "15h50",
+    "mesario": "Big Léo"
+   },
+   "atletas": {
+    "h": [
+     [
+      "13",
+      "Hugo Feitosa Furtado"
+     ],
+     [
+      "20",
+      "Jaildo Gomes de Resende"
+     ],
+     [
+      "–",
+      "Pietro Guilherme de Jesus Santos"
+     ],
+     [
+      "09",
+      "Elvis Américo Jesus dos Santos"
+     ],
+     [
+      "–",
+      "Eliel Mariano de Souza"
+     ],
+     [
+      "18",
+      "Antônio Alessandro Dantas de Melo"
+     ],
+     [
+      "08",
+      "Carlos André Ferreira Feitosa"
+     ],
+     [
+      "06",
+      "Rafael da Silva Moura"
+     ],
+     [
+      "23",
+      "Welgton Rodrigues do Nascimento"
+     ],
+     [
+      "04",
+      "Alex Sandro dos Santos Bezerra"
+     ],
+     [
+      "02",
+      "Carlos Adriano dos Santos"
+     ],
+     [
+      "15",
+      "Davi Souza Silva"
+     ],
+     [
+      "03",
+      "Alex Barbosa da Cruz"
+     ],
+     [
+      "07",
+      "João Paulo Leite da Silva"
+     ],
+     [
+      "16",
+      "Pedro Igor Leandro dos Santos Avelino"
+     ],
+     [
+      "10",
+      "Geovane da Conceição Morais"
+     ],
+     [
+      "14",
+      "Alef Santos Andrade"
+     ],
+     [
+      "19",
+      "Júlio Ramon Ribeiro Viana"
+     ],
+     [
+      "–",
+      "Fábio Ferreira Feitosa"
+     ],
+     [
+      "17",
+      "Jadilson Martins dos Santos"
+     ],
+     [
+      "12",
+      "Paulo Ricardo Siqueira Sandes"
+     ],
+     [
+      "–",
+      "José Barreto Filho"
+     ]
+    ],
+    "a": [
+     [
+      "03",
+      "Diego Santos da Conceição"
+     ],
+     [
+      "19",
+      "Marx Alves da Silva"
+     ],
+     [
+      "09",
+      "Wanderson Felix Lima"
+     ],
+     [
+      "06",
+      "Rangel Silva Santos"
+     ],
+     [
+      "11",
+      "Jaelson dos Santos Torres"
+     ],
+     [
+      "14",
+      "Izaelson Nunes"
+     ],
+     [
+      "15",
+      "Paulo Henrique Felix dos Santos"
+     ],
+     [
+      "10",
+      "Robson de Lima da Silva"
+     ],
+     [
+      "–",
+      "Allan Silva Santos"
+     ],
+     [
+      "08",
+      "Ronald Santos da Cruz"
+     ],
+     [
+      "22",
+      "Maycon Gomes de Souza"
+     ],
+     [
+      "01",
+      "José Cleildo Vieira de Gois"
+     ],
+     [
+      "17",
+      "Luciano Souza de Oliveira"
+     ],
+     [
+      "04",
+      "Cristiano Silva do Carmo"
+     ],
+     [
+      "16",
+      "Bruno Sousa Andrade"
+     ],
+     [
+      "01",
+      "Eduardo Vieira dos Santos"
+     ],
+     [
+      "20",
+      "Adisson Andrade de Jesus"
+     ],
+     [
+      "13",
+      "Samuel Nazaré dos Santos"
+     ],
+     [
+      "25",
+      "Jaelson Felix da Silva"
+     ]
+    ]
+   },
+   "obs": "Gols de João Paulo (1º tempo) e Elvis (2º tempo). O vermelho do 1º tempo foi anotado com o nº 25 na coluna da Agrovila, mas o único nº 25 do jogo é Jaelson Felix (Cuiabá) — lançado para ele. Capitão do Cuiabá: Robson. Gols e cartões lançados pelo número da camisa anotado na súmula.",
+   "at": "2026-11-16T12:00:00-03:00"
   },
   "vet-9": {
    "h": 3,
@@ -3838,18 +4271,485 @@
   "q1-10": {
    "h": 5,
    "a": 3,
-   "goals": [],
-   "cards": [],
-   "obs": "Vitória do América por 5 × 3 no jogo de 15/11.",
-   "at": "2026-11-15T20:45:00-03:00"
+   "goals": [
+    {
+     "t": "h",
+     "p": "#11 Eliedson Rodrigues de Melo Junior",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#08 João Pedro Araújo Silva",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#11 Eliedson Rodrigues de Melo Junior",
+     "tp": 2
+    },
+    {
+     "t": "h",
+     "p": "#08 João Pedro Araújo Silva",
+     "tp": 2
+    },
+    {
+     "t": "h",
+     "p": "#09 David Eduardo Almeida Souza",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#08 Jonas Alves Araújo",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#09 Jamisson dos Santos",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#08 Jonas Alves Araújo",
+     "tp": 2
+    }
+   ],
+   "cards": [
+    {
+     "t": "h",
+     "p": "#04 Geovane Silva Campos",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#09 David Eduardo Almeida Souza",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#03 Ismar Pimentel Dias",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#06 João Victor Ferreira da Silva",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "h",
+     "p": "#07 Ícaro Nilcledson Santos Santana",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "h",
+     "p": "#13 William dos Santos Silva",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#10 José Daniel Leite Rodrigues",
+     "c": "y",
+     "tp": 2
+    }
+   ],
+   "sumula": [
+    "sumulas/q1-10-1.jpg"
+   ],
+   "info": {
+    "inicio": "19h00"
+   },
+   "atletas": {
+    "h": [
+     [
+      "02",
+      "José Maria Gregório Junior"
+     ],
+     [
+      "06",
+      "João Victor Ferreira da Silva"
+     ],
+     [
+      "03",
+      "Raul de Lima Meneses"
+     ],
+     [
+      "05/20",
+      "Pablo Henrique Feitosa Santos"
+     ],
+     [
+      "–",
+      "Widley Marlon Felipe Silveira Freitas"
+     ],
+     [
+      "08",
+      "João Pedro Araújo Silva"
+     ],
+     [
+      "–",
+      "Erick Elias Santos Martins"
+     ],
+     [
+      "10",
+      "Wedson Silva Santos"
+     ],
+     [
+      "09",
+      "David Eduardo Almeida Souza"
+     ],
+     [
+      "11",
+      "Eliedson Rodrigues de Melo Junior"
+     ],
+     [
+      "13",
+      "William dos Santos Silva"
+     ],
+     [
+      "03",
+      "José Adailton Fontes Capela"
+     ],
+     [
+      "04",
+      "Geovane Silva Campos"
+     ],
+     [
+      "–",
+      "Franklin Eduardo Silva França"
+     ],
+     [
+      "07",
+      "Ícaro Nilcledson Santos Santana"
+     ],
+     [
+      "–",
+      "Luís Felipe Ferreira de Souza"
+     ],
+     [
+      "20",
+      "Albert Kainã Caetano Alves"
+     ],
+     [
+      "–",
+      "Geovani Geralcino Monteiro Lima"
+     ]
+    ],
+    "a": [
+     [
+      "13",
+      "Acássio Soares dos Santos"
+     ],
+     [
+      "12/06",
+      "Thiago Gouveia da Rocha"
+     ],
+     [
+      "09",
+      "Jamisson dos Santos"
+     ],
+     [
+      "03",
+      "Ismar Pimentel Dias"
+     ],
+     [
+      "08",
+      "Jonas Alves Araújo"
+     ],
+     [
+      "07",
+      "André Pereira da Silva"
+     ],
+     [
+      "54",
+      "Eduardo Craveiro"
+     ],
+     [
+      "–",
+      "Cidiley da Silva Lima"
+     ],
+     [
+      "–",
+      "Edson Pereira da Silva"
+     ],
+     [
+      "04",
+      "Anderson Teles de Meneses"
+     ],
+     [
+      "06",
+      "Genival Gomes dos Santos Junior"
+     ],
+     [
+      "20",
+      "Jadson Menezes dos Santos"
+     ],
+     [
+      "11/15",
+      "Jamysson Alves Araújo"
+     ],
+     [
+      "02",
+      "Eduardo Rodrigues Santos"
+     ],
+     [
+      "10/20",
+      "José Daniel Leite Rodrigues"
+     ],
+     [
+      "–",
+      "Ildebrando Bezerra da Silva"
+     ],
+     [
+      "05/20",
+      "Marcos Enrique Barbosa Filho"
+     ],
+     [
+      "35",
+      "Wilton Vitor Santos"
+     ]
+    ]
+   },
+   "obs": "Eliedson e João Pedro marcaram dois gols cada pelo América; Jonas fez dois do Alto Bonito, todos no 2º tempo. Capitães: Geovane S. Campos (América) e Acássio (Alto Bonito). Gols e cartões lançados pelo número da camisa anotado na súmula.",
+   "at": "2026-11-16T12:00:00-03:00"
   },
   "q2-10": {
    "h": 2,
    "a": 1,
-   "goals": [],
-   "cards": [],
-   "obs": "Vitória do Alto Bonito por 2 × 1 no jogo de 15/11.",
-   "at": "2026-11-15T20:50:00-03:00"
+   "goals": [
+    {
+     "t": "h",
+     "p": "#89 Welton Vitor Santos",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#89 Welton Vitor Santos",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#11 José Anderson Correia de Souza",
+     "tp": 2
+    }
+   ],
+   "cards": [
+    {
+     "t": "h",
+     "p": "#01 Willian Pereira",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#96 Allyson da Silva Pereira",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#16 Renato Gomes do Nascimento",
+     "c": "y",
+     "tp": 2
+    }
+   ],
+   "sumula": [
+    "sumulas/q2-10-1.jpg"
+   ],
+   "info": {
+    "inicio": "15h34"
+   },
+   "atletas": {
+    "h": [
+     [
+      "01",
+      "Willian Pereira"
+     ],
+     [
+      "89",
+      "Welton Vitor Santos"
+     ],
+     [
+      "81",
+      "Luiz Fernando Meneses Cruz"
+     ],
+     [
+      "80/94",
+      "Joeliton Santos Feitosa"
+     ],
+     [
+      "98/82",
+      "Altair Marques da Silva"
+     ],
+     [
+      "86",
+      "Cleberton Bispo dos Santos"
+     ],
+     [
+      "88",
+      "Denilton de Jesus Silva"
+     ],
+     [
+      "92",
+      "Kaynan Eduardo Santos Alves"
+     ],
+     [
+      "94",
+      "Adriano da Silva Pereira"
+     ],
+     [
+      "–",
+      "Lindomar Gouveia da Rocha"
+     ],
+     [
+      "–",
+      "José Ronaldo dos Santos"
+     ],
+     [
+      "78",
+      "Widson Mário Pereira dos Santos"
+     ],
+     [
+      "96",
+      "Allyson da Silva Pereira"
+     ],
+     [
+      "99",
+      "Carlos César Souza Filho"
+     ],
+     [
+      "82",
+      "Edson da Silva Menezes"
+     ],
+     [
+      "79",
+      "Kauê Rodrigues dos Santos"
+     ],
+     [
+      "–",
+      "Washington da Silva Santos"
+     ],
+     [
+      "87",
+      "Pedro Henrique da Silva Pereira"
+     ],
+     [
+      "91/81",
+      "Daniel Gomes da Silva"
+     ],
+     [
+      "85",
+      "Alex Teixeira de Lima"
+     ],
+     [
+      "95/92",
+      "Liomar Gouveia da Rocha"
+     ],
+     [
+      "84",
+      "Vitor Moura Costa"
+     ]
+    ],
+    "a": [
+     [
+      "–",
+      "Gilmário dos Santos"
+     ],
+     [
+      "–",
+      "Edevaldo Santos da Silva"
+     ],
+     [
+      "08",
+      "Wellington de Jesus Santos"
+     ],
+     [
+      "11",
+      "José Anderson Correia de Souza"
+     ],
+     [
+      "06",
+      "Wanderson Junior Barbosa da Silva"
+     ],
+     [
+      "03/19",
+      "Josimário Alves de Oliveira"
+     ],
+     [
+      "15",
+      "José Glaudison Correia dos Santos"
+     ],
+     [
+      "10",
+      "Eduardo Santos da Silva"
+     ],
+     [
+      "–",
+      "Luís Fernandes Marques de Andrade"
+     ],
+     [
+      "16",
+      "Renato Gomes do Nascimento"
+     ],
+     [
+      "19",
+      "Maycon Nascimento Aragão"
+     ],
+     [
+      "07/10",
+      "Caio Guthiers Ribeiro da Cruz"
+     ],
+     [
+      "05/08",
+      "Ricardo Fernandes de Oliveira"
+     ],
+     [
+      "17",
+      "Wenderson Invenção de J. da Silva"
+     ],
+     [
+      "–",
+      "Micael Fernandes da Silva"
+     ],
+     [
+      "–",
+      "Júlio César Santos Silva"
+     ],
+     [
+      "–",
+      "Cristiano Tenório dos Santos"
+     ],
+     [
+      "02",
+      "José Valdemir da Silva"
+     ],
+     [
+      "09/18",
+      "José Renilson da Silva"
+     ],
+     [
+      "18",
+      "José Pereira de Araújo"
+     ],
+     [
+      "04",
+      "Nailton Pedro da Silva"
+     ],
+     [
+      "14/16",
+      "Carlos Eduardo Vital de Souza"
+     ],
+     [
+      "01",
+      "Wilson Viana da Silva Junior"
+     ]
+    ]
+   },
+   "obs": "Welton Vitor marcou os dois gols do Alto Bonito, um em cada tempo. O amarelo nº 96 do 2º tempo foi anotado na coluna do Olaria, mas o único nº 96 do jogo é Allyson (Alto Bonito) — lançado para ele. Capitães: Alex (Alto Bonito) e Anderson (Olaria). Gols e cartões lançados pelo número da camisa anotado na súmula.",
+   "at": "2026-11-16T12:00:00-03:00"
   },
   "vet-10": {
    "h": 3,
