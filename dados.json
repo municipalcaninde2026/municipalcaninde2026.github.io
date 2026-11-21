@@ -1,6 +1,6 @@
 {
  "v": 1,
- "updatedAt": "2026-11-18T16:35:00-03:00",
+ "updatedAt": "2026-11-21T11:10:00-03:00",
  "config": {
   "pix": {
    "chave": "4c1b82cc-c5ea-4e9a-ab03-493e97aa34ef",
@@ -4757,6 +4757,22 @@
    "cards": [],
    "obs": "Vitória do Palmeiras por 3 × 0 no jogo de 15/11.",
    "at": "2026-11-15T20:50:00-03:00"
+  },
+  "q1-12": {
+   "h": 3,
+   "a": 0,
+   "goals": [],
+   "cards": [],
+   "obs": "Vitória do Capim Grosso por 3 × 0 no jogo de 20/11. Autores dos gols e cartões serão lançados quando a súmula chegar.",
+   "at": "2026-11-21T11:10:00-03:00"
+  },
+  "q2-12": {
+   "h": 4,
+   "a": 0,
+   "goals": [],
+   "cards": [],
+   "obs": "Vitória do Capim Grosso por 4 × 0 no jogo de 20/11. Autores dos gols e cartões serão lançados quando a súmula chegar.",
+   "at": "2026-11-21T11:10:00-03:00"
   }
  }
 }
