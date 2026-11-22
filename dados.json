@@ -1,6 +1,6 @@
 {
  "v": 1,
- "updatedAt": "2026-11-21T11:10:00-03:00",
+ "updatedAt": "2026-11-22T10:15:00-03:00",
  "config": {
   "pix": {
    "chave": "4c1b82cc-c5ea-4e9a-ab03-493e97aa34ef",
@@ -4773,6 +4773,15 @@
    "cards": [],
    "obs": "Vitória do Capim Grosso por 4 × 0 no jogo de 20/11. Autores dos gols e cartões serão lançados quando a súmula chegar.",
    "at": "2026-11-21T11:10:00-03:00"
+  },
+  "vet-13": {
+   "h": 1,
+   "a": 0,
+   "goals": [],
+   "cards": [],
+   "sumula": [],
+   "obs": "Resultado informado pela organização. Autor do gol e cartões serão lançados quando a súmula for recebida.",
+   "at": "2026-11-22T10:15:00-03:00"
   }
  }
 }
