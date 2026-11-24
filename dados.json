@@ -1,6 +1,6 @@
 {
  "v": 1,
- "updatedAt": "2026-11-23T11:55:00-03:00",
+ "updatedAt": "2026-11-24T10:05:00-03:00",
  "config": {
   "pix": {
    "chave": "4c1b82cc-c5ea-4e9a-ab03-493e97aa34ef",
@@ -4761,18 +4761,466 @@
   "q1-12": {
    "h": 3,
    "a": 0,
-   "goals": [],
-   "cards": [],
-   "obs": "Vitória do Capim Grosso por 3 × 0 no jogo de 20/11. Autores dos gols e cartões serão lançados quando a súmula chegar.",
-   "at": "2026-11-21T11:10:00-03:00"
+   "goals": [
+    {
+     "t": "h",
+     "p": "#11 Robert Alves Silva",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#11 Robert Alves Silva",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#10 Sidnei Martins dos Reis",
+     "tp": 2
+    }
+   ],
+   "cards": [
+    {
+     "t": "h",
+     "p": "#14 Natanaelson Rodrigues Cruz",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#22 Manoel Henrique de Oliveira Silva",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#11",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#04 André Luiz dos Santos Rodrigues",
+     "c": "r",
+     "tp": 2
+    }
+   ],
+   "sumula": [
+    "sumulas/q1-12-1.jpg"
+   ],
+   "info": {
+    "mesario": "Alexandre"
+   },
+   "atletas": {
+    "h": [
+     [
+      "13",
+      "Everson dos Santos"
+     ],
+     [
+      "08",
+      "Anderson dos Santos Silva"
+     ],
+     [
+      "10",
+      "Sidnei Martins dos Reis"
+     ],
+     [
+      "14",
+      "Natanaelson Rodrigues Cruz"
+     ],
+     [
+      "04",
+      "Ryan da Costa Gomes"
+     ],
+     [
+      "16",
+      "Pauleandro dos Santos"
+     ],
+     [
+      "23",
+      "Harrison Rodrigues Nobre"
+     ],
+     [
+      "–",
+      "Matheus Sousa Vieira"
+     ],
+     [
+      "09",
+      "Erasmo Mariano de Souza Neto"
+     ],
+     [
+      "06/13",
+      "Maxsuel Oliveira Cruz"
+     ],
+     [
+      "–",
+      "José Denis Bernardino Gomes"
+     ],
+     [
+      "–",
+      "Lucas Marques da Silva"
+     ],
+     [
+      "03",
+      "Edilson Vieira da Silva"
+     ],
+     [
+      "07",
+      "Sidney Carlos Ribeiro"
+     ],
+     [
+      "11",
+      "Robert Alves Silva"
+     ],
+     [
+      "30",
+      "Antônio Genison Alves da Silva"
+     ],
+     [
+      "15",
+      "Mércio Ferreira"
+     ],
+     [
+      "02",
+      "José Leivinos"
+     ],
+     [
+      "19",
+      "Luan Silva"
+     ]
+    ],
+    "a": [
+     [
+      "–",
+      "Breno Silva dos Santos"
+     ],
+     [
+      "08/18",
+      "Tiago Noia Silva"
+     ],
+     [
+      "10/19",
+      "Luiz Guilherme Bezerra Souza"
+     ],
+     [
+      "03",
+      "Emmanuel Sarmento Oliveira"
+     ],
+     [
+      "–",
+      "Dayvison Lucas Bezerra Souza"
+     ],
+     [
+      "01",
+      "Cícero Gonçalves Correia"
+     ],
+     [
+      "05/14",
+      "Ryckelme da Silva Santos"
+     ],
+     [
+      "06",
+      "Isaías Sobral dos Santos"
+     ],
+     [
+      "–",
+      "Valdene Marques da Silva"
+     ],
+     [
+      "20",
+      "José Ivan Silvino"
+     ],
+     [
+      "–",
+      "Pedro Lucas Rodrigues Melo"
+     ],
+     [
+      "04",
+      "André Luiz dos Santos Rodrigues"
+     ],
+     [
+      "12",
+      "Galdene de Souza Almeida"
+     ],
+     [
+      "09",
+      "Celso Henrique Melo de Almeida"
+     ],
+     [
+      "–",
+      "Evangelista Santos da Rocha"
+     ],
+     [
+      "17",
+      "Jamis Lima de Andrade"
+     ],
+     [
+      "19/13",
+      "Antonny Rian Silva Santos"
+     ],
+     [
+      "16",
+      "Kauan Matheus dos Santos Marques"
+     ],
+     [
+      "14",
+      "Vinícius Guilherme Alves Lima"
+     ],
+     [
+      "–",
+      "Henrique Siqueira dos Santos"
+     ],
+     [
+      "07/22",
+      "Manoel Henrique de Oliveira Silva"
+     ]
+    ]
+   },
+   "obs": "Robert Alves marcou duas vezes. André Luiz (#04, União Canindé) foi expulso no 2º tempo. Capitão do Capim Grosso: Antônio Genison. Alguns números da relação do União estão ilegíveis na súmula. Gols e cartões lançados pelo número da camisa anotado na súmula.",
+   "at": "2026-11-24T10:05:00-03:00"
   },
   "q2-12": {
    "h": 4,
    "a": 0,
-   "goals": [],
-   "cards": [],
-   "obs": "Vitória do Capim Grosso por 4 × 0 no jogo de 20/11. Autores dos gols e cartões serão lançados quando a súmula chegar.",
-   "at": "2026-11-21T11:10:00-03:00"
+   "goals": [
+    {
+     "t": "h",
+     "p": "#20 Guilherme Santos Melo",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#20 Guilherme Santos Melo",
+     "tp": 2
+    },
+    {
+     "t": "h",
+     "p": "#09 Luan Silva Santos",
+     "tp": 2
+    },
+    {
+     "t": "h",
+     "p": "#19 Davi Fabiano Silva Santos",
+     "tp": 2
+    }
+   ],
+   "cards": [
+    {
+     "t": "h",
+     "p": "#18 Jonatas Mikael Ferreira da Silva",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#22 Jakson Roberto Andrade Teixeira",
+     "c": "y",
+     "tp": 1
+    }
+   ],
+   "sumula": [
+    "sumulas/q2-12-1.jpg"
+   ],
+   "info": {
+    "inicio": "19h12",
+    "mesario": "Alexandre"
+   },
+   "atletas": {
+    "h": [
+     [
+      "12",
+      "Acácio Ferreira da Silva"
+     ],
+     [
+      "05/07",
+      "Rosinaldo Rodrigues dos Santos"
+     ],
+     [
+      "14",
+      "Ruan de Jesus Martins"
+     ],
+     [
+      "–",
+      "Pedro Henrique da Silva Santos"
+     ],
+     [
+      "19",
+      "Davi Fabiano Silva Santos"
+     ],
+     [
+      "17",
+      "Lucas Yuri Bezerra Rodrigues"
+     ],
+     [
+      "–",
+      "Eriverton Santos Silva"
+     ],
+     [
+      "09/33",
+      "Luan Silva Santos"
+     ],
+     [
+      "04",
+      "Mércio Ferreira Soares"
+     ],
+     [
+      "07",
+      "Jirlan Carlos Alves dos Santos"
+     ],
+     [
+      "16",
+      "Adeilson da Silva"
+     ],
+     [
+      "02/14",
+      "Fagner Junior Marques da Silva"
+     ],
+     [
+      "18",
+      "Jonatas Mikael Ferreira da Silva"
+     ],
+     [
+      "06",
+      "José Laison Soares dos Santos"
+     ],
+     [
+      "20",
+      "Guilherme Santos Melo"
+     ],
+     [
+      "08",
+      "José Leivinos Santos Silva"
+     ],
+     [
+      "03",
+      "Alexandre Medeiros dos Santos"
+     ],
+     [
+      "31",
+      "Renan da Silva Nunes"
+     ],
+     [
+      "10/15",
+      "Givaldo Antônio da Silva"
+     ],
+     [
+      "01",
+      "José David dos Santos"
+     ],
+     [
+      "11/19",
+      "Tomás dos Santos Feitosa"
+     ],
+     [
+      "15",
+      "Lucas Santos Silva"
+     ],
+     [
+      "13",
+      "José Anderson da Paz Silva"
+     ],
+     [
+      "–",
+      "Rosiel Rodrigues dos Santos Soares"
+     ]
+    ],
+    "a": [
+     [
+      "07",
+      "Leogeneffer Araújo dos Santos"
+     ],
+     [
+      "–",
+      "Carlos Henrique Vieira"
+     ],
+     [
+      "05",
+      "Rodrigo Amaro de Santana"
+     ],
+     [
+      "11",
+      "Tiago dos Anjos Silva"
+     ],
+     [
+      "19",
+      "Edione Alves Vieira"
+     ],
+     [
+      "08",
+      "Genisson Rodrigues de Oliveira"
+     ],
+     [
+      "02/19",
+      "Jefersson Marques Santos"
+     ],
+     [
+      "07/05",
+      "Marcelo Lima Santos"
+     ],
+     [
+      "09/08",
+      "Márcio Oliveira Santos"
+     ],
+     [
+      "22",
+      "Jakson Roberto Andrade Teixeira"
+     ],
+     [
+      "15",
+      "Nilton César dos Anjos Silva"
+     ],
+     [
+      "03",
+      "Dharlly Biserra Gomes"
+     ],
+     [
+      "–",
+      "Jonas Constante de Almeida Junior"
+     ],
+     [
+      "14",
+      "Marcos Jefferson Ramos Silva"
+     ],
+     [
+      "01",
+      "Genilton Pereira de Santana"
+     ],
+     [
+      "04",
+      "Rodrigo Santos Gonçalves"
+     ],
+     [
+      "–",
+      "Gildevan Filgueira da Silva"
+     ],
+     [
+      "06/13",
+      "Alan Caetano de Sá"
+     ],
+     [
+      "–",
+      "Jeosafá Pedro Andrade Ferreira"
+     ],
+     [
+      "18",
+      "José Maykon Góes da Silva"
+     ],
+     [
+      "10/18",
+      "Arthur Vinícius Costa Azevedo"
+     ],
+     [
+      "13",
+      "Athirson Carvalho de Andrade"
+     ],
+     [
+      "–",
+      "Anthony Nalysson Almeida de Jesus"
+     ]
+    ]
+   },
+   "obs": "Guilherme Santos Melo marcou duas vezes. Gols e cartões lançados pelo número da camisa anotado na súmula.",
+   "at": "2026-11-24T10:05:00-03:00"
   },
   "vet-13": {
    "h": 1,
@@ -4798,22 +5246,220 @@
    "goals": [
     {
      "t": "a",
-     "p": "Léo"
+     "p": "#09 Leonardo da Silva",
+     "tp": 1
     },
     {
      "t": "a",
-     "p": "Dione"
-    },
-    {
-     "t": "a",
-     "p": "Gol contra do Mandacaru",
+     "p": "Contra: #71 Fabrício Santos Graça (Mandacaru)",
+     "tp": 1,
      "og": true
+    },
+    {
+     "t": "a",
+     "p": "#09 Leonardo da Silva",
+     "tp": 2
     }
    ],
-   "cards": [],
-   "sumula": [],
-   "obs": "Resultado e autores dos gols conforme divulgação do Grêmio Capim Grosso. Cartões e relação de atletas serão lançados quando a súmula for recebida.",
-   "at": "2026-11-23T09:10:00-03:00"
+   "cards": [
+    {
+     "t": "a",
+     "p": "#17 Alef dos Santos Vieira",
+     "c": "y",
+     "tp": 2
+    }
+   ],
+   "sumula": [
+    "sumulas/q2-14-1.jpg"
+   ],
+   "info": {
+    "inicio": "15h47",
+    "mesario": "Big Léo"
+   },
+   "atletas": {
+    "h": [
+     [
+      "–",
+      "José Feitosa Neto"
+     ],
+     [
+      "–",
+      "Carlos Eduardo da Silva S. Fernandes"
+     ],
+     [
+      "–",
+      "Yan Gabriel Cordeiro Fernandes"
+     ],
+     [
+      "–",
+      "Pedro França Belém Neto"
+     ],
+     [
+      "01",
+      "Ezequiel da Silva Teles"
+     ],
+     [
+      "–",
+      "Weliton Graça de Brito"
+     ],
+     [
+      "13",
+      "Eclésio da Silva Teles"
+     ],
+     [
+      "07",
+      "Jean Vieira Nunes"
+     ],
+     [
+      "–",
+      "João Everton Lins dos Santos"
+     ],
+     [
+      "14",
+      "Douglas Lisboa da Silva"
+     ],
+     [
+      "15",
+      "Osmair dos Santos Lima"
+     ],
+     [
+      "09",
+      "Marcos Antônio dos S. Saturnino"
+     ],
+     [
+      "02",
+      "Carlos Manuel Bispo dos Santos"
+     ],
+     [
+      "–",
+      "Adenilson Jesus de Souza Cruz"
+     ],
+     [
+      "–",
+      "Jonata Conceição Santos Silva"
+     ],
+     [
+      "77",
+      "Cícero Augusto R. da Silva"
+     ],
+     [
+      "71",
+      "Fabrício Santos Graça"
+     ],
+     [
+      "–",
+      "Alan Braz Cordeiro da Silva"
+     ],
+     [
+      "–",
+      "Lucas Santana da Silva"
+     ],
+     [
+      "–",
+      "Lucas José da Silva"
+     ],
+     [
+      "23",
+      "Admilson de Oliveira Silva"
+     ]
+    ],
+    "a": [
+     [
+      "05",
+      "Ivan Rodrigues de Souza"
+     ],
+     [
+      "15",
+      "Alison Santos Silva"
+     ],
+     [
+      "08",
+      "Anderson Esteves da Silva"
+     ],
+     [
+      "10",
+      "Rai dos Santos Lima"
+     ],
+     [
+      "19",
+      "Valdeir de Melo Santos"
+     ],
+     [
+      "06",
+      "Thales de Oliveira Lima"
+     ],
+     [
+      "07",
+      "Luciano Gomes de Souza"
+     ],
+     [
+      "12",
+      "José Edjano Lima"
+     ],
+     [
+      "25",
+      "José Guilherme Rodrigo dos Santos"
+     ],
+     [
+      "03",
+      "Mailson Valêncio Gomes"
+     ],
+     [
+      "21",
+      "Mateus dos Santos Silva"
+     ],
+     [
+      "07",
+      "José Nilton Alves Andrade"
+     ],
+     [
+      "23",
+      "Marcelo da Silva Santos"
+     ],
+     [
+      "–",
+      "José Welington da Silva"
+     ],
+     [
+      "–",
+      "José Nilton Vitorino Lima"
+     ],
+     [
+      "09",
+      "Leonardo da Silva"
+     ],
+     [
+      "16",
+      "Laumir de Freitas Oliveira Neto"
+     ],
+     [
+      "02",
+      "Alan da Paz Silva"
+     ],
+     [
+      "20",
+      "Ramon Rodrigues Silva Oliveira"
+     ],
+     [
+      "01",
+      "Pedro Henrique Rodrigues dos Santos"
+     ],
+     [
+      "11",
+      "Robson Vieira da Silva"
+     ],
+     [
+      "17",
+      "Alef dos Santos Vieira"
+     ],
+     [
+      "18",
+      "Apolinário Neto Lima Silva"
+     ]
+    ]
+   },
+   "obs": "Pela súmula, Léo (Leonardo da Silva, #09) marcou duas vezes e o terceiro gol foi contra, anotado para o #71 do Mandacaru. Capitães: Mailson (Grêmio Capim Grosso). Técnicos: Onias (Mandacaru) e Wellington (Grêmio). Gols e cartões lançados pelo número da camisa anotado na súmula.",
+   "at": "2026-11-24T10:05:00-03:00"
   },
   "q1-14": {
    "h": 0,
@@ -4821,25 +5467,241 @@
    "goals": [
     {
      "t": "a",
-     "p": "Galego"
+     "p": "#09 Clebson Ferreira Lima (Galego)",
+     "tp": 1
     },
     {
      "t": "a",
-     "p": "Galego"
+     "p": "#09 Clebson Ferreira Lima (Galego)",
+     "tp": 1
     },
     {
      "t": "a",
-     "p": "João Batista Cabral da Silva"
+     "p": "#12 João Batista Cabral da Silva",
+     "tp": 2
     },
     {
      "t": "a",
-     "p": "Wagner Antônio Marinho de Souza"
+     "p": "#07 Wagner Antônio Marinho de Souza",
+     "tp": 2
     }
    ],
-   "cards": [],
-   "sumula": [],
-   "obs": "Resultado e autores dos gols conforme divulgação do Grêmio Capim Grosso. Cartões e relação de atletas serão lançados quando a súmula for recebida.",
-   "at": "2026-11-23T09:10:00-03:00"
+   "cards": [
+    {
+     "t": "h",
+     "p": "#07 Jamisson de Almeida Alves",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#12 João Batista Cabral da Silva",
+     "c": "y",
+     "tp": 2
+    }
+   ],
+   "sumula": [
+    "sumulas/q1-14-1.jpg"
+   ],
+   "info": {
+    "inicio": "19h15"
+   },
+   "atletas": {
+    "h": [
+     [
+      "18",
+      "Emerton Santos de Lima"
+     ],
+     [
+      "–",
+      "Emerson Lima da Silva"
+     ],
+     [
+      "23",
+      "Gustavo Marcelino dos Santos"
+     ],
+     [
+      "07",
+      "Jamisson de Almeida Alves"
+     ],
+     [
+      "–",
+      "Fredson Paz da Silva"
+     ],
+     [
+      "12",
+      "Eduardo Ricardo S. do Nascimento"
+     ],
+     [
+      "22",
+      "Anderson de Almeida Alves"
+     ],
+     [
+      "–",
+      "Bruno Gabriel Rodrigues de Lima"
+     ],
+     [
+      "08",
+      "Marcelo Jorge Dantas de O. Filho"
+     ],
+     [
+      "–",
+      "Manoel Felipe Santos Correia"
+     ],
+     [
+      "10",
+      "José Rodrigues do Nascimento Neto"
+     ],
+     [
+      "–",
+      "Wedson dos Reis Souza"
+     ],
+     [
+      "21",
+      "Lincoln Eduardo Ferreira de Lima"
+     ],
+     [
+      "–",
+      "Jerfeson de Jesus Lisboa"
+     ],
+     [
+      "–",
+      "Rodrigo Gomes dos Santos"
+     ],
+     [
+      "–",
+      "José Dalvan de Oliveira Alves"
+     ],
+     [
+      "–",
+      "Vitor Silva Ventura Lins"
+     ],
+     [
+      "09",
+      "Pedro Henryque Santos Silva"
+     ],
+     [
+      "20",
+      "Pedro Henrique Santos de Oliveira"
+     ],
+     [
+      "34",
+      "Carlos Emanoel Ferreira da Silva"
+     ],
+     [
+      "–",
+      "Pietro Gabriel Machado de Souza"
+     ],
+     [
+      "27",
+      "Eclésio da Silva Teles"
+     ],
+     [
+      "30",
+      "Fabrício Santos Graça"
+     ]
+    ],
+    "a": [
+     [
+      "11",
+      "Dario Fernando Silva Ferreira"
+     ],
+     [
+      "07",
+      "Wagner Antônio Marinho de Souza"
+     ],
+     [
+      "08",
+      "Saniel Antônio da Silva"
+     ],
+     [
+      "03",
+      "Cristiano Alves da Silva"
+     ],
+     [
+      "10",
+      "Alexssandro Silva de Souza"
+     ],
+     [
+      "14",
+      "Galileu Costa Valença"
+     ],
+     [
+      "13",
+      "Claudi Soares dos Santos"
+     ],
+     [
+      "15",
+      "Emanoel Gomes da Silva"
+     ],
+     [
+      "20",
+      "Ruan Gabriel Souza Oliveira"
+     ],
+     [
+      "12",
+      "João Batista Cabral da Silva"
+     ],
+     [
+      "23",
+      "Antônio Dionísio da Silva Neto"
+     ],
+     [
+      "25",
+      "Diel dos Santos Silva"
+     ],
+     [
+      "17",
+      "Clebson Tavares Lima"
+     ],
+     [
+      "–",
+      "Jenilton dos Santos Torres"
+     ],
+     [
+      "16",
+      "Flávio Henrique Gomes Feitosa"
+     ],
+     [
+      "02",
+      "Wemersson de Araújo Silva"
+     ],
+     [
+      "06",
+      "Cleiton Vieira Freitas"
+     ],
+     [
+      "–",
+      "Maxsuel Jesus do Espírito Santo"
+     ],
+     [
+      "–",
+      "Daniel de Jesus Alcântara"
+     ],
+     [
+      "–",
+      "Marcos Batinga dos Santos Filho"
+     ],
+     [
+      "09",
+      "Clebson Ferreira Lima"
+     ],
+     [
+      "01",
+      "Pedro Henrique"
+     ],
+     [
+      "21",
+      "Anderson Esteves"
+     ],
+     [
+      "22",
+      "Luciano Gomes"
+     ]
+    ]
+   },
+   "obs": "Galego (Clebson Ferreira Lima) marcou duas vezes. Capitão do CSF: Pedro Henrique. Gols e cartões lançados pelo número da camisa anotado na súmula.",
+   "at": "2026-11-24T10:05:00-03:00"
   },
   "vet-14": {
    "h": 5,
