@@ -1,6 +1,6 @@
 {
  "v": 1,
- "updatedAt": "2026-11-24T10:05:00-03:00",
+ "updatedAt": "2026-11-24T23:01:47-03:00",
  "config": {
   "pix": {
    "chave": "4c1b82cc-c5ea-4e9a-ab03-493e97aa34ef",
@@ -5711,6 +5711,22 @@
    "sumula": [],
    "obs": "Resultado informado pela organização. Autores dos gols e cartões serão lançados quando a súmula for recebida.",
    "at": "2026-11-23T11:55:00-03:00"
+  },
+  "q1-15": {
+   "h": 2,
+   "a": 2,
+   "goals": [],
+   "cards": [],
+   "obs": "Resultado informado pela organização. Autores dos gols e cartões serão lançados quando a súmula for recebida.",
+   "at": "2026-11-24T23:01:47-03:00"
+  },
+  "q2-15": {
+   "h": 3,
+   "a": 3,
+   "goals": [],
+   "cards": [],
+   "obs": "Resultado informado pela organização. Autores dos gols e cartões serão lançados quando a súmula for recebida.",
+   "at": "2026-11-24T23:01:47-03:00"
   }
  }
 }
