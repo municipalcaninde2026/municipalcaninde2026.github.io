@@ -421,6 +421,7 @@ textarea.cc{width:100%;min-height:74px;font-family:ui-monospace,Menlo,monospace;
 html{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}[hidden]{display:none!important}
 .inst{position:fixed;left:max(12px,env(safe-area-inset-left,0px));right:max(12px,env(safe-area-inset-right,0px));bottom:calc(132px + env(safe-area-inset-bottom,0px));z-index:47;background:linear-gradient(90deg,var(--sol),var(--sol-deep));color:var(--sol-fg);border-radius:14px;padding:10px 10px 10px 14px;display:flex;align-items:center;gap:10px;box-shadow:0 12px 30px rgba(0,0,0,.5);animation:up .4s ease;max-width:560px;margin-inline:auto}
 .inst p{margin:0;flex:1;font-size:13.5px;font-weight:600;line-height:1.3}.inst p b{display:block;font-weight:800;font-size:15px}.inst .btn{background:var(--sol-fg);color:var(--sol)}.inst .x{background:rgba(0,0,0,.15);border:0;color:var(--sol-fg)}
+.projbox{display:grid;gap:4px;padding:12px 14px;margin:4px 0 12px;border:1px dashed var(--gold,#d4a72c);border-radius:12px;background:rgba(212,167,44,.08)}.projbox b{font-size:14px}.projbox span{font-size:12.5px;opacity:.8}
 </style></head><body><div id="root"></div>
 <script id="qrlib" src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
 
@@ -582,7 +583,7 @@ function compute(ck,R){
   }
   const rankOf={}; ['G1','G2','G3','G4','G5','G6','T1','T2'].forEach((s,i)=>{if(slots[s])rankOf[slots[s]]=i});
   const ko={};
-  const team=(m,s)=>(!done&&/^[GTAB]\d$/.test(s))?null:(slots[s]||null);
+  const team=(m,s)=>slots[s]||null;
   C.list.filter(m=>m.ko).forEach(m=>{
     if(m.kid==='sf1'&&C.fmt==='q'){
       const qw=['qf1','qf2','qf3','qf4'].map(q=>ko[q]&&ko[q].win).filter(Boolean);
@@ -872,7 +873,7 @@ function bracket(comp){
   const C=CATS[UI.cat];const ko=C.list.filter(m=>m.ko);
   const col=(f,t)=>`<div class="col"><h4>${t}</h4>${ko.filter(m=>m.fase===f).map(m=>kmatch(m,comp)).join('')}</div>`;
   const champ=comp.champ?`<div class="champ">${TROPHY}<div><span class="eyebrow">Campeão${UI.sim?' (simulação)':''}</span><b>${esc(clubName(comp.champ))}</b><span class="muted">Vice: ${esc(clubName(comp.vice))} · Prêmio ${esc(C.premio[0])}</span></div></div>`:'';
-  return `${champ}${!comp.done?'<p class="note">Os confrontos do mata-mata serão definidos quando terminar toda a 1ª fase, pelos critérios do Art. 20.</p>':''}
+  return `${champ}${!comp.done?`<div class="projbox"><b>Projeção · se a 1ª fase terminasse hoje</b><span>Montada com ${comp.played} de ${comp.total} jogos da 1ª fase, pela classificação atual e pelos critérios do Art. 20. Muda a cada rodada; os confrontos oficiais só ficam definidos quando a 1ª fase terminar.</span></div>`:''}
    <div class="bracket"><div class="br ${C.fmt==='v'?'v':''}">${C.fmt==='q'?col('Quartas','Quartas de final'):''}${col('Semifinal','Semifinais')}${col('Final','Final · 20/12')}</div></div>
    ${C.fmt==='q'?'<p class="note">Semifinal: os 4 vencedores das quartas são reordenados pela campanha da 1ª fase. 2º × 3º em 12/12 e 1º × 4º em 13/12, como na tabela oficial.</p>':''}`;
 }
