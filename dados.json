@@ -1,6 +1,6 @@
 {
  "v": 1,
- "updatedAt": "2026-11-24T23:01:47-03:00",
+ "updatedAt": "2026-11-25T11:54:32-03:00",
  "config": {
   "pix": {
    "chave": "4c1b82cc-c5ea-4e9a-ab03-493e97aa34ef",
@@ -5715,18 +5715,426 @@
   "q1-15": {
    "h": 2,
    "a": 2,
-   "goals": [],
-   "cards": [],
-   "obs": "Resultado informado pela organização. Autores dos gols e cartões serão lançados quando a súmula for recebida.",
-   "at": "2026-11-24T23:01:47-03:00"
+   "goals": [
+    {
+     "t": "h",
+     "p": "#07 Sidney Carlos Ribeiro",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#11 Robert Alves Silva",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#20 Albert Kainã Caetano Alves",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#18 Renato Gomes",
+     "tp": 1
+    }
+   ],
+   "cards": [
+    {
+     "t": "h",
+     "p": "#03 Edilson Vieira da Silva",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#03 Geovane Silva Campos",
+     "c": "y",
+     "tp": 1
+    }
+   ],
+   "sumula": [
+    "sumulas/q1-15-1.jpg"
+   ],
+   "info": {
+    "inicio": "21:06",
+    "mesario": "Alexandre"
+   },
+   "atletas": {
+    "h": [
+     [
+      "13",
+      "Everson dos Santos"
+     ],
+     [
+      "08",
+      "Anderson dos Santos Silva"
+     ],
+     [
+      "02",
+      "Natanaelson Rodrigues Cruz"
+     ],
+     [
+      "04",
+      "Ryan da Costa Gomes"
+     ],
+     [
+      "16",
+      "Pauleandro dos Santos"
+     ],
+     [
+      "23",
+      "Harrison Rodrigues Nobre"
+     ],
+     [
+      "05",
+      "Matheus Sousa Vieira"
+     ],
+     [
+      "09",
+      "Erasmo Mariano de Souza Neto"
+     ],
+     [
+      "06",
+      "Maxsuel Oliveira Cruz"
+     ],
+     [
+      "03",
+      "Edilson Vieira da Silva"
+     ],
+     [
+      "07",
+      "Sidney Carlos Ribeiro"
+     ],
+     [
+      "11",
+      "Robert Alves Silva"
+     ],
+     [
+      "10",
+      "Antonio Genison Alves da Silva"
+     ],
+     [
+      "15",
+      "José Ervino"
+     ],
+     [
+      "19",
+      "Luan Silva"
+     ],
+     [
+      "14",
+      "Márcio Ferreira"
+     ]
+    ],
+    "a": [
+     [
+      "02",
+      "José Maria Gregório Júnior"
+     ],
+     [
+      "06",
+      "João Victor Ferreira da Silva"
+     ],
+     [
+      "04",
+      "Raul de Lima Meneses"
+     ],
+     [
+      "05",
+      "Pablo Henrique Feitosa Santos"
+     ],
+     [
+      "19",
+      "Widley Marlon Felipe Silveira Freitas"
+     ],
+     [
+      "10",
+      "Wedson Silva Santos"
+     ],
+     [
+      "09",
+      "David Eduardo Almeida Souza"
+     ],
+     [
+      "11",
+      "Eliedson Rodrigues de Melo Júnior"
+     ],
+     [
+      "15",
+      "William dos Santos Silva"
+     ],
+     [
+      "01",
+      "José Adailton Fontes Capela"
+     ],
+     [
+      "03",
+      "Geovane Silva Campos"
+     ],
+     [
+      "07",
+      "Ícaro Nilcledson Santos Santana"
+     ],
+     [
+      "20",
+      "Albert Kainã Caetano Alves"
+     ],
+     [
+      "18",
+      "Renato Gomes"
+     ],
+     [
+      "17",
+      "José Anderson"
+     ]
+    ]
+   },
+   "obs": "Todos os gols saíram no 1º tempo. Capitães: Antônio Genison (Capim Grosso) e Geovane Campos (América). Gols e cartões lançados pelo número da camisa anotado na súmula.",
+   "at": "2026-11-25T11:54:32-03:00"
   },
   "q2-15": {
    "h": 3,
    "a": 3,
-   "goals": [],
-   "cards": [],
-   "obs": "Resultado informado pela organização. Autores dos gols e cartões serão lançados quando a súmula for recebida.",
-   "at": "2026-11-24T23:01:47-03:00"
+   "goals": [
+    {
+     "t": "h",
+     "p": "#10 Givaldo Antonio da Silva",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#09 Luan Silva Santos",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#09 Luan Silva Santos",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#11 Renato Gomes do Nascimento",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#10 Eduardo Santos da Silva",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#09 José Anderson Correia de Souza",
+     "tp": 2
+    }
+   ],
+   "cards": [
+    {
+     "t": "h",
+     "p": "#09 Luan Silva Santos",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#11 Tomas dos Santos Feitosa",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#10 Eduardo Santos da Silva",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#09 José Anderson Correia de Souza",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#03 Caio Guthiers Ribeiro da Cruz",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#07 Jirlan Carlos Alves dos Santos",
+     "c": "y",
+     "tp": 2
+    }
+   ],
+   "sumula": [
+    "sumulas/q2-15-1.jpg"
+   ],
+   "info": {
+    "inicio": "19:17",
+    "mesario": "Alexandre"
+   },
+   "atletas": {
+    "h": [
+     [
+      "12",
+      "Acácio Ferreira da Silva"
+     ],
+     [
+      "05",
+      "Rosinaldo Rodrigues dos Santos"
+     ],
+     [
+      "02",
+      "Ruan de Jesus Martins"
+     ],
+     [
+      "14",
+      "Pedro Henrique da Silva Santos"
+     ],
+     [
+      "19",
+      "Davi Fabiano Silva Santos"
+     ],
+     [
+      "17",
+      "Lucas Yuri Bezerra Rodrigues"
+     ],
+     [
+      "09",
+      "Luan Silva Santos"
+     ],
+     [
+      "04",
+      "Mercio Ferreira Soares"
+     ],
+     [
+      "07",
+      "Jirlan Carlos Alves dos Santos"
+     ],
+     [
+      "16",
+      "Adeilson da Silva"
+     ],
+     [
+      "18",
+      "Jonatas Mikael Ferreira da Silva"
+     ],
+     [
+      "06",
+      "José Laison Soares dos Santos"
+     ],
+     [
+      "20",
+      "Guilherme Santos Melo"
+     ],
+     [
+      "08",
+      "José Leivinos Santos Silva"
+     ],
+     [
+      "03",
+      "Alexandre Medeiros dos Santos"
+     ],
+     [
+      "31",
+      "Renan da Silva Nunes"
+     ],
+     [
+      "10",
+      "Givaldo Antonio da Silva"
+     ],
+     [
+      "01",
+      "José David dos Santos"
+     ],
+     [
+      "11",
+      "Tomas dos Santos Feitosa"
+     ],
+     [
+      "15",
+      "Lucas Santos Silva"
+     ],
+     [
+      "13",
+      "José Anderson da Paz Silva"
+     ]
+    ],
+    "a": [
+     [
+      "07",
+      "Gilmário dos Santos"
+     ],
+     [
+      "08",
+      "Edevaldo Santos da Silva"
+     ],
+     [
+      "05",
+      "Wellington de Jesus Santos"
+     ],
+     [
+      "09",
+      "José Anderson Correia de Souza"
+     ],
+     [
+      "15",
+      "Wanderson Junior Barbosa da Silva"
+     ],
+     [
+      "16",
+      "Josimário Alves de Oliveira"
+     ],
+     [
+      "10",
+      "Eduardo Santos da Silva"
+     ],
+     [
+      "11",
+      "Renato Gomes do Nascimento"
+     ],
+     [
+      "14",
+      "Maycon Nascimento Aragão"
+     ],
+     [
+      "03",
+      "Caio Guthiers Ribeiro da Cruz"
+     ],
+     [
+      "13",
+      "Micael Fernandes da Silva"
+     ],
+     [
+      "01",
+      "Cristiano Tenório dos Santos"
+     ],
+     [
+      "02",
+      "José Valdemir da Silva"
+     ],
+     [
+      "17",
+      "José Renilson da Silva"
+     ],
+     [
+      "19",
+      "José Pereira de Araújo"
+     ],
+     [
+      "04",
+      "Nailton Pedro da Silva"
+     ],
+     [
+      "18",
+      "Carlos Eduardo Vital de Souza"
+     ],
+     [
+      "12",
+      "Wilson Viana da Silva Júnior"
+     ]
+    ]
+   },
+   "obs": "Luan Silva Santos marcou duas vezes. Olaria buscou o empate no 2º tempo. Gols e cartões lançados pelo número da camisa anotado na súmula.",
+   "at": "2026-11-25T11:54:32-03:00"
   }
  }
 }
