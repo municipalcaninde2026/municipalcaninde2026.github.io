@@ -1,6 +1,6 @@
 {
  "v": 1,
- "updatedAt": "2026-11-26T10:35:00-03:00",
+ "updatedAt": "2026-11-26T23:30:00-03:00",
  "config": {
   "pix": {
    "chave": "4c1b82cc-c5ea-4e9a-ab03-493e97aa34ef",
@@ -6191,6 +6191,24 @@
    "sumula": [],
    "obs": "Resultado e gol do Grêmio Capim Grosso divulgados pelo clube. Autor do gol do Lagoa do Frio e cartões serão lançados quando a súmula for recebida.",
    "at": "2026-11-26T10:35:00-03:00"
+  },
+  "q1-16": {
+   "h": 3,
+   "a": 6,
+   "goals": [],
+   "cards": [],
+   "sumula": [],
+   "obs": "Resultado informado pela organização do União Canindé. Autores dos gols e cartões serão lançados quando a súmula for recebida.",
+   "at": "2026-11-26T23:30:00-03:00"
+  },
+  "q2-16": {
+   "h": 0,
+   "a": 1,
+   "goals": [],
+   "cards": [],
+   "sumula": [],
+   "obs": "Resultado informado pela organização do União Canindé. Autor do gol e cartões serão lançados quando a súmula for recebida.",
+   "at": "2026-11-26T23:30:00-03:00"
   }
  }
 }
