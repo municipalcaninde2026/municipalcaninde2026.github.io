@@ -1,6 +1,6 @@
 {
  "v": 1,
- "updatedAt": "2026-11-26T23:30:00-03:00",
+ "updatedAt": "2026-11-27T14:30:00-03:00",
  "config": {
   "pix": {
    "chave": "4c1b82cc-c5ea-4e9a-ab03-493e97aa34ef",
@@ -6195,20 +6195,528 @@
   "q1-16": {
    "h": 3,
    "a": 6,
-   "goals": [],
-   "cards": [],
-   "sumula": [],
-   "obs": "Resultado informado pela organização do União Canindé. Autores dos gols e cartões serão lançados quando a súmula for recebida.",
-   "at": "2026-11-26T23:30:00-03:00"
+   "goals": [
+    {
+     "t": "h",
+     "p": "#08 Jonas Alves Araújo",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#19 Welton Vitor Santos",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#07 Breno Silva dos Santos",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#09 Celso Henrique Melo de Almeida",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#08 Jonas Alves Araújo",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#07 Breno Silva dos Santos",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#07 Breno Silva dos Santos",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#09 Celso Henrique Melo de Almeida",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#07 Breno Silva dos Santos",
+     "tp": 2
+    }
+   ],
+   "cards": [
+    {
+     "t": "a",
+     "p": "#01 Cícero Gonçalves Correia",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#03 Emmanuel Sarmento Oliveira",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#07 André Pereira da Silva",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "h",
+     "p": "#20 Jadson Menezes dos Santos",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "h",
+     "p": "#04 Anderson Teles de Meneses",
+     "c": "r",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#20 Vinícius Guilherme Alves Lima",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#06 Kauan Matheus dos Santos Marques",
+     "c": "y",
+     "tp": 2
+    }
+   ],
+   "sumula": [
+    "sumulas/q1-16-1.jpg"
+   ],
+   "info": {
+    "inicio": "20h30",
+    "mesario": "Big Léo"
+   },
+   "atletas": {
+    "h": [
+     [
+      "13/04",
+      "Acássio Soares dos Santos"
+     ],
+     [
+      "17",
+      "Thiago Gouveia da Rocha"
+     ],
+     [
+      "09",
+      "Jamisson dos Santos"
+     ],
+     [
+      "01",
+      "Ismar Pimentel Dias"
+     ],
+     [
+      "08",
+      "Jonas Alves Araújo"
+     ],
+     [
+      "07",
+      "André Pereira da Silva"
+     ],
+     [
+      "14/17",
+      "Eduardo Craveiro"
+     ],
+     [
+      "–",
+      "Cidiley da Silva Lima"
+     ],
+     [
+      "05",
+      "Edson Pereira da Silva"
+     ],
+     [
+      "04",
+      "Anderson Teles de Meneses"
+     ],
+     [
+      "06/02",
+      "Genival Gomes dos Santos Junior"
+     ],
+     [
+      "20",
+      "Jadson Menezes dos Santos"
+     ],
+     [
+      "11",
+      "Jamysson Alves Araújo"
+     ],
+     [
+      "02",
+      "Eduardo Rodrigues Santos"
+     ],
+     [
+      "10/11",
+      "José Daniel Leite Rodrigues"
+     ],
+     [
+      "–",
+      "Ildebrando Bezerra da Silva"
+     ],
+     [
+      "–",
+      "Marcos Enrique Barbosa Filho"
+     ],
+     [
+      "19",
+      "Welton Vitor Santos"
+     ]
+    ],
+    "a": [
+     [
+      "07",
+      "Breno Silva dos Santos"
+     ],
+     [
+      "16/18",
+      "Tiago Noia Silva"
+     ],
+     [
+      "10",
+      "Luiz Guilherme Bezerra Souza"
+     ],
+     [
+      "03",
+      "Emmanuel Sarmento Oliveira"
+     ],
+     [
+      "–",
+      "Dayvison Lucas Bezerra Souza"
+     ],
+     [
+      "01",
+      "Cícero Gonçalves Correia"
+     ],
+     [
+      "08",
+      "Ryckelme da Silva Santos"
+     ],
+     [
+      "15",
+      "Isaías Sobral dos Santos"
+     ],
+     [
+      "14/15",
+      "Valdene Marques da Silva"
+     ],
+     [
+      "18",
+      "José Ivan Silvino"
+     ],
+     [
+      "17",
+      "Pedro Lucas Rodrigues Melo"
+     ],
+     [
+      "–",
+      "André Luiz dos Santos Rodrigues"
+     ],
+     [
+      "12",
+      "Galdene de Souza Almeida"
+     ],
+     [
+      "09/11",
+      "Celso Henrique Melo de Almeida"
+     ],
+     [
+      "–",
+      "Evangelista Santos da Rocha"
+     ],
+     [
+      "05",
+      "Jamis Lima de Andrade"
+     ],
+     [
+      "19",
+      "Antonny Rian Silva Santos"
+     ],
+     [
+      "06",
+      "Kauan Matheus dos Santos Marques"
+     ],
+     [
+      "20/08",
+      "Vinícius Guilherme Alves Lima"
+     ],
+     [
+      "13",
+      "Henrique Siqueira dos Santos"
+     ],
+     [
+      "11",
+      "Manoel Henrique de Oliveira Silva"
+     ]
+    ]
+   },
+   "obs": "Breno marcou quatro gols e Celso Henrique, dois; Jonas Alves fez dois pelo Alto Bonito. Anderson Teles (#04, Alto Bonito) foi expulso no 2º tempo. Árbitro: Augusto Campos. Capitães: Acássio (Alto Bonito) e Emmanuel Sarmento (União Canindé). Técnicos: José Adelmo (Alto Bonito) e Yuri, Emanoel Aleixo e Eduardo Aleixo (União Canindé). Um cartão amarelo do União no 1º tempo está rasurado na súmula. Gols e cartões lançados pelo número da camisa anotado na súmula.",
+   "at": "2026-11-27T14:30:00-03:00"
   },
   "q2-16": {
    "h": 0,
    "a": 1,
-   "goals": [],
-   "cards": [],
-   "sumula": [],
-   "obs": "Resultado informado pela organização do União Canindé. Autor do gol e cartões serão lançados quando a súmula for recebida.",
-   "at": "2026-11-26T23:30:00-03:00"
+   "goals": [
+    {
+     "t": "a",
+     "p": "#11",
+     "tp": 2
+    }
+   ],
+   "cards": [
+    {
+     "t": "h",
+     "p": "#08 Altair Marques da Silva",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#12 Edson da Silva Menezes",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#10 Ronaldo Oliveira Silva",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "a",
+     "p": "#16 Jeosafá Pedro Andrade Ferreira",
+     "c": "y",
+     "tp": 1
+    },
+    {
+     "t": "h",
+     "p": "#11 Daniel Gomes da Silva",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "h",
+     "p": "#15 Vitor Gabriel Moura Costa",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "h",
+     "p": "#13",
+     "c": "y",
+     "tp": 2
+    },
+    {
+     "t": "a",
+     "p": "#21 Anthony Nalysson Almeida de Jesus",
+     "c": "y",
+     "tp": 2
+    }
+   ],
+   "sumula": [
+    "sumulas/q2-16-1.jpg"
+   ],
+   "info": {
+    "inicio": "19h15",
+    "mesario": "Big Léo"
+   },
+   "atletas": {
+    "h": [
+     [
+      "01",
+      "Willian Pereira"
+     ],
+     [
+      "–",
+      "Welton Vitor Santos"
+     ],
+     [
+      "22/06",
+      "Luiz Fernando Meneses Cruz"
+     ],
+     [
+      "05/12",
+      "Joeliton Santos Feitosa"
+     ],
+     [
+      "08/14",
+      "Altair Marques da Silva"
+     ],
+     [
+      "20",
+      "Cleberton Bispo dos Santos"
+     ],
+     [
+      "17",
+      "Denilton de Jesus Silva"
+     ],
+     [
+      "02",
+      "Kaynan Eduardo Santos Alves"
+     ],
+     [
+      "14",
+      "Adriano da Silva Pereira"
+     ],
+     [
+      "–",
+      "Lindomar Gouveia da Rocha"
+     ],
+     [
+      "–",
+      "José Ronaldo dos Santos"
+     ],
+     [
+      "06",
+      "Widson Mário Pereira dos Santos"
+     ],
+     [
+      "21",
+      "Allyson da Silva Pereira"
+     ],
+     [
+      "07/17",
+      "Carlos César Souza Filho"
+     ],
+     [
+      "12",
+      "Edson da Silva Menezes"
+     ],
+     [
+      "10",
+      "Kauê Rodrigues dos Santos"
+     ],
+     [
+      "–",
+      "Washington da Silva Santos"
+     ],
+     [
+      "09/15",
+      "Pedro Henrique da Silva Pereira"
+     ],
+     [
+      "11/20",
+      "Daniel Gomes da Silva"
+     ],
+     [
+      "04",
+      "Alex Teixeira de Lima"
+     ],
+     [
+      "15",
+      "Vitor Gabriel Moura Costa"
+     ],
+     [
+      "17",
+      "Liomar Gouveia da Rocha"
+     ]
+    ],
+    "a": [
+     [
+      "–",
+      "Leogeneffer Araújo dos Santos"
+     ],
+     [
+      "–",
+      "Carlos Henrique Vieira"
+     ],
+     [
+      "08/11",
+      "Rodrigo Amaro de Santana"
+     ],
+     [
+      "–",
+      "Tiago dos Anjos Silva"
+     ],
+     [
+      "–",
+      "Edione Alves Vieira"
+     ],
+     [
+      "11",
+      "Genisson Rodrigues de Oliveira"
+     ],
+     [
+      "02",
+      "Jefersson Marques Santos"
+     ],
+     [
+      "08",
+      "Marcelo Lima Santos"
+     ],
+     [
+      "09",
+      "Márcio Oliveira Santos"
+     ],
+     [
+      "22",
+      "Jakson Roberto Andrade Teixeira"
+     ],
+     [
+      "23",
+      "Nilton César dos Anjos Silva"
+     ],
+     [
+      "–",
+      "Dharlly Biserra Gomes"
+     ],
+     [
+      "–",
+      "Jonas Constante de Almeida Junior"
+     ],
+     [
+      "14",
+      "Marcos Jefferson Ramos Silva"
+     ],
+     [
+      "–",
+      "Genilton Pereira de Santana"
+     ],
+     [
+      "04",
+      "Rodrigo Santos Gonçalves"
+     ],
+     [
+      "12",
+      "Gildevan Filgueira da Silva"
+     ],
+     [
+      "06",
+      "Alan Caetano de Sá"
+     ],
+     [
+      "16",
+      "Jeosafá Pedro Andrade Ferreira"
+     ],
+     [
+      "05",
+      "José Maykon Góes da Silva"
+     ],
+     [
+      "–",
+      "Arthur Vinícius Costa Azevedo"
+     ],
+     [
+      "20",
+      "Athirson Carvalho de Andrade"
+     ],
+     [
+      "21",
+      "Anthony Nalysson Almeida de Jesus"
+     ],
+     [
+      "10",
+      "Ronaldo Oliveira Silva"
+     ]
+    ]
+   },
+   "obs": "Gol do União no 2º tempo, anotado na súmula pela camisa 11 (usada por Genisson e, como segundo número, por Rodrigo Amaro). Capitão do Alto Bonito: Alex. Mesário: Big Léo. Gols e cartões lançados pelo número da camisa anotado na súmula.",
+   "at": "2026-11-27T14:30:00-03:00"
   }
  }
 }
