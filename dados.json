@@ -1,6 +1,6 @@
 {
  "v": 1,
- "updatedAt": "2026-11-27T14:30:00-03:00",
+ "updatedAt": "2026-11-27T23:40:00-03:00",
  "config": {
   "pix": {
    "chave": "4c1b82cc-c5ea-4e9a-ab03-493e97aa34ef",
@@ -6717,6 +6717,24 @@
    },
    "obs": "Gol do União no 2º tempo, anotado na súmula pela camisa 11 (usada por Genisson e, como segundo número, por Rodrigo Amaro). Capitão do Alto Bonito: Alex. Mesário: Big Léo. Gols e cartões lançados pelo número da camisa anotado na súmula.",
    "at": "2026-11-27T14:30:00-03:00"
+  },
+  "q1-13": {
+   "h": 11,
+   "a": 0,
+   "goals": [],
+   "cards": [],
+   "sumula": [],
+   "obs": "Jogo atrasado. Placar lançado; gols e cartões serão lançados quando a súmula for recebida.",
+   "at": "2026-11-27T23:40:00-03:00"
+  },
+  "q2-13": {
+   "h": 2,
+   "a": 1,
+   "goals": [],
+   "cards": [],
+   "sumula": [],
+   "obs": "Jogo atrasado. Placar lançado; gols e cartões serão lançados quando a súmula for recebida.",
+   "at": "2026-11-27T23:40:00-03:00"
   }
  }
 }
